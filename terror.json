@@ -1,0 +1,3447 @@
+{
+ "version": "0.6",
+ "notas": "Primera version con actualizador.",
+ "archivos": [
+  {
+   "ruta": "LEEME.txt",
+   "sha256": "0accf722f71137c2d84421f9fb5f48b4221d3d0c900db5c7aafb50ace7d61b9f",
+   "bytes": 418
+  },
+  {
+   "ruta": "bin64/SDL2.dll",
+   "sha256": "f1a82c299206d5bd3231f5edb16fb7f33aaf4dc7c20bf57c25cf8e92eda6ec72",
+   "bytes": 1599488
+  },
+  {
+   "ruta": "bin64/SDL2_image.dll",
+   "sha256": "63e0df8d493038706067250fe6e5693baad9ff60a108ceb3189ead8441361023",
+   "bytes": 288768
+  },
+  {
+   "ruta": "bin64/SDL2_mixer.dll",
+   "sha256": "077d3426e56715fea53c8231343aa61ed47f36d6fb6800d54b0b449e37d2c79a",
+   "bytes": 306688
+  },
+  {
+   "ruta": "bin64/terror.exe",
+   "sha256": "905eecebce1fef6847a7cdc7be5b53b93368e7b4e5f366878dbe849edacf5cb3",
+   "bytes": 2364416
+  },
+  {
+   "ruta": "bin64/zlib1.dll",
+   "sha256": "7ee68154a046f5401e156d70d762cb2acb0ae60fb2c838a61daeba4f05ccf3bb",
+   "bytes": 101376
+  },
+  {
+   "ruta": "data/background.png",
+   "sha256": "a1ed6bcfb6a6361b3795b48ef82bf6a4498011d28a723387de1e661bcaa3b8f2",
+   "bytes": 137106
+  },
+  {
+   "ruta": "data/background_decal.png",
+   "sha256": "b3ae6f6be4185897b11eedf51bf43f6809b0b63c07eaca3f87e463d010dab2a9",
+   "bytes": 4213
+  },
+  {
+   "ruta": "data/background_detail.png",
+   "sha256": "3063a357963756267d2008ce7cd1335466a450507b7bd09f6a3fd79865236f6d",
+   "bytes": 238659
+  },
+  {
+   "ruta": "data/blendbrush.cfg",
+   "sha256": "3e634b3a89d95fa2fa40e6a5cdb7c9a644d72573eee05e817b763f6772805792",
+   "bytes": 2058
+  },
+  {
+   "ruta": "data/crosshair.png",
+   "sha256": "1983d2a8bdad499f02621d6fed4b01fbe89f6c0413cf896c41b606b4f539a6c0",
+   "bytes": 336
+  },
+  {
+   "ruta": "data/cube.png",
+   "sha256": "807f2bdfe854508660696e99057cb9b96923706d5e0c3c604aade836c09d8494",
+   "bytes": 67909
+  },
+  {
+   "ruta": "data/cube2badge.png",
+   "sha256": "d495854983dacd2fbcc22234c1b874e69461f2e6de53263d6fddc14dfc296d8a",
+   "bytes": 10235
+  },
+  {
+   "ruta": "data/default_map_models.cfg",
+   "sha256": "1d83cec97b9942af6d6c6b68c74c4b845bb57b7a4ac56f5f807451511e07a239",
+   "bytes": 20227
+  },
+  {
+   "ruta": "data/default_map_settings.cfg",
+   "sha256": "fb28e9c5b0f949a77bd52e881536db853f58f0837f7bf53829577bf7b2448860",
+   "bytes": 190
+  },
+  {
+   "ruta": "data/defaults.cfg",
+   "sha256": "ed42ba4aff926c5054d92817ca3e1374f056e52fba213c739b11da537ea4901a",
+   "bytes": 7065
+  },
+  {
+   "ruta": "data/font.cfg",
+   "sha256": "71a0b0517cfd8a8ccbcbf30d3f12e8979a512c67cd41276045a22cb55e86bcd0",
+   "bytes": 70
+  },
+  {
+   "ruta": "data/game_fps.cfg",
+   "sha256": "e7925e370f7b580025b1eda315a37c6ec29f43534930ccc7411f7fc99d986987",
+   "bytes": 3739
+  },
+  {
+   "ruta": "data/game_rpg.cfg",
+   "sha256": "234c739ee6b5a909378affd0b478221af5e16b4b722c9c8cf5aa395fde8b8cd9",
+   "bytes": 7963
+  },
+  {
+   "ruta": "data/glsl.cfg",
+   "sha256": "6e93bf9805db04a3daed699fb38586d5e0cc49f60b4668c4fc8aefa0b070d17b",
+   "bytes": 91520
+  },
+  {
+   "ruta": "data/guicursor.png",
+   "sha256": "29e93499456ec70e9eaaf3046fb5b9e319f7afdb60347dc47fad3ffce014907d",
+   "bytes": 4698
+  },
+  {
+   "ruta": "data/guioverlay.png",
+   "sha256": "d9e88d205e8fe3de14f70212657cfc64cf08c478a27a94dcd04a90fb51e19ed3",
+   "bytes": 39142
+  },
+  {
+   "ruta": "data/guiskin.png",
+   "sha256": "d2fcbe0a9211a4096da2959bf3771084efba51850a68a747124b6c06fba80481",
+   "bytes": 193187
+  },
+  {
+   "ruta": "data/guislider.png",
+   "sha256": "068862121ec87d1262c199a542f4da7b5591c0a62f9f387a7b779776d0e033b3",
+   "bytes": 1507
+  },
+  {
+   "ruta": "data/heightmap.cfg",
+   "sha256": "5d2cccdf786c4f9032801f36924ac61e82be8eb4763f3bfccd3e7f3f0eb1be6a",
+   "bytes": 3272
+  },
+  {
+   "ruta": "data/hit.png",
+   "sha256": "f7e1db9b6907f1a497338edb36c2d1da503669cae0314931b2680ce44f768e70",
+   "bytes": 252
+  },
+  {
+   "ruta": "data/keymap.cfg",
+   "sha256": "b5f3cbd3f4a40ebdae1d9c4eb9c2b1dd9bc20ea9e629ace71c2c2e42e80cec73",
+   "bytes": 2586
+  },
+  {
+   "ruta": "data/license.txt",
+   "sha256": "79d5fa935006a99fbf538113cdd8ca1d20ee4df43cfefde5544b7069d2c143f7",
+   "bytes": 200
+  },
+  {
+   "ruta": "data/loading_bar.png",
+   "sha256": "e274fd6068e38d375acd3e39a88aaa3a4bda8634f75c064bff310da8e34cc19b",
+   "bytes": 436
+  },
+  {
+   "ruta": "data/loading_frame.png",
+   "sha256": "d70d39392b1fda88e3d7c0f627a0ec0d5dd3936b8f790b2795544db095d6b66c",
+   "bytes": 55485
+  },
+  {
+   "ruta": "data/logo.png",
+   "sha256": "d832835beb2dcb136b4928054516c5e059c7dafe458895b935997408e91969e6",
+   "bytes": 150052
+  },
+  {
+   "ruta": "data/logo_1024.png",
+   "sha256": "1489c0586a4639d92f94d291753f6d6d76b41a134cd91c08371df8f8a0887ad7",
+   "bytes": 547315
+  },
+  {
+   "ruta": "data/mapshot_frame.png",
+   "sha256": "225a5bc517ecbf112fcf67a074b15babd62b0b47968a42b12d1c373cadc0f631",
+   "bytes": 42399
+  },
+  {
+   "ruta": "data/menus.cfg",
+   "sha256": "88d7e411eb997c50478d161dde8156be913fe6ff932c91dd67557c7e7d88abd2",
+   "bytes": 73231
+  },
+  {
+   "ruta": "data/sounds.cfg",
+   "sha256": "417a9847e24755f3bbecb11f064a06057108ce9ee63f978585e4815c5e407876",
+   "bytes": 2990
+  },
+  {
+   "ruta": "data/stdedit.cfg",
+   "sha256": "c53541f02d339c92f46fd68f1aee63ab8c4b4621690961ff314d44e0116a89ab",
+   "bytes": 11148
+  },
+  {
+   "ruta": "data/stdlib.cfg",
+   "sha256": "bd1731d9fe8497362f042649a0fa138724fc42501f509a2bdc27cd543b5ef8c7",
+   "bytes": 1299
+  },
+  {
+   "ruta": "data/teammate.png",
+   "sha256": "a1bae856ad5d9e4d86698dd478bf35b7dc12d6286834155895a5ebd741635598",
+   "bytes": 599
+  },
+  {
+   "ruta": "data/terror.cfg",
+   "sha256": "be7f3a8aa3b93415862a67fcf3b376992b3232938c0a219f0fce6458ebf6c3c0",
+   "bytes": 3130
+  },
+  {
+   "ruta": "data/terror_mapa.cfg",
+   "sha256": "44b4c5827b38ff75e3b8117cd37ef9b4dc74dbc33a2b9470c9b4445da82977e1",
+   "bytes": 4149
+  },
+  {
+   "ruta": "packages/base/terror1.cfg",
+   "sha256": "b0ed5c6756424e45c244335804a270d498021e1e600827b931834a969080ba09",
+   "bytes": 241
+  },
+  {
+   "ruta": "packages/blendbrush/circle_128_hard.png",
+   "sha256": "187ac651c0595e63887e1ea706724653a79e1898a5b1777767d88c0d952011dd",
+   "bytes": 4088
+  },
+  {
+   "ruta": "packages/blendbrush/circle_128_soft.png",
+   "sha256": "376d5326acbb217cae0a866959d3897e7d72b742435022e5612948e72d201bb2",
+   "bytes": 3477
+  },
+  {
+   "ruta": "packages/blendbrush/circle_128_solid.png",
+   "sha256": "1ff867e4bf0f1fac7779d5fac2af9a07801ad361857f2c48f720e1aa527401c0",
+   "bytes": 2364
+  },
+  {
+   "ruta": "packages/blendbrush/circle_16_hard.png",
+   "sha256": "1ede7cbd20bc2a5a139f7f2d787b53af6a38158f773243a609045bfc0ad179a5",
+   "bytes": 1122
+  },
+  {
+   "ruta": "packages/blendbrush/circle_16_soft.png",
+   "sha256": "3de7bb6fa59f459addd8a0ffa53b8cb66dce09f35344ee57c988c08aa59570d8",
+   "bytes": 1091
+  },
+  {
+   "ruta": "packages/blendbrush/circle_16_solid.png",
+   "sha256": "bc1d3fea12471016450e17d0c6f67cc9e129977564f1d14c20f098d16da32791",
+   "bytes": 1113
+  },
+  {
+   "ruta": "packages/blendbrush/circle_32_hard.png",
+   "sha256": "fc07497cf14a133a40bb0e26bacb070c9210ec5f896c034757e927bb84ce204a",
+   "bytes": 703
+  },
+  {
+   "ruta": "packages/blendbrush/circle_32_soft.png",
+   "sha256": "7f8d50bdfdb6e5818c9aa121845da9e5392e96815dff24db104e90e5886c15d8",
+   "bytes": 1285
+  },
+  {
+   "ruta": "packages/blendbrush/circle_32_solid.png",
+   "sha256": "8764ada17878712245951fe4eaacfdc54e446b3faeb3ca7fa6c2547c59f27e0a",
+   "bytes": 1238
+  },
+  {
+   "ruta": "packages/blendbrush/circle_64_hard.png",
+   "sha256": "d5b5cf80179bd492e633d7f7e9674cc5266fc0c1be4f493dbafcc240dfcc9ea0",
+   "bytes": 1450
+  },
+  {
+   "ruta": "packages/blendbrush/circle_64_soft.png",
+   "sha256": "dc477d57c2627a943054bafc519322341bcb5e3cc93eae7058b97ee285f7439b",
+   "bytes": 1814
+  },
+  {
+   "ruta": "packages/blendbrush/circle_64_solid.png",
+   "sha256": "10a3ed56d596d72c601abff109b026c75a09b6d1b04cf6ef539b9b30c7c45d3c",
+   "bytes": 1584
+  },
+  {
+   "ruta": "packages/blendbrush/circle_8_hard.png",
+   "sha256": "87dac5cca0c9205a0ec2088f8f3cc755d1f81682e53307bb961bbb496f228142",
+   "bytes": 996
+  },
+  {
+   "ruta": "packages/blendbrush/circle_8_soft.png",
+   "sha256": "2a92afa0e1cd0c46ba38561f916517f61524e581bf178e516c750cbbc8911545",
+   "bytes": 992
+  },
+  {
+   "ruta": "packages/blendbrush/circle_8_solid.png",
+   "sha256": "999d1ca4196ca4e8d31cd881946f4a9e3ca522dd8ec935f0bb73a7528501d650",
+   "bytes": 995
+  },
+  {
+   "ruta": "packages/blendbrush/gradient_128.png",
+   "sha256": "d74ca2a1c099c9b4039867b824b937d1acd6295dba9bf1faa85a02ed3d8f72ef",
+   "bytes": 137
+  },
+  {
+   "ruta": "packages/blendbrush/gradient_16.png",
+   "sha256": "e42705ffbb99f9fb5ba19e9b798a5a30a0ac4978cc23df5dd4d3429ce8844584",
+   "bytes": 103
+  },
+  {
+   "ruta": "packages/blendbrush/gradient_32.png",
+   "sha256": "c9463b3c271d8e72baa6dbaa4b1901153053b6486e9aaf2f8cab60fb837264ff",
+   "bytes": 120
+  },
+  {
+   "ruta": "packages/blendbrush/gradient_64.png",
+   "sha256": "04dfadd41ba76bf39b8b38f0a978dadbef53c4a93308503e76bd15de7bc4ddbb",
+   "bytes": 129
+  },
+  {
+   "ruta": "packages/blendbrush/noise_128.png",
+   "sha256": "810504b3bf45e4d72a068f28accef2ccf09d36bd9d5950d591f0c5b6258c2738",
+   "bytes": 9635
+  },
+  {
+   "ruta": "packages/blendbrush/noise_64.png",
+   "sha256": "af77a2aa3d3abd144e77c27dba7505f6fdaea464b437409b7e30134c8732e4df",
+   "bytes": 2290
+  },
+  {
+   "ruta": "packages/blendbrush/square_16_hard.png",
+   "sha256": "91da7f175dac823b5ef8461205d92ac74d4f74bc11310a876e5e54e738b0bbb1",
+   "bytes": 1082
+  },
+  {
+   "ruta": "packages/blendbrush/square_16_solid.png",
+   "sha256": "cbfaaf14069bf1f36b6164094c2156d0621238b86a44931441b5f6c28fd1cdf2",
+   "bytes": 973
+  },
+  {
+   "ruta": "packages/blendbrush/square_32_hard.png",
+   "sha256": "bb091a93c44cba6362748ac77510ac9e8c2ef37b53cd56f5dda7fb63a4f5bb1d",
+   "bytes": 1183
+  },
+  {
+   "ruta": "packages/blendbrush/square_32_solid.png",
+   "sha256": "48d573954e5433bcfedee2f24b7a02cfd5a1306dca25739328454b36988d83a7",
+   "bytes": 981
+  },
+  {
+   "ruta": "packages/blendbrush/square_64_hard.png",
+   "sha256": "69d78a06eae4314b56ad4db922a5d451d216a8d9d450cf3964023074f494a15d",
+   "bytes": 1207
+  },
+  {
+   "ruta": "packages/blendbrush/square_64_solid.png",
+   "sha256": "b7d52999cc323f5d5a055347c691924e9443660459816bbeac1b49138ccb4846",
+   "bytes": 1006
+  },
+  {
+   "ruta": "packages/caustics/caust00.png",
+   "sha256": "1b2a16161af063e4694ca918bbdfd29ffeeab77651ed5dc9766209d285bb4506",
+   "bytes": 24519
+  },
+  {
+   "ruta": "packages/caustics/caust01.png",
+   "sha256": "31ff432bd13da73db59f0020e33b010c727add863149177aaa13b5c873a2d25e",
+   "bytes": 24492
+  },
+  {
+   "ruta": "packages/caustics/caust02.png",
+   "sha256": "8f9df3f19deeaad111253fe698898decd60cd1d233c468732be08feab6046d60",
+   "bytes": 24116
+  },
+  {
+   "ruta": "packages/caustics/caust03.png",
+   "sha256": "63e0139a1a0aebbe359f8ed9ea8842984634b8c1d910264fa97946e25534ef20",
+   "bytes": 23575
+  },
+  {
+   "ruta": "packages/caustics/caust04.png",
+   "sha256": "eb104fac58f4775ddec8cfe0dff889efd953e881cb672de68ddb487cc9c3c74b",
+   "bytes": 23198
+  },
+  {
+   "ruta": "packages/caustics/caust05.png",
+   "sha256": "e589fec3a874283fd78d9007cba8602f66c553d4b6809cc6ac6904caea982a3c",
+   "bytes": 22870
+  },
+  {
+   "ruta": "packages/caustics/caust06.png",
+   "sha256": "53828e519dcd6251d9d01c9020d1043c90941b35c05cbe5ef30fd8b5b1d7f11d",
+   "bytes": 23324
+  },
+  {
+   "ruta": "packages/caustics/caust07.png",
+   "sha256": "e248ce324804d42f591be47c11496aab25623ccb4b4857085b5d25e4075abc79",
+   "bytes": 23867
+  },
+  {
+   "ruta": "packages/caustics/caust08.png",
+   "sha256": "3fb9f6c051506e93df414e6f305607c5f9353cbcba2f0825843cf023707f4628",
+   "bytes": 24162
+  },
+  {
+   "ruta": "packages/caustics/caust09.png",
+   "sha256": "7723982afb7b9c3a6083ca4574e80eef97b0437a99f7a2e5bdad7b3452c8a2c5",
+   "bytes": 23883
+  },
+  {
+   "ruta": "packages/caustics/caust10.png",
+   "sha256": "c10ed3f2ac2a29814c3cd4bb12af03846ac6cecc9f665645a9b4971cb91eee36",
+   "bytes": 23825
+  },
+  {
+   "ruta": "packages/caustics/caust11.png",
+   "sha256": "e61141a5701f4f91b32c6a45c57b2c33279b41a98b25451f9a14323e48681e1d",
+   "bytes": 24164
+  },
+  {
+   "ruta": "packages/caustics/caust12.png",
+   "sha256": "f01bb92c8bebee04f7647712497ce572fdc9362921505c889d6d9fa90328382a",
+   "bytes": 24741
+  },
+  {
+   "ruta": "packages/caustics/caust13.png",
+   "sha256": "cbb550b72a4a0537d511d0ebdeae3494c9743eb5b00b368a2e6c9e49adfb72d6",
+   "bytes": 25186
+  },
+  {
+   "ruta": "packages/caustics/caust14.png",
+   "sha256": "c801a9ed6cbb6600a1f5fb3326b18cb14e13598491d84f2f7a19a8684a652d4d",
+   "bytes": 25052
+  },
+  {
+   "ruta": "packages/caustics/caust15.png",
+   "sha256": "d182b7ea9d61e2e3130dde567f0a1c5902d5e1be8bccb5bb2273510f6dd4f3f9",
+   "bytes": 24449
+  },
+  {
+   "ruta": "packages/caustics/caust16.png",
+   "sha256": "8c04f3852b16fb4ac241cef40792f95c7f211dad78bc8bff5c2c554ec09fcfeb",
+   "bytes": 24357
+  },
+  {
+   "ruta": "packages/caustics/caust17.png",
+   "sha256": "bd620e83cec0649b2f65850e06094d15d718e547a34ac9bceb005d146dfd51a5",
+   "bytes": 24479
+  },
+  {
+   "ruta": "packages/caustics/caust18.png",
+   "sha256": "fe505659ead4adb8b8b0718a8ccfc247d53c7ec7afa033bf954a68baeb80d7fa",
+   "bytes": 24541
+  },
+  {
+   "ruta": "packages/caustics/caust19.png",
+   "sha256": "57b6c891199520d21ef3794af95aa16f708bc137877773a5685ea77897061a6c",
+   "bytes": 24179
+  },
+  {
+   "ruta": "packages/caustics/caust20.png",
+   "sha256": "6fb90cad83beb060d6691964159885dc87cbd6e2154bd828516bc9f7e47a68da",
+   "bytes": 24106
+  },
+  {
+   "ruta": "packages/caustics/caust21.png",
+   "sha256": "bd8152ad691702e09c85286b61c14773042fd0c4accc9228e16e20e2873ddaee",
+   "bytes": 23638
+  },
+  {
+   "ruta": "packages/caustics/caust22.png",
+   "sha256": "1cd06d2473d79a7c97b4a5aa4f6eba0076c1450c4523674815bd5f73bf4fc331",
+   "bytes": 23444
+  },
+  {
+   "ruta": "packages/caustics/caust23.png",
+   "sha256": "283118ad22fb873ea8822512ad583724b0887ab8cc194924fd9032630fdaafd7",
+   "bytes": 23275
+  },
+  {
+   "ruta": "packages/caustics/caust24.png",
+   "sha256": "df1bc9da102834dfba44b2fb29ee2cc14d9b653fa4332552b9669add99d4fd08",
+   "bytes": 23169
+  },
+  {
+   "ruta": "packages/caustics/caust25.png",
+   "sha256": "bd78ca0721e1c668c64d34f04d67a19b601cd0e50f5e0bfe4cf67f3cf2b24333",
+   "bytes": 23206
+  },
+  {
+   "ruta": "packages/caustics/caust26.png",
+   "sha256": "d08019aedb71ae28feccfd9d062d3e293c7196f05534cc553753cd2da0c59615",
+   "bytes": 23554
+  },
+  {
+   "ruta": "packages/caustics/caust27.png",
+   "sha256": "cdf3a16dea6ccd05a1a3c844783856bbcf219c36a3a3a0ddc515cc1dcefbec85",
+   "bytes": 23644
+  },
+  {
+   "ruta": "packages/caustics/caust28.png",
+   "sha256": "47a2c88a0d4774a4008f171e2df43f91db44a721b688e7e1f84fea7575b1395a",
+   "bytes": 23501
+  },
+  {
+   "ruta": "packages/caustics/caust29.png",
+   "sha256": "f006e7bab55fd77efb5c73abcb8a3a60d27a7116fb9d9f5118f623e06b5cc62a",
+   "bytes": 23750
+  },
+  {
+   "ruta": "packages/caustics/caust30.png",
+   "sha256": "328cebf4e9ea13f030ad45690c5b754807d04a1fe266225a1804c9ac42d5baf0",
+   "bytes": 24254
+  },
+  {
+   "ruta": "packages/caustics/caust31.png",
+   "sha256": "60809ab8a53feafdb7b3fb1059fdd59a7926e473088e7e94b6d282423ab9b6dd",
+   "bytes": 24543
+  },
+  {
+   "ruta": "packages/crosshairs/circle_dot.png",
+   "sha256": "b9ab08f0d958b0c73a8291b0dfa426df497dc1f4c02d225b52b713ba90224251",
+   "bytes": 225
+  },
+  {
+   "ruta": "packages/crosshairs/circle_dot_hit.png",
+   "sha256": "639ee32efc28f12f722e38be4042944030b587fa2dfd6d0f4bb21a71f7b7100e",
+   "bytes": 279
+  },
+  {
+   "ruta": "packages/crosshairs/cross_normal.png",
+   "sha256": "a9c54e2661ff548517c3bb03120cc84c09f23147732d6c4c7aa97e86835973b6",
+   "bytes": 213
+  },
+  {
+   "ruta": "packages/crosshairs/cross_normal_hit.png",
+   "sha256": "2f8c86984fa65be14a5b0633e65097a3bf839667a2b1c798121e371c4a4388f9",
+   "bytes": 348
+  },
+  {
+   "ruta": "packages/crosshairs/cross_whole.png",
+   "sha256": "a19af317bf5caa2d52a490579bf928f619e6a52bd5b21efc005e92778290ce50",
+   "bytes": 175
+  },
+  {
+   "ruta": "packages/crosshairs/cross_whole_hit.png",
+   "sha256": "43644885becef821136201531ef724a80689bd3139f0f7b8bc9f981633056736",
+   "bytes": 312
+  },
+  {
+   "ruta": "packages/crosshairs/dot-hit.png",
+   "sha256": "a0a2c4bb67355663c8397a5c070a3b0d5018524cc77ad6ec1aa2f98193341d97",
+   "bytes": 350
+  },
+  {
+   "ruta": "packages/crosshairs/dot.png",
+   "sha256": "9f4dc314231905f39103efbda2d3c42917bd482d7318bd39ab8e82d989626130",
+   "bytes": 297
+  },
+  {
+   "ruta": "packages/crosshairs/dot_normal.png",
+   "sha256": "6d5b32417a0f514511eac0b9d16283d1585388073c882b921b0727addebeaa95",
+   "bytes": 318
+  },
+  {
+   "ruta": "packages/crosshairs/dot_normal_hit.png",
+   "sha256": "e276e6658ed04f22140241ecd4519982c3a7b2cad25f2c5bba4facb6c4d725fe",
+   "bytes": 382
+  },
+  {
+   "ruta": "packages/crosshairs/dot_whole.png",
+   "sha256": "737053624d8a59ce7941bf34513e4e7f5cb6f8f32b61045bb538794cdb5f32f5",
+   "bytes": 243
+  },
+  {
+   "ruta": "packages/crosshairs/dot_whole_hit.png",
+   "sha256": "7a5f407d6e06f94ac064e7c83ad3e23b19270f928ffdd2828b683bb388c68d5f",
+   "bytes": 322
+  },
+  {
+   "ruta": "packages/crosshairs/dot_wide-hit.png",
+   "sha256": "c25e10b7b1695f0a27f5d1b264320402d68ae9ec2d0054a234ad5ce8b94a2626",
+   "bytes": 412
+  },
+  {
+   "ruta": "packages/crosshairs/dot_wide.png",
+   "sha256": "df7af536d0eabb30582dd53bc16a2d3d3611c0dc50bc93a52ed54430037885b7",
+   "bytes": 352
+  },
+  {
+   "ruta": "packages/crosshairs/o-hit.png",
+   "sha256": "f2884df69c7698a4dc6da840b7c121066fb48431d7b98749936b997c52676a68",
+   "bytes": 420
+  },
+  {
+   "ruta": "packages/crosshairs/o.png",
+   "sha256": "8ea75e7f08f8d57c6e52e5e9e92da0e13ae1304358a4205b39d45b8b8fe6dc8f",
+   "bytes": 416
+  },
+  {
+   "ruta": "packages/crosshairs/o_dot-hit.png",
+   "sha256": "be21c440f46845ccb52231541f62a0fdf6c7e565bff2067ffe83036d95a3eab8",
+   "bytes": 422
+  },
+  {
+   "ruta": "packages/crosshairs/o_dot.png",
+   "sha256": "60e360ff1ca6ba17873e8b24bf0b2c34dca115dbe97bae91a6b49b8d607f25fb",
+   "bytes": 428
+  },
+  {
+   "ruta": "packages/crosshairs/o_x-hit.png",
+   "sha256": "319dc61aee293380c9a771daf046ff8b8eb7ddc3996cfb12dfcd214f00561896",
+   "bytes": 430
+  },
+  {
+   "ruta": "packages/crosshairs/o_x.png",
+   "sha256": "13e6b9a070faf487f70141aa6ee44bf46fad2b558fb4f020eb747c1b815791fd",
+   "bytes": 489
+  },
+  {
+   "ruta": "packages/crosshairs/readme.txt",
+   "sha256": "79ed774e6fa047160ecc6c798b898bc5326eb1bed286c44dfee69a2a441a64ca",
+   "bytes": 339
+  },
+  {
+   "ruta": "packages/crosshairs/star-hit.png",
+   "sha256": "b54b3835de32a5601fc3f54fccfc3d60eb8e9ea2266e4e0368933d91d646b414",
+   "bytes": 363
+  },
+  {
+   "ruta": "packages/crosshairs/star.png",
+   "sha256": "3769676a88c48de51b9263663f638f70936e6dfe4e4c09f0ff507c49a342e301",
+   "bytes": 321
+  },
+  {
+   "ruta": "packages/crosshairs/wide-hit.png",
+   "sha256": "c6226222c59ac64af3914eb4c2d847ea24002949f08d247a4bb3a749d0ca345b",
+   "bytes": 402
+  },
+  {
+   "ruta": "packages/crosshairs/wide.png",
+   "sha256": "b74ac092b75d420e5359bf399f7030059a6e48ba19f8c9ca0cddd063e79916f2",
+   "bytes": 345
+  },
+  {
+   "ruta": "packages/crosshairs/x-hit.png",
+   "sha256": "d57ec9879c05c754157c2d78512da1ef4fd20f915e3126f7c9c5dab292c55949",
+   "bytes": 407
+  },
+  {
+   "ruta": "packages/crosshairs/x.png",
+   "sha256": "6fec2a1b6362637d7303726bcfb86ca21f780aea7dde3ebe87f660847bfda511",
+   "bytes": 339
+  },
+  {
+   "ruta": "packages/crosshairs/x_dot-hit.png",
+   "sha256": "4cd6d3951ad7efe7694c5f4a4721b66ba51ad2e4afb7da6ce6ab7f0504b0c426",
+   "bytes": 398
+  },
+  {
+   "ruta": "packages/crosshairs/x_dot.png",
+   "sha256": "81e1301c06f61c15563b016e3a1705477cf7e498521160a861d322c43e5b91c5",
+   "bytes": 347
+  },
+  {
+   "ruta": "packages/cube/biologie.cgz",
+   "sha256": "7c7404a34eae9ecc483acd3f31c95918a2097da848aab2d72702957dea5b084e",
+   "bytes": 9441
+  },
+  {
+   "ruta": "packages/cube/mak1.cgz",
+   "sha256": "a26f64775436a92512361f71105a14f02eaaebc84433045ee1ecd820bfcc3152",
+   "bytes": 18609
+  },
+  {
+   "ruta": "packages/cube/metl2.cgz",
+   "sha256": "24e5f36dc38e69898b38ccba5ee75a894cc6af74b2405f41c05c4b153764a9ca",
+   "bytes": 6181
+  },
+  {
+   "ruta": "packages/cube/metl3.cgz",
+   "sha256": "c31a202387101a2066c8da86aa0e9ce18e429930b4989160de0a002d76ca56b4",
+   "bytes": 8602
+  },
+  {
+   "ruta": "packages/cube/package.cfg",
+   "sha256": "bd772317f4ba5d0b735d7c10f31ba301c716003c95d8ec88077adc7e2b0ae46f",
+   "bytes": 11051
+  },
+  {
+   "ruta": "packages/fonts/default.cfg",
+   "sha256": "352dfc833aba205bc93e4b279869c170c01a4ce5d1e2f95e2df6ffb0bf3ce395",
+   "bytes": 12952
+  },
+  {
+   "ruta": "packages/fonts/default.ttf",
+   "sha256": "500b4ec863dade53ce5534c46207599154802bc48bb7e372c7bbadcf5b2f8caa",
+   "bytes": 643852
+  },
+  {
+   "ruta": "packages/fonts/default.txt",
+   "sha256": "e404f7d5c370b035cd85c3ca501357a8998fad82b37e2afd2e3369b4fba9a8b4",
+   "bytes": 4893
+  },
+  {
+   "ruta": "packages/fonts/default0.png",
+   "sha256": "cfe61f13425b5fe478226b2244ada86cfab209def2bf739b5585005449476289",
+   "bytes": 47031
+  },
+  {
+   "ruta": "packages/fonts/default1.png",
+   "sha256": "7f248549d2a2beae71108e4a5e81474e3c080c8dee0d61aa4435340f2228f30c",
+   "bytes": 41343
+  },
+  {
+   "ruta": "packages/fonts/default2.png",
+   "sha256": "87f7fc1f575a379dd064fade6420d4baffd32f1fdcf7ebf980bda994dda356e5",
+   "bytes": 39994
+  },
+  {
+   "ruta": "packages/hud/blip_blue.png",
+   "sha256": "24d2ee9a6410ca64cb030061ee84fcafa2387364867e149b2b058c0480572d49",
+   "bytes": 917
+  },
+  {
+   "ruta": "packages/hud/blip_blue_alive.png",
+   "sha256": "47ff245ea7fa114df682c64df86cb39caba00d993cd3c7bb2669182b7a29bd46",
+   "bytes": 1445
+  },
+  {
+   "ruta": "packages/hud/blip_blue_dead.png",
+   "sha256": "ffb6de4e6117c823f45ebe5e830052a00f8481d1035aebe4ee820211bac0d6be",
+   "bytes": 1518
+  },
+  {
+   "ruta": "packages/hud/blip_blue_flag.png",
+   "sha256": "28a44745cd620e1b5fb4109e7f0bc81df06b40bb2b06a2c160b16088824f19ba",
+   "bytes": 667
+  },
+  {
+   "ruta": "packages/hud/blip_blue_skull.png",
+   "sha256": "7474cdd8c3f5143723a9efacdd297bb55447ca8a5d3ef3921da1b2b77d1075ea",
+   "bytes": 1060
+  },
+  {
+   "ruta": "packages/hud/blip_grey.png",
+   "sha256": "2acb3742463220002fb0afd4b0f7dc3f6f2185f95ea7b351efbc576f1e07aef3",
+   "bytes": 909
+  },
+  {
+   "ruta": "packages/hud/blip_neutral.png",
+   "sha256": "2acb3742463220002fb0afd4b0f7dc3f6f2185f95ea7b351efbc576f1e07aef3",
+   "bytes": 909
+  },
+  {
+   "ruta": "packages/hud/blip_neutral_alive.png",
+   "sha256": "5b7d84456d7aa8fdcf482b697d79657e4bbdb37c4ef8d1055866b250960e2088",
+   "bytes": 1449
+  },
+  {
+   "ruta": "packages/hud/blip_neutral_dead.png",
+   "sha256": "6191d623a26657f31423be66904bc439b59d8749b0f89605e47a66ee028a7a3c",
+   "bytes": 1546
+  },
+  {
+   "ruta": "packages/hud/blip_neutral_flag.png",
+   "sha256": "cff13f8eeeca07186d3059dd3513d014c0786f083c6e3b01fb9367af78333f3e",
+   "bytes": 692
+  },
+  {
+   "ruta": "packages/hud/blip_red.png",
+   "sha256": "57cdbcbd9b0dde8eba43d2738122f4dc8bb99f6193819ad8b9262998d436efea",
+   "bytes": 820
+  },
+  {
+   "ruta": "packages/hud/blip_red_alive.png",
+   "sha256": "ab5913da764901d17e72426c1fdad67d99f428f7afac9e64bdd6bd73be191b91",
+   "bytes": 1430
+  },
+  {
+   "ruta": "packages/hud/blip_red_dead.png",
+   "sha256": "e61a80a38c005808d9c2dc44a87cfa37f0c5822f067188e0050cc5b1b49d405a",
+   "bytes": 1503
+  },
+  {
+   "ruta": "packages/hud/blip_red_flag.png",
+   "sha256": "0d8b4a9e5c630bd3f8d68847c55798617be167725ad787547ec9da684d359219",
+   "bytes": 737
+  },
+  {
+   "ruta": "packages/hud/blip_red_skull.png",
+   "sha256": "ed6542733633158f0f61a99c971cc43caa79c92c5d9d57f046d0d1c2ae8409c2",
+   "bytes": 1010
+  },
+  {
+   "ruta": "packages/hud/damage.png",
+   "sha256": "358014950bcf0d0152110b907d4bf59aafa915e6c837ea5098a1936db3c6aa18",
+   "bytes": 87007
+  },
+  {
+   "ruta": "packages/hud/digit_blue.png",
+   "sha256": "6144f93de4479701cf76747241d73afb36e8337129298e03e89fbe256404825e",
+   "bytes": 2072
+  },
+  {
+   "ruta": "packages/hud/digit_font.cfg",
+   "sha256": "043611fdd33a2a723f4415cc29481a4e96a434a907ef0cc934aa90ff02702bf5",
+   "bytes": 383
+  },
+  {
+   "ruta": "packages/hud/digit_grey.png",
+   "sha256": "5cb1302f9370d2deee9374c8e47c58fb8caffaafa546d489adaef167a8c111f2",
+   "bytes": 2024
+  },
+  {
+   "ruta": "packages/hud/digit_red.png",
+   "sha256": "9e669236bdc25b8e86cd08a7f45e332f57cbf0cf14c51888a1239c3ae99a9304",
+   "bytes": 1951
+  },
+  {
+   "ruta": "packages/hud/hbar.png",
+   "sha256": "7bdc8f5c75e5364c7dfd12ee5a8f4c6ff05201e698034dd294243604d95744a8",
+   "bytes": 533
+  },
+  {
+   "ruta": "packages/hud/hud_rpg.png",
+   "sha256": "c6a5ba4ad2065f009d997ac8a9260032b7d65e40320d55e687b7aceafe6b768f",
+   "bytes": 148741
+  },
+  {
+   "ruta": "packages/hud/items.png",
+   "sha256": "76c688aae1142fadc24fbffa6e392f5e40cd89aa9507a4a4a3a117a8ebfc3509",
+   "bytes": 98323
+  },
+  {
+   "ruta": "packages/hud/license.txt",
+   "sha256": "2e17e091287c7dcfc37ba3d67b1d6e3b30091b33eebe5f7c7c9767fe0034cf65",
+   "bytes": 170
+  },
+  {
+   "ruta": "packages/hud/radar.png",
+   "sha256": "e98bec12e9eb0de41c4fd14364a6d474b8d269faa72d4fedc1f8facd73171b0f",
+   "bytes": 50125
+  },
+  {
+   "ruta": "packages/icons/action.jpg",
+   "sha256": "15c03584e947e5edb466a63fdcde8ffdb155f0c436043179e924fad2e81b3972",
+   "bytes": 12238
+  },
+  {
+   "ruta": "packages/icons/arrow_bw.jpg",
+   "sha256": "d937fa35888692bbe402cee26ca305f3a6a7623a16bdeca51e1f1e2509573ba2",
+   "bytes": 28526
+  },
+  {
+   "ruta": "packages/icons/arrow_fw.jpg",
+   "sha256": "5f75c687661d2d07802683fc9790897f210992e88507ef3147c08d890741c4a3",
+   "bytes": 28609
+  },
+  {
+   "ruta": "packages/icons/blank.png",
+   "sha256": "d263f7bd972fd64f338df8df2e002abef21112ef0b8c242fbc1f97ed5157d210",
+   "bytes": 159
+  },
+  {
+   "ruta": "packages/icons/brush_1c.png",
+   "sha256": "d27cf8a5f2ac2524509e7521a389bbe4017eb93e635040d8d0828dc4a041137d",
+   "bytes": 249
+  },
+  {
+   "ruta": "packages/icons/brush_21c.png",
+   "sha256": "1a094503d2b7df1ff78299151d5ac5fecffa8af9b90b82ac303e5265d028eaed",
+   "bytes": 496
+  },
+  {
+   "ruta": "packages/icons/brush_3s.png",
+   "sha256": "213194aed6f3a395614bfa8aa41b3e0f6c8b3574755aa31e4d3051e99cbc8f76",
+   "bytes": 282
+  },
+  {
+   "ruta": "packages/icons/brush_421c.png",
+   "sha256": "011fca8862a6ce803ad25ed9aa66dcf5b22364728a5ab991f164258e9fd80598",
+   "bytes": 688
+  },
+  {
+   "ruta": "packages/icons/brush_5s.png",
+   "sha256": "a1f5ecdc69cd952cbe7d5a8b765b881237fe5fef56904c51123c0ad603904a46",
+   "bytes": 350
+  },
+  {
+   "ruta": "packages/icons/brush_7s.png",
+   "sha256": "13851cad24acbc8023abd3987e69755df433618bd65f1d9f21ae0ec251adef32",
+   "bytes": 202
+  },
+  {
+   "ruta": "packages/icons/captaincannon.jpg",
+   "sha256": "84d1936fb092423066e03e9e6a5da16eac9e32eb453e737d55e900530583302f",
+   "bytes": 10490
+  },
+  {
+   "ruta": "packages/icons/captaincannon_blue.jpg",
+   "sha256": "4b0fd055684d756015acf721f89a9cd586ce6c77cfc65822fd84af3dec389f77",
+   "bytes": 9291
+  },
+  {
+   "ruta": "packages/icons/captaincannon_red.jpg",
+   "sha256": "54029867757f2e7a72728025913c8640442004fd976046f9e5187c75e4d00d05",
+   "bytes": 9879
+  },
+  {
+   "ruta": "packages/icons/chat.jpg",
+   "sha256": "03c02a8464630305ae491111584f0211fa471349edff7da59fdda36456e6b075",
+   "bytes": 1869
+  },
+  {
+   "ruta": "packages/icons/checkbox_off.jpg",
+   "sha256": "f5c8277c2b3ca591455b8b168f56b81483aa87af190de7f71e71dd3c9ac11a2d",
+   "bytes": 11147
+  },
+  {
+   "ruta": "packages/icons/checkbox_on.jpg",
+   "sha256": "724aaf673a4c898a13b87bdacf3e5a825182964c8ba1b89feb7f7ef7227d0636",
+   "bytes": 12187
+  },
+  {
+   "ruta": "packages/icons/chest.jpg",
+   "sha256": "156123076fa5986afac1d7b1c3bae3339e13dd375d9ce14ad6a93c10a4d35642",
+   "bytes": 1848
+  },
+  {
+   "ruta": "packages/icons/coins.jpg",
+   "sha256": "58144680c18bcd14b64b8925db98bd4c7a489ef8e1c3b0d5895253fb35f04b9f",
+   "bytes": 2209
+  },
+  {
+   "ruta": "packages/icons/cube.jpg",
+   "sha256": "51a0cb381b7a047808c6fdb5596ba1b5c1b001a8c8d617c0e147eae7eee71314",
+   "bytes": 7314
+  },
+  {
+   "ruta": "packages/icons/exit.jpg",
+   "sha256": "b6dcfbcae2594e4b243c07db0362eb0701e7d654812892fa4d9bb87f80d6a3cc",
+   "bytes": 13148
+  },
+  {
+   "ruta": "packages/icons/hand.jpg",
+   "sha256": "229a344a307e9860a1967611abe801c76d1b57d3c48348638365e1db7b5ad6e9",
+   "bytes": 1660
+  },
+  {
+   "ruta": "packages/icons/info.jpg",
+   "sha256": "4818aaf61db690ba93237a84307d8756ddb765cad210a920cf6d6a55582e05d6",
+   "bytes": 13567
+  },
+  {
+   "ruta": "packages/icons/inky.jpg",
+   "sha256": "212b50d57caefdba1d955082173aa51a243755b11649bd6fdd96bf44031f4e92",
+   "bytes": 8707
+  },
+  {
+   "ruta": "packages/icons/inky_blue.jpg",
+   "sha256": "bb8c30dac45eabac04c290a0efc5aec026278239a5128cb8f9e9e3e440d537de",
+   "bytes": 9577
+  },
+  {
+   "ruta": "packages/icons/inky_red.jpg",
+   "sha256": "63ab24cb7fb68b549672442b929f24cb7a0af054b43dfabab4f1f41fb9cebef9",
+   "bytes": 9519
+  },
+  {
+   "ruta": "packages/icons/map.jpg",
+   "sha256": "77c1dd1a5ff111762d3ebfaebd4825753bb51bd3a79358c622f620de2135acd5",
+   "bytes": 21465
+  },
+  {
+   "ruta": "packages/icons/menu.jpg",
+   "sha256": "f11eb11f7e2512db6522dba3ce5979f75638b90cc647a484f3558d323c9d7ebb",
+   "bytes": 12032
+  },
+  {
+   "ruta": "packages/icons/mrfixit.jpg",
+   "sha256": "ddd0546f66693c250fcfa259a9076ad55a6e95d6fc50eeb9afb06f3e621f113e",
+   "bytes": 8365
+  },
+  {
+   "ruta": "packages/icons/mrfixit_blue.jpg",
+   "sha256": "63eea83086541c1270a83cbd36f5df2ceb2a3da1006afe9a53e3854f0ff71ee3",
+   "bytes": 9804
+  },
+  {
+   "ruta": "packages/icons/mrfixit_red.jpg",
+   "sha256": "5bffdd23e527ccc71edd0da95df9b7df8482530cf97d7076273d3e4acb344fd9",
+   "bytes": 8832
+  },
+  {
+   "ruta": "packages/icons/ogro.jpg",
+   "sha256": "9cc5761d93842baa2e6dbed43ef2b12a7051a651b69b39b371d23d71084fee1c",
+   "bytes": 8882
+  },
+  {
+   "ruta": "packages/icons/ogro_blue.jpg",
+   "sha256": "476b3a7c1b59cc76e8045b63cba1d3c236c911b786e29b2037fb98ed3af98c91",
+   "bytes": 9121
+  },
+  {
+   "ruta": "packages/icons/ogro_red.jpg",
+   "sha256": "8c1d22d40f58d13a112c1ba1a81e289647b3c1e6e73b38c428a6e978ec3483f5",
+   "bytes": 8897
+  },
+  {
+   "ruta": "packages/icons/radio_off.jpg",
+   "sha256": "8984e195d36cbd8d9c48dae1e45f2b099c37c8366fe7042e2f1147d0cabeaa2e",
+   "bytes": 12166
+  },
+  {
+   "ruta": "packages/icons/radio_on.jpg",
+   "sha256": "c985a99f0f4ad9c0b820e5f622ffcfe68d98022d523f5c9cca7e876c23892a32",
+   "bytes": 12662
+  },
+  {
+   "ruta": "packages/icons/readme.txt",
+   "sha256": "3dfc45d6c1caf63eec815701b59f78f7ba0b24d05a4c9e1de27d30cc696acf69",
+   "bytes": 322
+  },
+  {
+   "ruta": "packages/icons/sauer.jpg",
+   "sha256": "d55ed2cc53f950c45e17148302497422d57fc353e3abeccfc036893a1f137fe2",
+   "bytes": 6317
+  },
+  {
+   "ruta": "packages/icons/server.jpg",
+   "sha256": "f6ad36e8d797b2219d3d3d040e7d926bd1c10cd77fe9c84e17f2bc4c5e25da5a",
+   "bytes": 5506
+  },
+  {
+   "ruta": "packages/icons/serverfull.jpg",
+   "sha256": "782250456288ad2908236215a3ea5e311db6f5adfa3bea20a311384cfc2f9a10",
+   "bytes": 7326
+  },
+  {
+   "ruta": "packages/icons/serverlock.jpg",
+   "sha256": "34308d09fcd1263b278131bad6d8fb5aed8bca4157dedf9483fa95aeacb112d3",
+   "bytes": 6759
+  },
+  {
+   "ruta": "packages/icons/serverpriv.jpg",
+   "sha256": "9c120be276615607cab6ce54b4b01a85bed1597eaa4cc3ea50af7d49feb3c0f0",
+   "bytes": 7238
+  },
+  {
+   "ruta": "packages/icons/serverunk.jpg",
+   "sha256": "b84d9d1f870457c0984335eafc326f34876b1da5e7acfb8d86212ab368aeb712",
+   "bytes": 7891
+  },
+  {
+   "ruta": "packages/icons/snoutx10k.jpg",
+   "sha256": "9039945717c9425c08c39b7b70a23234e53e8e47b1383e49c4fe364a15d27600",
+   "bytes": 8936
+  },
+  {
+   "ruta": "packages/icons/snoutx10k_blue.jpg",
+   "sha256": "af1cd571a40b8bbd338dae55b54bc85fd0000b7c2d59f179a0134dc16fc82f11",
+   "bytes": 9171
+  },
+  {
+   "ruta": "packages/icons/snoutx10k_red.jpg",
+   "sha256": "5e3d331def28a0a44acb44d51b8d58c2ff4c059aad4977ad3251ab0988d6a255",
+   "bytes": 9295
+  },
+  {
+   "ruta": "packages/icons/spectator.jpg",
+   "sha256": "d7e18443d43fc1b7e3e3ec55ee1bb48e126ef00c96a59b093b0b7bd761b9e3eb",
+   "bytes": 5650
+  },
+  {
+   "ruta": "packages/icons/sword.jpg",
+   "sha256": "aa493a169da6c5b686c96fadc7b0ff59471e352a0e99a9b194743a9aab472864",
+   "bytes": 1538
+  },
+  {
+   "ruta": "packages/models/ammo/bullets/masks.jpg",
+   "sha256": "e9d0d2adb1a22f226843e8aee10e77c21b96689975af5b4b37d77d23fb8fdd2b",
+   "bytes": 81022
+  },
+  {
+   "ruta": "packages/models/ammo/bullets/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/bullets/skin.jpg",
+   "sha256": "b0b2162793483d2a374a5fd71353ad909cd7f66df6ad2cab736628eda919e0a2",
+   "bytes": 52863
+  },
+  {
+   "ruta": "packages/models/ammo/cartridges/masks.jpg",
+   "sha256": "08cafacac44483b77dcf8d4d5e0ad68f445190a570530aad3da741cceef8e245",
+   "bytes": 86967
+  },
+  {
+   "ruta": "packages/models/ammo/cartridges/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/cartridges/skin.jpg",
+   "sha256": "c113e81b14c834fcd3bb3234346dc0ff00e5fc6e9305a82bdccd321067c74393",
+   "bytes": 51164
+  },
+  {
+   "ruta": "packages/models/ammo/grenades/masks.jpg",
+   "sha256": "98d5c9474dbc453faacd1f3305cdf2710a6d450900da71705b3efdb4028fc9e2",
+   "bytes": 83312
+  },
+  {
+   "ruta": "packages/models/ammo/grenades/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/grenades/skin.jpg",
+   "sha256": "6bcb239178ccb0747e82bd9954e0bb9fbef7525e4ee948a03fa24b7d3795d189",
+   "bytes": 53432
+  },
+  {
+   "ruta": "packages/models/ammo/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/ammo/rockets/masks.jpg",
+   "sha256": "839c417c9d0712e6250237b352cb13ad188e16b0de07d8bee04d5c736808766a",
+   "bytes": 84394
+  },
+  {
+   "ruta": "packages/models/ammo/rockets/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/rockets/skin.jpg",
+   "sha256": "331d90775f532bcca3907bb8e241bfb9b54a3d4a7a6d0746b4ef7525b0f6a848",
+   "bytes": 53552
+  },
+  {
+   "ruta": "packages/models/ammo/rrounds/masks.jpg",
+   "sha256": "53c00fa637d4aa7594abc27a17a01f1f32764cc3f5c919dd6ece173a33cc5860",
+   "bytes": 82723
+  },
+  {
+   "ruta": "packages/models/ammo/rrounds/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/rrounds/skin.jpg",
+   "sha256": "e0832f1bb31a0f243b54b1f8c13e2ea26d3aac9752d15bbf077475b57522efd0",
+   "bytes": 56254
+  },
+  {
+   "ruta": "packages/models/ammo/shells/masks.jpg",
+   "sha256": "2b7e0d94948d5b05b29555bfd2dfabe019102be95d4be78b72bedb6044d6c027",
+   "bytes": 87619
+  },
+  {
+   "ruta": "packages/models/ammo/shells/md3.cfg",
+   "sha256": "0243948b6c680334796c6d0ff898436ad81c50052d9f89501abdf68ebd6dff12",
+   "bytes": 98
+  },
+  {
+   "ruta": "packages/models/ammo/shells/skin.jpg",
+   "sha256": "99162cbe83ccfee7ffd9a3e4e88e5cebe7afb2e42b9e15bed59265f098cb3422",
+   "bytes": 52191
+  },
+  {
+   "ruta": "packages/models/ammo/tris.md3",
+   "sha256": "d27490e8a6a6063eae306ae5329f7752cf276e5ee21f6a84e2949f2d76dcec6e",
+   "bytes": 7268
+  },
+  {
+   "ruta": "packages/models/armor/armor.txt",
+   "sha256": "9d244788df3076837cbd14bcbc7742c2b1bde76196da04c5921900ff674ab3d0",
+   "bytes": 959
+  },
+  {
+   "ruta": "packages/models/armor/green/skin.jpg",
+   "sha256": "75750a33f6273a81e205cc915e74d6f0f553ad3c1b1d6f5f71f8809a0e41fe1d",
+   "bytes": 61119
+  },
+  {
+   "ruta": "packages/models/armor/masks.jpg",
+   "sha256": "6c2e18e1ede251472a35ddca056817ee69cfabe355e95619227c7b1b7cc04652",
+   "bytes": 62953
+  },
+  {
+   "ruta": "packages/models/armor/md3.cfg",
+   "sha256": "358a0dcd9e438149da374c52d1424637841393b025d25bfeb8b863eacd7cbc9b",
+   "bytes": 12
+  },
+  {
+   "ruta": "packages/models/armor/tris.md3",
+   "sha256": "c9f27bad5e6bd26e41f713d0b7f5a3f2d201458e268f19b314e7322b3f9015fe",
+   "bytes": 10228
+  },
+  {
+   "ruta": "packages/models/armor/yellow/skin.jpg",
+   "sha256": "d6cc97d50e7d58165d4c9bc4b73bc63ff272c6713c111225149ba21dc74b1ff0",
+   "bytes": 77429
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris01/debris1.md3",
+   "sha256": "8cc944d3c31cd5baebf628526d99acfcf6c660d41f09c5c9c483d7ce8a519a1b",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris01/md3.cfg",
+   "sha256": "eaae350ecb78564485f70bf4d5eea9d1c2d889bb97c732e8f8f1dae1700b4c28",
+   "bytes": 110
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris02/debris2.md3",
+   "sha256": "99c81af9305536a80de00c6024ba0715090fcef64d96334f9637c30a48c205c1",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris02/md3.cfg",
+   "sha256": "a841b69f093d4ec331b907a91770c5c1be87caa9847a28f3830835fec22cff32",
+   "bytes": 110
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris03/debris3.md3",
+   "sha256": "683312c8440b1a786423ad96cfe24c60aa418876f8762852db17a959323f5144",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris03/md3.cfg",
+   "sha256": "55d2c884e86cc88eaf0543fb4c69c9798f1caf9686bfb49a77e7d0523376a76b",
+   "bytes": 110
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris04/debris4.md3",
+   "sha256": "4001239d55fb1569b52d1170a1ecf31de210ab507418d67f6bb1f3446e992d40",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/barreldebris/debris04/md3.cfg",
+   "sha256": "9d5fca65371c72e96636eed71f481028e397c225a83a9c4a359e605f81b1f95e",
+   "bytes": 110
+  },
+  {
+   "ruta": "packages/models/barreldebris/masks.jpg",
+   "sha256": "fc1d86cf1138b0b439d94456774925a5850a97fd6d01c163dbf08022e48fe6cc",
+   "bytes": 221204
+  },
+  {
+   "ruta": "packages/models/barreldebris/skin.jpg",
+   "sha256": "3a783771306c42e924dade5e463d4d8ba45c3c0a203ed91ce53d77883755bea8",
+   "bytes": 127075
+  },
+  {
+   "ruta": "packages/models/boost/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/boost/masks.jpg",
+   "sha256": "0bd272c369f9ab1c60bb06a59843746a34b8c0dc15edbbd215ef81488bf3bca8",
+   "bytes": 81081
+  },
+  {
+   "ruta": "packages/models/boost/md3.cfg",
+   "sha256": "9b4b1f22a5c643e0d8874da2dae204cebb54424e8f46a711d90f6efef83bd99f",
+   "bytes": 62
+  },
+  {
+   "ruta": "packages/models/boost/skin.jpg",
+   "sha256": "3f521e562992235ccd2109ec9cd269bd04515e74ab9b76ad68f7baef5e4a55b2",
+   "bytes": 54426
+  },
+  {
+   "ruta": "packages/models/boost/tris.md3",
+   "sha256": "b46ed27b0f6dd60b6e56d5f841ec7d6468d2801980db5622c9e8ea14a2902dd2",
+   "bytes": 7652
+  },
+  {
+   "ruta": "packages/models/debris/debris01/tris.md2",
+   "sha256": "2142819fac78862dd7a2980174c897de8139c95b9397be50cde2421dc2b236c1",
+   "bytes": 2004
+  },
+  {
+   "ruta": "packages/models/debris/debris02/tris.md2",
+   "sha256": "66ffd19ed1f9325100195b51a0759b5ea9a6ee6b60fd5463e283a20533e858e5",
+   "bytes": 1860
+  },
+  {
+   "ruta": "packages/models/debris/debris03/tris.md2",
+   "sha256": "f69ac21546da6d58d364c357207866ced0664388930857baff0d76a351462080",
+   "bytes": 1064
+  },
+  {
+   "ruta": "packages/models/debris/debris04/tris.md2",
+   "sha256": "ea84cd762fee31546ae67d847a264da243febc18772ac0fa9220bc65cd9e8d8e",
+   "bytes": 1976
+  },
+  {
+   "ruta": "packages/models/debris/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/debris/masks.jpg",
+   "sha256": "3ea9fcd0155dacf0465cb58970fc2b816eb125440b2b432cb8f0e7a340a3a7f3",
+   "bytes": 13318
+  },
+  {
+   "ruta": "packages/models/debris/md2.cfg",
+   "sha256": "b8dcd13f9d5c985269489002f9caed34c86bb0694a4634923651e74ee20c75a3",
+   "bytes": 17
+  },
+  {
+   "ruta": "packages/models/debris/skin.jpg",
+   "sha256": "e9d3844f5dd3417afa9755bf17e22c610738746a8c4de757ac7bb37ce21a56f2",
+   "bytes": 12973
+  },
+  {
+   "ruta": "packages/models/gibs/gib01/skin.jpg",
+   "sha256": "dcf7896f4c75f06c3ec8832cdc108ef4accb7d0d93292a2caf4ce78280654284",
+   "bytes": 9106
+  },
+  {
+   "ruta": "packages/models/gibs/gib01/tris.md2",
+   "sha256": "d72133c9b7eb78b845958b225157277005eedfece244b0ed506ecdef99fde5b8",
+   "bytes": 600
+  },
+  {
+   "ruta": "packages/models/gibs/gib02/skin.jpg",
+   "sha256": "2ea88ab5d303546cc3a1dca5daae7fe01df86b1845c9167a6a4d59852701d5ab",
+   "bytes": 9140
+  },
+  {
+   "ruta": "packages/models/gibs/gib02/tris.md2",
+   "sha256": "b8107af3536072882b0fa49a362cacff3d40ffca9cd52a61550c822a56ed2947",
+   "bytes": 824
+  },
+  {
+   "ruta": "packages/models/gibs/gib03/skin.jpg",
+   "sha256": "2d1b213e09bde31df5b7d18bfde795094f1de3cd4696d826fc7895d35b9fb5af",
+   "bytes": 10211
+  },
+  {
+   "ruta": "packages/models/gibs/gib03/tris.md2",
+   "sha256": "a3c5573ab9544eb7654c2d121833890913374da440bc352db7bed627634ac308",
+   "bytes": 4988
+  },
+  {
+   "ruta": "packages/models/gibs/license.txt",
+   "sha256": "f08789d1c0b9565462402732b767390d9ae636bf14312622874b7dc9bc3c5171",
+   "bytes": 1600
+  },
+  {
+   "ruta": "packages/models/gibs/md2.cfg",
+   "sha256": "7ae08113effb55cfca0801499826e9f78748f3c9e82a91af1ab0d2494f4a5887",
+   "bytes": 54
+  },
+  {
+   "ruta": "packages/models/health/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/health/masks.jpg",
+   "sha256": "f999ecf67b94f915c9e2dac111f72b6c31be20fffaa4bc12b1bf7663e75ad8db",
+   "bytes": 44773
+  },
+  {
+   "ruta": "packages/models/health/md3.cfg",
+   "sha256": "4c8bef807765c06e4d5a438181aede1a6ad1959a11da9f47b4b48ad5d0b65354",
+   "bytes": 84
+  },
+  {
+   "ruta": "packages/models/health/skin.jpg",
+   "sha256": "78f5afd636733a2a72a2c2b8b5b5f01184d505f1d5b9f01b6401873a9938b991",
+   "bytes": 43772
+  },
+  {
+   "ruta": "packages/models/health/tris.md3",
+   "sha256": "44618d53723d44b6911dd3ad3f4687a383ce82e2545e1ee5e0d346adb0174401",
+   "bytes": 4724
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/chaing.md5mesh",
+   "sha256": "5592764b60abfbcf95a9c91acacfc00618daffc9006074ebef58b94976acd212",
+   "bytes": 129083
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/chaing_idle.md5anim",
+   "sha256": "3355bee73b4f635687967deda8bcdce7a2d7e2d490bebf2f50ed7469d560657e",
+   "bytes": 655
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/chaing_shoot.md5anim",
+   "sha256": "5f2e03aa4d120a0f922ddc535d2174192786a14a12d6f8419963d2dd91f2d04c",
+   "bytes": 3134
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/hands_mg_idle.md5anim",
+   "sha256": "46cf232ff4685b3106bebb3550c39b76dacb1750c105c57042a11d040b159fc5",
+   "bytes": 5361
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/hands_mg_shoot.md5anim",
+   "sha256": "6d055f6ae35f71ffaa877411782d878a823fae1f683188de27b968b9e2235071",
+   "bytes": 25139
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134.dds",
+   "sha256": "bb2d705c389ff10ef45bf2c05f37e982f027e1b13df8124671518848325587a0",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134.png",
+   "sha256": "2dd8e2d12bf885632c6ba80233f70de2f78fbeaac816b2ccd7b85a79f19a98d0",
+   "bytes": 1354840
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134_mask.dds",
+   "sha256": "9ddc32344af144f1f0df50996a2a236adc82c8660027e37c14dc2d39b8cbf33d",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134_mask.png",
+   "sha256": "2d918185fd4bd656e543bb72bbbaf1f9e3d995531b6b29141beb49c1f0c12438",
+   "bytes": 946360
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134_normals.dds",
+   "sha256": "93f49c17c89f23e856e61fd3004be1c180c57969e5937adb3bf8e23676997527",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/m134_normals.png",
+   "sha256": "4491263bf2a7d234d9436bfd42586dea66092763179966d41313d9eb14724f59",
+   "bytes": 439715
+  },
+  {
+   "ruta": "packages/models/hudguns/chaing/md5.cfg",
+   "sha256": "3c3761aaffc3fe00a668514e2f0cd38169e086b45ea957d8d0c87e6393d5592e",
+   "bytes": 602
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw.dds",
+   "sha256": "a63988e4dd50152015d8c93715dc5582d4fb36b441105dd2ed5df6e4b40004eb",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw.md5mesh",
+   "sha256": "018cbec881c38050ec66224731259aa1d3efcd3edf3fa7d36393b7fd27ba1480",
+   "bytes": 90557
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw.png",
+   "sha256": "422d57524f867d95488af4a6cc928736e6dced5607fef16ee727d2d3784a289b",
+   "bytes": 339717
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_attack.md5anim",
+   "sha256": "2eaaeb77303a52f78ce31185940875bcf851dc2041422c88821faf2869ea96b5",
+   "bytes": 7928
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_idle.md5anim",
+   "sha256": "653319cb6ce5b92bf956e04f4b03454fc901167d41624135a3797fc37c1a6e19",
+   "bytes": 7933
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_mask.dds",
+   "sha256": "423f948115a547c3984eba0f1eea865647768e0c4bffdfb92df5a8796075a5fe",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_mask.png",
+   "sha256": "59491b0c502c77bdcfcfe5c4d60bb519f1993f8aac2c631f239fe25602b04b7c",
+   "bytes": 39078
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_normals.dds",
+   "sha256": "0cae840ade1552a92615847b7310e096885c8e68ba63467752560920139369e2",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/chainsaw_normals.png",
+   "sha256": "a822ecf960fde84ed10cf53a615819e784f5b469e32bab12fab00cbafcb7546e",
+   "bytes": 573227
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/hands_saw_attack.md5anim",
+   "sha256": "5e85c98aae1dba8fc0796d5a653f63faaa489d8ae268ca0cabc6753b2aa99ede",
+   "bytes": 28915
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/hands_saw_idle.md5anim",
+   "sha256": "47cf24692c5c4b4d1feadfd05a149931deedc465d8cf00ee0f37b630a81b103c",
+   "bytes": 5351
+  },
+  {
+   "ruta": "packages/models/hudguns/fist/md5.cfg",
+   "sha256": "c3a319da5e62fba7f93d6b159682afbe85affa520b169e357faa44790bf38e32",
+   "bytes": 874
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl.dds",
+   "sha256": "60c9bcf883e364b8fe794ec96a905000d766475fe00827dd2378c01f8bf2c1bd",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl.md5mesh",
+   "sha256": "96906a414ad851c3202a4af6cb75cab03c9452c6abfc7e71d029fd51dfa5a66b",
+   "bytes": 225663
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl.png",
+   "sha256": "ad15845fc0e486998852c2b3a6399e2bf6cb685c731ebe1911f09094af02990e",
+   "bytes": 379132
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_idle.md5anim",
+   "sha256": "203c222849c512b4bd4eca652e18ba4aa1de375092b225a0376d7dc79e67c49a",
+   "bytes": 807
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_mask.dds",
+   "sha256": "73c26bddc0a40c3ba693e5f1b08f4e0c03262c874890184676d73ffc0124bb74",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_mask.png",
+   "sha256": "491a8730ab3c29b326dd45e01466391c1fc8d9c7a1886ae8eaecac4177a9e0ef",
+   "bytes": 378621
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_normals.dds",
+   "sha256": "917679c62e764dc21029790b5bdf146170db4d2f37211b01d700107a101e7fa3",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_normals.png",
+   "sha256": "eaf683d432c25a24a3207a11a3d1ba7fa9998e702928153db9ae208b427bece0",
+   "bytes": 350216
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/gl_shoot.md5anim",
+   "sha256": "c88d8858008a55de88491dae100a59768e390c4b98784ac4b95ebb9e7cb8bff6",
+   "bytes": 7029
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/hands_gl_idle.md5anim",
+   "sha256": "4c6b638c21f9cce9c3bbe4efd27bbff1078c52440c45bbcdf073332f946ed52f",
+   "bytes": 5347
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/hands_gl_shoot.md5anim",
+   "sha256": "d9fb6b0a30eedbcc433fbde569b5d9fd367138a20265870236a6ee41ffd2e67b",
+   "bytes": 44681
+  },
+  {
+   "ruta": "packages/models/hudguns/gl/md5.cfg",
+   "sha256": "431f4b3bfe74ea10a1dd8a5f07933b6b615ee7f77eb00457c299526f55c2c956",
+   "bytes": 486
+  },
+  {
+   "ruta": "packages/models/hudguns/license.txt",
+   "sha256": "7d509daea85a70c5213f8c4824db1fe3682a0f1f32efe9da69782d7409325e8f",
+   "bytes": 286
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt.dds",
+   "sha256": "d20ac04a404ba4741cce6ccc9953a54b81244fafdba75da73d68e2d056698fff",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt.png",
+   "sha256": "8c8a8254389aa9f727c7a8c591efa4795b92bf8fdfc42cafa8cef30ce526f96d",
+   "bytes": 699843
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt_mask.dds",
+   "sha256": "5fc34c84a9ed7c0eb27fc0ed25b0e439295628458539360789f4ac6a4443a48d",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt_mask.png",
+   "sha256": "c6c1a45ac6d4f4ebbd884b11763ca9bb6ac60229c9a8afe45cde3d4b167eaa18",
+   "bytes": 604065
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt_normals.dds",
+   "sha256": "145bc2d0b56a2556ccdf89e1a1f572b4ef69fe1b5ac450d50d7492de41515330",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/colt_normals.png",
+   "sha256": "5c42e05ae7fc677aec173910832feb1040607622391099f2a67cf1e0023200f7",
+   "bytes": 632178
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/hands_revolver_idle.md5anim",
+   "sha256": "f27c6eaeb71443435847c1cf5496e254c8776d88f9c39e15eb06e10a8ce69c08",
+   "bytes": 5347
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/hands_revolver_shoot.md5anim",
+   "sha256": "39593cfb839c7aba1d194b9505c8fea1612f710dfa9e5b70a7d15f9d7af09a1b",
+   "bytes": 21140
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/md5.cfg",
+   "sha256": "b5a5fdbcd561d45423ab5ef4e0fa7a7f201a8e488f85f90743d328d536ebac4c",
+   "bytes": 589
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/revolver.md5mesh",
+   "sha256": "f0ee5e23e6baae6110dd01e1bc2cfe83814d832a19a95754728e5f40718c4247",
+   "bytes": 88613
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/revolver_idle.md5anim",
+   "sha256": "01761beb529e387e1aad148a094d0947d68f292aac883edea152edf6fc8457b0",
+   "bytes": 993
+  },
+  {
+   "ruta": "packages/models/hudguns/pistol/revolver_shoot.md5anim",
+   "sha256": "cd33d37a4a51fcbdfca16d27d978ef3c18253f564426862177c0e148d7323922",
+   "bytes": 3914
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/hands_rifle_idle.md5anim",
+   "sha256": "e2c16f70e220007aa932935811b22609dc7b0981bc3de0c72d602e4e7479c411",
+   "bytes": 5323
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/hands_rifle_shoot.md5anim",
+   "sha256": "58d0638d73bafe1e6c78a4b06b5a65863feeb564d55f558bb7f2f04c62402ecf",
+   "bytes": 180914
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/md5.cfg",
+   "sha256": "c8dc811f51bb23041068aea1ef1a1dfa887deec5e35117134db1fc207868e814",
+   "bytes": 598
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/rifle.md5mesh",
+   "sha256": "9188a7410b4aa22689e8a6a0e59002dae6aa4929a6fb44e97d9e551b2e2f5c49",
+   "bytes": 280448
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/rifle_idle.md5anim",
+   "sha256": "008e0e728b04776ee2c8299d05f498e7d21a584ea3d41a60a74179018f2f163b",
+   "bytes": 968
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/rifle_shoot.md5anim",
+   "sha256": "2f68c0c279c925c998780be12824b9d1f43b2f7007094cb730fc5b3e03cf3014",
+   "bytes": 33403
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper.dds",
+   "sha256": "8d95b927e465f32cdcad8f57e0668a48aaa0d7efecd50fa2b645c5638ad80936",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper.png",
+   "sha256": "5428a3859fd8c114dbf1f0139ba8e0c8af4a04d90e177fb8a190787abfed9eba",
+   "bytes": 739864
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper_mask.dds",
+   "sha256": "31e63e4f76f72c0d1c2d40ab95c024cf5b2550c26f946cf63b27ffb24f7725d6",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper_mask.png",
+   "sha256": "39780758d43993671ad9f75dfa37cb8fb0be5610b40fb803c30475648787b91b",
+   "bytes": 557331
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper_normals.dds",
+   "sha256": "d5c3f55131af800617d5cd10ab8510e9b470922f148279d3c0f0133224b1c6d6",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rifle/sniper_normals.png",
+   "sha256": "27506308d12f36b7fd55b51857e80284e20735be6d9f8dafe6bcad25bb98dade",
+   "bytes": 547077
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/hands_rl_idle.md5anim",
+   "sha256": "eb633eedf96d92375d90adaee00d18f52841364721d0c1f7b28f1a404979402c",
+   "bytes": 5341
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/hands_rl_shoot.md5anim",
+   "sha256": "46812e9f33e3b3bc4c0d22bd32613cf0a881fa1913e2230cecce53af6536a6ef",
+   "bytes": 44923
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/md5.cfg",
+   "sha256": "94b48ee764a3343f0998238d3cff27d165502e9c1fa5493936d0258e1cd8c814",
+   "bytes": 619
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl.dds",
+   "sha256": "964b56d879c76011516d2166f2e048bcc7312e2b5a9ee7416078d7320050762a",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl.md5mesh",
+   "sha256": "1e092be0af48bf34c51ed9bdba1d9d7259501e282168940565fda1a0a8bf6f0e",
+   "bytes": 156601
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl.png",
+   "sha256": "32c59e023ed592e3f4cb95ab75b365039878aec556fbba6bd53ad71639d01656",
+   "bytes": 857658
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_idle.md5anim",
+   "sha256": "692d5121506a7b48fbca21bbdb7c9cefb6746094b5272dc163b8edd680898c38",
+   "bytes": 800
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_mask.dds",
+   "sha256": "7dd0b03c145d78ca5cd55cf6df7a0ecba87ad3fac11cf622b609a2814c7d69d7",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_mask.png",
+   "sha256": "5d91965924523d4e60447315acd694d71b0df1764d195333759656b4b471032c",
+   "bytes": 549304
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_normals.dds",
+   "sha256": "613ea68ad68446e0d327efd51956589dcc7173b297e024202552c685d3e363da",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_normals.png",
+   "sha256": "a7a788759c16affae0d637c5bd61a450e5d0092086f508ce24afb9965992a2ae",
+   "bytes": 414632
+  },
+  {
+   "ruta": "packages/models/hudguns/rocket/rl_shoot.md5anim",
+   "sha256": "b6b4be80f785027bf4f5c9f3e3ef89d2458c85b7ea2c93e992edc28fc7944894",
+   "bytes": 7002
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/hands_shotgun_idle.md5anim",
+   "sha256": "07adf5f8617a6f6f5608a00d628b6074086fad08878bd765de6f9a630acd5c3c",
+   "bytes": 5341
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/hands_shotgun_shoot.md5anim",
+   "sha256": "5bb51df5d769ded2aa9486ba10f83e93cfe132f41ece6827615311b1e21276bf",
+   "bytes": 141287
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/md5.cfg",
+   "sha256": "eaa02a461cac16cebd2a615217ab15d1c197ee41c8962fc04e91176744840f02",
+   "bytes": 760
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun.dds",
+   "sha256": "b18adeeeac549047fe75eb0448b4d23927ab0bd2f039a26fb06b2de6330bf416",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun.md5mesh",
+   "sha256": "379c24d937fbc65fac245f7a8706c51785085940d18ede18558ae8912a59ac22",
+   "bytes": 176594
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun.png",
+   "sha256": "6238fb1e3969e94bf33026c305b45d494547243c7e33b2fa31a78c451a1b9a7b",
+   "bytes": 751896
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_attack.md5anim",
+   "sha256": "9012bc73fe2fbd5043d883f84f029dccba320b88817e8434b51cc9213be6ca1b",
+   "bytes": 34267
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_idle.md5anim",
+   "sha256": "9bd1c9d93688cafc860569c26e1811134eaba9e2c90d484f47b1d04fc991cb57",
+   "bytes": 1243
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_mask.dds",
+   "sha256": "25d82f42e624de7c23124de55940bb9567ab3afde3645f84abe94a15410e93c3",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_mask.png",
+   "sha256": "6d8614ebb2febec5ed4704119eb96daf06c576dd05e51f64f2be81fd4a864997",
+   "bytes": 717471
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_normals.dds",
+   "sha256": "fd47b23c2b2148004c40cd7fc68ee994a778a5d55b86c774e8df1e5db4194a86",
+   "bytes": 699192
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_normals.png",
+   "sha256": "6004284bc590b127db4ffa383eb19af903915d2deb3a51dfd65a1e4267baa40d",
+   "bytes": 723014
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell.dds",
+   "sha256": "64f1264d25ef182e0248358b64d7bdea9d235c80e4e4459ea746a8e07c371196",
+   "bytes": 21992
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell.png",
+   "sha256": "472abfe46253b3d4b0237a24fa40b89f0b99a52cb4e04735d000a9ed480a5903",
+   "bytes": 32194
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell_mask.dds",
+   "sha256": "d476201c87134b9753f2e44632c9b2a94bd120eaafacc28defc831d83a33f2d4",
+   "bytes": 21992
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell_mask.png",
+   "sha256": "023090ea76721c81d40e9d705bba0f0e04b0b60593f66277c7f20f8d409d2ce9",
+   "bytes": 18671
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell_normals.dds",
+   "sha256": "8962c2e999ced2cd86798804eedeb82a5a1fcb07711ecb64eef4be07cebdbec9",
+   "bytes": 21992
+  },
+  {
+   "ruta": "packages/models/hudguns/shotg/shotgun_shell_normals.png",
+   "sha256": "b5651b2841dd64dcfb66a22199be9ecf3f6c8bd5fbb9341ac70440ece45bedc3",
+   "bytes": 12810
+  },
+  {
+   "ruta": "packages/models/projectiles/grenade/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/projectiles/grenade/masks.jpg",
+   "sha256": "9c6e659eda35ac533358b08d73988408a0ad581b386bd0b5a818a8973fd2a6ec",
+   "bytes": 14025
+  },
+  {
+   "ruta": "packages/models/projectiles/grenade/md3.cfg",
+   "sha256": "50b631d6665db6c7c839322ec4c80b49087ae3440ef0730ae98ffdc1632875f3",
+   "bytes": 75
+  },
+  {
+   "ruta": "packages/models/projectiles/grenade/skin.jpg",
+   "sha256": "de393ee3b05717f0f0c0938d4e571d1fdaad6a778a3406707196494ea4010f45",
+   "bytes": 13965
+  },
+  {
+   "ruta": "packages/models/projectiles/grenade/tris.md3",
+   "sha256": "2813777a992769fe978b4112817ada21a315ac609fa4892e223d642b28b544e9",
+   "bytes": 4068
+  },
+  {
+   "ruta": "packages/models/projectiles/rocket/license.txt",
+   "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
+   "bytes": 1650
+  },
+  {
+   "ruta": "packages/models/projectiles/rocket/masks.jpg",
+   "sha256": "c097dfe24c429fba87f31d051acfd45eaae46f539e232f1518077a532ab15efc",
+   "bytes": 15194
+  },
+  {
+   "ruta": "packages/models/projectiles/rocket/md3.cfg",
+   "sha256": "50b631d6665db6c7c839322ec4c80b49087ae3440ef0730ae98ffdc1632875f3",
+   "bytes": 75
+  },
+  {
+   "ruta": "packages/models/projectiles/rocket/skin.jpg",
+   "sha256": "daa596cc6fd219aaad677bef130d40f622bdc4f751c9af4e63bdf41191bfd5d5",
+   "bytes": 14068
+  },
+  {
+   "ruta": "packages/models/projectiles/rocket/tris.md3",
+   "sha256": "0926385dd1ff2be1459a316d5846824ee687ff6c036cdcef1031064716c2b813",
+   "bytes": 3620
+  },
+  {
+   "ruta": "packages/models/quad/masks.jpg",
+   "sha256": "480a6fe53817efe47c24a3b260473c86f93e015315389396199718e9e7cb5b2a",
+   "bytes": 32143
+  },
+  {
+   "ruta": "packages/models/quad/md3.cfg",
+   "sha256": "4f94283a6c44d73990419ec82339a4364fe097be4c3879dda0f82fbbf544028d",
+   "bytes": 61
+  },
+  {
+   "ruta": "packages/models/quad/readme.txt",
+   "sha256": "d515b0dc6a597f552ca14825a7c10cf3af6386494a3c08b7d28ddb15e8d4348a",
+   "bytes": 105
+  },
+  {
+   "ruta": "packages/models/quad/skin.jpg",
+   "sha256": "74b8d4ced1e4501d662ff75cdad31471eaeda54c06991b74be8a329d8e1b7077",
+   "bytes": 22994
+  },
+  {
+   "ruta": "packages/models/quad/tris.md3",
+   "sha256": "8579294e13bd7759e1c73d439bcbf7272a705b5305597dd935030ef436831e2e",
+   "bytes": 12212
+  },
+  {
+   "ruta": "packages/models/vaca/nakru/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/nakru/md2.cfg",
+   "sha256": "710b2594a2ebb5c75b7321cd572891e6c7f08c783874b85a4a3d6983f0f9efa7",
+   "bytes": 275
+  },
+  {
+   "ruta": "packages/models/vaca/nakru/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/nakru/tris.md2",
+   "sha256": "1266e70059619e9772a5b16738a108d8e406c3b1fa1ba90843670966dd994c03",
+   "bytes": 1724136
+  },
+  {
+   "ruta": "packages/models/vaca/naloma/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/naloma/md2.cfg",
+   "sha256": "c7aa83d449c4ffcdad56e2ec2a110e2f27e48ac16ed996647e30874bc608bf66",
+   "bytes": 275
+  },
+  {
+   "ruta": "packages/models/vaca/naloma/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/naloma/tris.md2",
+   "sha256": "7459c1db9624f0759f573a96876c46f02343a624907989ca62a75ca3ecc01cbb",
+   "bytes": 1307072
+  },
+  {
+   "ruta": "packages/models/vaca/nara/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/nara/md2.cfg",
+   "sha256": "386adcb680a8093151ec957d17d2808f925529102ddf627dea97d2cac196d428",
+   "bytes": 276
+  },
+  {
+   "ruta": "packages/models/vaca/nara/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/nara/tris.md2",
+   "sha256": "b61f4529cda88ab680ce0062364e292bf49a5fdda243c8792ca4fc5f5c091349",
+   "bytes": 1327088
+  },
+  {
+   "ruta": "packages/models/vaca/nica/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/nica/md2.cfg",
+   "sha256": "bbe520229826490fcef76285616b7aeca9ffd8d6810b0cf6cfacd55cddfc6ccc",
+   "bytes": 280
+  },
+  {
+   "ruta": "packages/models/vaca/nica/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/nica/tris.md2",
+   "sha256": "28fa0d528a6cfce88c0ece3279d85d61d5b438ab3f9a82c3d45efc9903aad4ce",
+   "bytes": 1609376
+  },
+  {
+   "ruta": "packages/models/vaca/nurrucapa/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/nurrucapa/md2.cfg",
+   "sha256": "c0f17fee707cd767a3422f3cb01406a31fa723cd1c2c92ba538174aafdf4b964",
+   "bytes": 279
+  },
+  {
+   "ruta": "packages/models/vaca/nurrucapa/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/nurrucapa/tris.md2",
+   "sha256": "88a82b242aa7fbc7ad60b3f4dffe460b17efc288c465c992fe11de54e7c69897",
+   "bytes": 693040
+  },
+  {
+   "ruta": "packages/models/vaca/nuzluz/masks.png",
+   "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
+   "bytes": 168334
+  },
+  {
+   "ruta": "packages/models/vaca/nuzluz/md2.cfg",
+   "sha256": "87be461af1c6e63853687633f177f2747a8891db30d96c1224c648631d9f8d1b",
+   "bytes": 276
+  },
+  {
+   "ruta": "packages/models/vaca/nuzluz/skin.jpg",
+   "sha256": "3249273ad4d02fe3a25b0f25e68d74d77644847a419093aa939e1548066f9fc4",
+   "bytes": 31758
+  },
+  {
+   "ruta": "packages/models/vaca/nuzluz/tris.md2",
+   "sha256": "5a94a39fd346285a9720dba3a68c79de7fa34fbbdd7bdd9aedc2944b633f36d2",
+   "bytes": 1186600
+  },
+  {
+   "ruta": "packages/models/vwep/chaing/md5.cfg",
+   "sha256": "b15edd77d023e0c9b2d99d78bc788618b6977bc6578fe93a0d766292cff7110a",
+   "bytes": 201
+  },
+  {
+   "ruta": "packages/models/vwep/chaing/minigun_vwep.md5mesh",
+   "sha256": "81c6514d96234edc3049cdb47b7665fd6db857991066f4cc38cf050ebe50adc8",
+   "bytes": 166159
+  },
+  {
+   "ruta": "packages/models/vwep/fist/chainsaw_vwep.md5mesh",
+   "sha256": "1d3e1e7754f60a94ebc44e8e20499859b379051419d14e02be1f2c05b53ff192",
+   "bytes": 141193
+  },
+  {
+   "ruta": "packages/models/vwep/fist/md5.cfg",
+   "sha256": "29a8a604b0bad16ed850ea0dc745fd396e1bb1f4383c1e2a0b46858af582d76e",
+   "bytes": 222
+  },
+  {
+   "ruta": "packages/models/vwep/gl/gl_vwep.md5mesh",
+   "sha256": "a17e71c288f33738f5f366e23488c8bc69f6e78f877fd1c149a95b2057dd99f1",
+   "bytes": 154837
+  },
+  {
+   "ruta": "packages/models/vwep/gl/md5.cfg",
+   "sha256": "9ba8b082852136731e2496743a1f57716e38de4080666fa27e1dd16506f59b03",
+   "bytes": 191
+  },
+  {
+   "ruta": "packages/models/vwep/license.txt",
+   "sha256": "3f11b6da936a49220281a6985cf912ec8dec791f3b40ad2db05b7385c37fe970",
+   "bytes": 284
+  },
+  {
+   "ruta": "packages/models/vwep/pistol/md5.cfg",
+   "sha256": "95444c325ccc60a5c182188864199c42235cbfcf8930bba7b9f2a5cbd506d870",
+   "bytes": 222
+  },
+  {
+   "ruta": "packages/models/vwep/pistol/revolver_vwep.md5mesh",
+   "sha256": "595226a48c8f2bc746cda84821694b291b58b0d947c16b9630a1fa3f96c68455",
+   "bytes": 97450
+  },
+  {
+   "ruta": "packages/models/vwep/rifle/md5.cfg",
+   "sha256": "faf0d28237e142a83ef1ec9f6a4dcf940b34aff184beeb095c6e07029d388a52",
+   "bytes": 219
+  },
+  {
+   "ruta": "packages/models/vwep/rifle/sniper_vwep.md5mesh",
+   "sha256": "b4c8ee087b41bb978511074d6f8e69f9c78a98ab28893fb780afc156b3f7f799",
+   "bytes": 149993
+  },
+  {
+   "ruta": "packages/models/vwep/rocket/md5.cfg",
+   "sha256": "9ea56bdcaed57bc584ff38ea068281da4f37d588ef5778e1ae5171c6e6ffa013",
+   "bytes": 173
+  },
+  {
+   "ruta": "packages/models/vwep/rocket/rl_vwep.md5mesh",
+   "sha256": "a16367b01b49ba05fc2be145c422c9724b097e0c864661553e95d684baba93c1",
+   "bytes": 127198
+  },
+  {
+   "ruta": "packages/models/vwep/shotg/md5.cfg",
+   "sha256": "80f35f71b9c9c741b60cc63b3418ef64c0863e6421d52a7404d3857308b404ae",
+   "bytes": 222
+  },
+  {
+   "ruta": "packages/models/vwep/shotg/shotgun_vwep.md5mesh",
+   "sha256": "014dfa892139e1f35981a2067b7f1b01d7224160f2c4c456171e392bf34b7451",
+   "bytes": 141695
+  },
+  {
+   "ruta": "packages/particles/ball1.png",
+   "sha256": "2f24effcbefe5de761dc6c0a1dd8de9ea49d872736bcbfc6d81e1df569c9010b",
+   "bytes": 29366
+  },
+  {
+   "ruta": "packages/particles/ball2.png",
+   "sha256": "0c1e269469ebf42e9408bb1b20d76e5fbdcafe0571bfcb3064724c324f97f31d",
+   "bytes": 17706
+  },
+  {
+   "ruta": "packages/particles/ball3.png",
+   "sha256": "c909d2ff9d177812616358d507b5460033a6aa9ce8f09b0a7bf5bd3245cddd8f",
+   "bytes": 5717
+  },
+  {
+   "ruta": "packages/particles/base.png",
+   "sha256": "74af5ef7401b8a74e25ef0b2f1094d11956ad61c7a3874c3507165bf22b6913f",
+   "bytes": 4116
+  },
+  {
+   "ruta": "packages/particles/blob.png",
+   "sha256": "22380f1702bad5f2b01fdd036d60a10ddc7642c5a8343807841b35858f961b33",
+   "bytes": 2499
+  },
+  {
+   "ruta": "packages/particles/blood.png",
+   "sha256": "901b3da8323a4a4fd1f4e8ffb67b4625f15ea95f9172ee3baf0b5c0c55ac95de",
+   "bytes": 96110
+  },
+  {
+   "ruta": "packages/particles/bullet.png",
+   "sha256": "724c7f37b7af4e881c2f2425d79488d6352f67632bf4a5cf524ea35cd0259661",
+   "bytes": 19417
+  },
+  {
+   "ruta": "packages/particles/explosion.png",
+   "sha256": "5bda07142213599d4468119c29145ab2abc5d1f9eda992db6f3383cd570e01c2",
+   "bytes": 173001
+  },
+  {
+   "ruta": "packages/particles/flames.png",
+   "sha256": "55506c750ee4b33ae63d311ccfbc1d8a82dc9cb8cdb59292b9939d8e8513f6c8",
+   "bytes": 34822
+  },
+  {
+   "ruta": "packages/particles/flare.jpg",
+   "sha256": "73391b3b43b400388275aa8c514512a433f0c95a5e618ab5afa4915bf586cc60",
+   "bytes": 19663
+  },
+  {
+   "ruta": "packages/particles/lensflares.png",
+   "sha256": "131b07bee3233701fdd7883d4798ef1505646da32cd9101e9a61cf464d75ca5d",
+   "bytes": 48275
+  },
+  {
+   "ruta": "packages/particles/license.txt",
+   "sha256": "63264ff9adf422d4c0da55cc70824f6ad9f6761ae191d43488fc4dfb3fd3f88e",
+   "bytes": 283
+  },
+  {
+   "ruta": "packages/particles/lightning.jpg",
+   "sha256": "0b7a716a1b9c9fa75186aa92e220acbbf8c403888caeda81a561195762ecde39",
+   "bytes": 8918
+  },
+  {
+   "ruta": "packages/particles/muzzleflash1.jpg",
+   "sha256": "243b657f8357d7302cc50e699646fef547592139c259946cf8fc569c913a6e69",
+   "bytes": 14490
+  },
+  {
+   "ruta": "packages/particles/muzzleflash2.jpg",
+   "sha256": "df3e9c48ee3da96536d5e0acd4587462e0e0b78f6309f2663b97f7d7301de0bd",
+   "bytes": 27545
+  },
+  {
+   "ruta": "packages/particles/muzzleflash3.jpg",
+   "sha256": "5b61df50b0f42e1b17f2ede93cfdbd0f7adcc75f56eb910a0b432e6f74780495",
+   "bytes": 3155
+  },
+  {
+   "ruta": "packages/particles/plasma.png",
+   "sha256": "5063795415752eda7637f96b312cb1ea81533f2d4b183c570affc41df946dcc2",
+   "bytes": 120255
+  },
+  {
+   "ruta": "packages/particles/scorch.png",
+   "sha256": "9446207dea3939df2d35745ccfbc847f8e2f5beda4efd1274c0cab2d03b845b4",
+   "bytes": 58004
+  },
+  {
+   "ruta": "packages/particles/smoke.png",
+   "sha256": "9c76024fc0664b8c53482d8a0548673e8ff22bd06cf1981246d14e296e026fab",
+   "bytes": 6715
+  },
+  {
+   "ruta": "packages/particles/snow.png",
+   "sha256": "b0972aed7019fcc0ddb9d101c5145592730d8d6a8d04a1a62d52f9af834aabcc",
+   "bytes": 12876
+  },
+  {
+   "ruta": "packages/particles/spark.png",
+   "sha256": "fa671410b8d7cc40939a482bb7e1ee5eb27be0385dead027ddd6da55333fd701",
+   "bytes": 5501
+  },
+  {
+   "ruta": "packages/particles/steam.png",
+   "sha256": "35242a796c8ca6a1451107a8f1b3aa4546cf75165ba9f3edf81e03c46ec9b351",
+   "bytes": 5027
+  },
+  {
+   "ruta": "packages/sounds/aard/bang.wav",
+   "sha256": "31de11f3fbe0a7539e6a0c0652b266daeac467f4e34a4e7b7c6da064e637692b",
+   "bytes": 11862
+  },
+  {
+   "ruta": "packages/sounds/aard/die1.wav",
+   "sha256": "f255a090d76f590fc3fef7f87f1103e2688379b4d5b5d928d11e226c4b386e45",
+   "bytes": 9714
+  },
+  {
+   "ruta": "packages/sounds/aard/die2.wav",
+   "sha256": "4720bdd3cf90d7b8aa71ef302eace3c1f2638e7a05326a89cd036df90e28fb3c",
+   "bytes": 10652
+  },
+  {
+   "ruta": "packages/sounds/aard/grunt1.wav",
+   "sha256": "cd5be9b9b007e0e9591dd519a05ac9fdd1b5a19a1cb410e2ead601cc929f1f6b",
+   "bytes": 11406
+  },
+  {
+   "ruta": "packages/sounds/aard/grunt2.wav",
+   "sha256": "7ef5c1031393a5f8c007b8b4fc4125cd270fed9c3e081c6c81090495beb83c98",
+   "bytes": 3694
+  },
+  {
+   "ruta": "packages/sounds/aard/itempick.wav",
+   "sha256": "534f91b27048b93cf7f550beafefc20dacebcd1a705215b31d9e57ba16821f55",
+   "bytes": 12314
+  },
+  {
+   "ruta": "packages/sounds/aard/jump.wav",
+   "sha256": "7e6e4bc6501532a3de1474b296b9e20d35b82aa76191a69132ccc8b2e774cca0",
+   "bytes": 4132
+  },
+  {
+   "ruta": "packages/sounds/aard/land.wav",
+   "sha256": "9a019e3fb830a7bfada167e4470f66a042a9616f8331d802368950f80adba58f",
+   "bytes": 11362
+  },
+  {
+   "ruta": "packages/sounds/aard/outofammo.wav",
+   "sha256": "0d3935dc5484c4918a5328e4ad74ae4dbc1afd94b6f47994128c139beefd367c",
+   "bytes": 4058
+  },
+  {
+   "ruta": "packages/sounds/aard/pain1.wav",
+   "sha256": "14a86fb95f5eabd835a1dc15682f1d4a227ef8cbddcec217dfe1640e29f83f73",
+   "bytes": 25470
+  },
+  {
+   "ruta": "packages/sounds/aard/pain2.wav",
+   "sha256": "f184d0ed31812ea15cf9715d8a126675bf65d8595aff46a233857d0acd34d61c",
+   "bytes": 9410
+  },
+  {
+   "ruta": "packages/sounds/aard/pain3.wav",
+   "sha256": "91b7362765662ff5fa670b166352fe65a8b0032115f6433d5aef20fdd5f91cab",
+   "bytes": 9350
+  },
+  {
+   "ruta": "packages/sounds/aard/pain4.wav",
+   "sha256": "9d8be266ca8219721ad638dd033f9dc9100b7064a97030cd80469cd5fcdcdbe5",
+   "bytes": 7980
+  },
+  {
+   "ruta": "packages/sounds/aard/pain5.wav",
+   "sha256": "719a01ce2ba9899b58174ac60837e9083a128386dd0b05e216d3115d24268608",
+   "bytes": 7960
+  },
+  {
+   "ruta": "packages/sounds/aard/pain6.wav",
+   "sha256": "603c9063dc8d519a901ed9bc8d11434e240f058a062c55d5909f1679afbf7a9d",
+   "bytes": 7666
+  },
+  {
+   "ruta": "packages/sounds/aard/tak.wav",
+   "sha256": "b5145502eb2afaf978dae39f0d8c88c0ebd25ff57d050e3ea4ca68c269fc53b1",
+   "bytes": 1704
+  },
+  {
+   "ruta": "packages/sounds/aard/weapload.wav",
+   "sha256": "a83514f767167b5adab33af98182fe9fce9bd89ac566a3497526c5d7346bdf40",
+   "bytes": 6646
+  },
+  {
+   "ruta": "packages/sounds/akari/README.txt",
+   "sha256": "e5ad0b9733372fb05eb5b32d9b1d414643c9a115255c7063fd21a8a1541e840e",
+   "bytes": 297
+  },
+  {
+   "ruta": "packages/sounds/akari/stadiumsound.ogg",
+   "sha256": "967d7ac86d8bf9529b04d924dc6182ea9a755c53cdd05fe590410500818e44cb",
+   "bytes": 167369
+  },
+  {
+   "ruta": "packages/sounds/ambience/authors.txt",
+   "sha256": "5bf02e4b4f5c78699e9de1c5bd46e1b57e403cdf7b3fd78c1e34027b632e13eb",
+   "bytes": 884
+  },
+  {
+   "ruta": "packages/sounds/ambience/cavedrip.ogg",
+   "sha256": "1d4acaafdcba8e3c460c1894538e5a432b32c66adbab8a535c123b4812dbca65",
+   "bytes": 48611
+  },
+  {
+   "ruta": "packages/sounds/ambience/creek.ogg",
+   "sha256": "71fab40f0de6f9e75389ee61740569ec1025a6f71497a90e63501a5eee589ef4",
+   "bytes": 43949
+  },
+  {
+   "ruta": "packages/sounds/ambience/cycadas.ogg",
+   "sha256": "dccd2dd0a57bec8ea3850615c508a1fcc03e6232583d554f3efa58870805db11",
+   "bytes": 79956
+  },
+  {
+   "ruta": "packages/sounds/ambience/distant_cars.ogg",
+   "sha256": "314b19ef496b289b393eceb17e7207d5d534187253474125b821a919b6b46b07",
+   "bytes": 274967
+  },
+  {
+   "ruta": "packages/sounds/ambience/doomish/rumble1.ogg",
+   "sha256": "c9262559febf33d514f92cf6693e51b1fd8bdac669b90ef5042057c514d1bcd8",
+   "bytes": 13699
+  },
+  {
+   "ruta": "packages/sounds/ambience/fire_light.ogg",
+   "sha256": "a5ab8da648219d48c5cb9874d862f1b64bc3209b9ca530f1e6512cfce699b7be",
+   "bytes": 54664
+  },
+  {
+   "ruta": "packages/sounds/ambience/forest1.ogg",
+   "sha256": "d1472641825219fdb50611a28def78c801432e67da3f3eabaa4619271281b94c",
+   "bytes": 166314
+  },
+  {
+   "ruta": "packages/sounds/ambience/forest2.ogg",
+   "sha256": "9c9a9164319e12df70d236ae36e80803789ba522fea757f2ef181d60fc065470",
+   "bytes": 177039
+  },
+  {
+   "ruta": "packages/sounds/ambience/forest3.ogg",
+   "sha256": "5f7b22a04ee4ab6b22ae6d1df5916e2962f990a94e5bd23e034c06f3d1eaa488",
+   "bytes": 300787
+  },
+  {
+   "ruta": "packages/sounds/ambience/forestflies.ogg",
+   "sha256": "f66fef4d941d964b2551a571a506c61db44b17863c3ff748001470238f84eba5",
+   "bytes": 78527
+  },
+  {
+   "ruta": "packages/sounds/ambience/frogs.ogg",
+   "sha256": "03fb5b5005295aab166e239a790a17e6084425d1962359c5dff95de7f63368a8",
+   "bytes": 101393
+  },
+  {
+   "ruta": "packages/sounds/ambience/hum.ogg",
+   "sha256": "e85722dfd3b1e55b8b222758ece647aa95e52017158b86da267988daba4d2056",
+   "bytes": 16137
+  },
+  {
+   "ruta": "packages/sounds/ambience/lava2.ogg",
+   "sha256": "54fea1aac6f52ce1a896bd4b822148f6f02ddd29019a22211b21db41a844e81a",
+   "bytes": 57341
+  },
+  {
+   "ruta": "packages/sounds/ambience/lavarumble1.ogg",
+   "sha256": "656b7a033fab490e941ff5947ba8207a1c23ca78910ed7a6fdb055eb7fadbbe7",
+   "bytes": 737093
+  },
+  {
+   "ruta": "packages/sounds/ambience/lavarumble2.ogg",
+   "sha256": "07dd5acdeed7eca0987785b15e7bcdde694a7137eb646278482d89e31e42d5e8",
+   "bytes": 737187
+  },
+  {
+   "ruta": "packages/sounds/ambience/leafs.ogg",
+   "sha256": "6dc2b13b3e99d607e6222be56333f02163d0cb79cbfe27f91399aec9d7d726d4",
+   "bytes": 919463
+  },
+  {
+   "ruta": "packages/sounds/ambience/night_crickets.ogg",
+   "sha256": "cb1c3abbd4d5a54f4bc3210d29e455a41f37d5ad29a30562d7d7d91ef7459ab5",
+   "bytes": 87645
+  },
+  {
+   "ruta": "packages/sounds/ambience/package.cfg",
+   "sha256": "681677647ce78dcb5d00ed53ae9367c93bfe74bcb99c4a7f90edb5c5134fe5da",
+   "bytes": 519
+  },
+  {
+   "ruta": "packages/sounds/ambience/river.ogg",
+   "sha256": "a0a3eddf6dffc2b9b83e03ead8ccd43ad53aad2298d0049410e45172818547ca",
+   "bytes": 264832
+  },
+  {
+   "ruta": "packages/sounds/ambience/treble.ogg",
+   "sha256": "30770152f5955a2f614d1eb64f3f16e3ee81e30313e53c79adeeac6fa9248c9c",
+   "bytes": 420221
+  },
+  {
+   "ruta": "packages/sounds/ambience/water.ogg",
+   "sha256": "466488f49118854ecac9395ccb99e3155a258db0d43d8b4ff86e04f648bf580e",
+   "bytes": 47408
+  },
+  {
+   "ruta": "packages/sounds/ambience/waterfall.ogg",
+   "sha256": "9f6e309cf4c1dc38d917c891f666e4077b2cac9b872bf36a2f82526f275d023f",
+   "bytes": 37604
+  },
+  {
+   "ruta": "packages/sounds/ambience/wind.ogg",
+   "sha256": "ca3868d849ee8c3a4c3ca1897ef5800d7e65913404ffb7938e59b48eef1c6dfd",
+   "bytes": 415401
+  },
+  {
+   "ruta": "packages/sounds/ambience/wind2.ogg",
+   "sha256": "53adbb8899453dda574a2b82936a433d8f517501f0ebfcd30e3b941849069935",
+   "bytes": 547429
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/alarm.ogg",
+   "sha256": "121dc90a71d7162074eacccd610bca693c46bb3fbed2604aafb6fcf1421636db",
+   "bytes": 16516
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/computer_beeps.ogg",
+   "sha256": "e916dee88de6b5b3ce3ae6ec2f64d67de7c4be190c747ffe16a4569096545c3b",
+   "bytes": 367837
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/computer_readout.ogg",
+   "sha256": "e48e7b020999d0ff517c1d6c7db31bfa01a7bfd91b2225b0b50dfc930b0bcc15",
+   "bytes": 53775
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/electricity.ogg",
+   "sha256": "500208958c14f8ad35206dec322b3320e719e509cf48adb26ab29dcf61a3867f",
+   "bytes": 93164
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/fan.ogg",
+   "sha256": "1e358b1f82b121540b487466cf018551f363cabe93c3094870cf8e4df8e4a290",
+   "bytes": 23534
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/forcefield.ogg",
+   "sha256": "e2d70fbfd994175b697622fb0d9c7d64ac07e3fe23f27be748f74f24e8dd375f",
+   "bytes": 21875
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/jet_idle.ogg",
+   "sha256": "f3cfa2d106b71c50baa114c21702f8592ed45c54b04c5791a41bcc9af37a9385",
+   "bytes": 72396
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/liquid.ogg",
+   "sha256": "9ab10bd1d0d29746f27ebeaf7c5aa6efcf243f18c558aedb984dbaf1871490be",
+   "bytes": 79762
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/radio_static.ogg",
+   "sha256": "8bf539275e096bbc5061663e331b09e377fa2ea6d3d7f5f4ab0444f97a94fa40",
+   "bytes": 248136
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/respiration.ogg",
+   "sha256": "e522adffd628899ba24330f6ab195c20de34a16a5db64abfbb03d926b81bfa49",
+   "bytes": 31641
+  },
+  {
+   "ruta": "packages/sounds/ao1/earthstation/scary_ambience.ogg",
+   "sha256": "0e9d30f557616701f3cd3776ed79e87f5b8838580dbac1ed8f5fbf27df600581",
+   "bytes": 264168
+  },
+  {
+   "ruta": "packages/sounds/ao1/metro/metro_jumppad.ogg",
+   "sha256": "9c70f835b5aae78e83acb194fb869e9a1b31cf720c0b8be49bdb4cbb79ee28e9",
+   "bytes": 14113
+  },
+  {
+   "ruta": "packages/sounds/ao1/metro/metro_tele.ogg",
+   "sha256": "96964b8930bb55b91534d266c93f1f6d921ed791663acdc30daba4508051c0a5",
+   "bytes": 11605
+  },
+  {
+   "ruta": "packages/sounds/ao1/metro/music.txt",
+   "sha256": "4cb0816254cfe64e94d7ab40548676c83eca3f32f90245043b66bd442f7544ac",
+   "bytes": 254
+  },
+  {
+   "ruta": "packages/sounds/ao1/metro/see_trimmed.ogg",
+   "sha256": "12581cb136579717a95c373e6a21f2362d72c593bd9a1a068149c41dc3fbb544",
+   "bytes": 1477558
+  },
+  {
+   "ruta": "packages/sounds/ao1/metro/shredder.ogg",
+   "sha256": "0ec00b8b7f957bd7f080902a8b044e5bba31648d1d9d95ffb6527c1589088a6c",
+   "bytes": 130019
+  },
+  {
+   "ruta": "packages/sounds/ao1/risk/geigercounter.ogg",
+   "sha256": "8cab3d943b6baa9b5e9ccc75e112d8d6e2b7a5f89930eadfa61e3d3c25dc45b7",
+   "bytes": 148530
+  },
+  {
+   "ruta": "packages/sounds/ao1/risk/jumppad.ogg",
+   "sha256": "43602d2639dca015fc6d7633e7bc35d2504fcdf5bd706fa7e3e0da0caed8b7e4",
+   "bytes": 7822
+  },
+  {
+   "ruta": "packages/sounds/ao1/risk/teleport.ogg",
+   "sha256": "50451357f6f29c245641e49b0b561d6e3379f9954b533a0f8d04f6edab83a145",
+   "bytes": 19463
+  },
+  {
+   "ruta": "packages/sounds/ardelico/README.txt",
+   "sha256": "4ead3f228977542ff7e24e88895f990fc0fe0310bb69f6ebd229c5f1aa726a23",
+   "bytes": 467
+  },
+  {
+   "ruta": "packages/sounds/ardelico/amazon_birds1.ogg",
+   "sha256": "c4db046947f4a86ca71feab0dc05e27e19a12bf4ad5405652e8ae2c92b64081d",
+   "bytes": 382269
+  },
+  {
+   "ruta": "packages/sounds/ardelico/amazon_wind.ogg",
+   "sha256": "c2b33e26df3e794c9611587856c5aa3c94bf780ce3d41d991390176705d2ee6d",
+   "bytes": 842794
+  },
+  {
+   "ruta": "packages/sounds/awesund/Sound.txt",
+   "sha256": "56795116fc6eaf03835487ca9007b54de790ef8120bf1130acbace320558a255",
+   "bytes": 170
+  },
+  {
+   "ruta": "packages/sounds/awesund/cg1.wav",
+   "sha256": "43f65e1756d09fa6e04cf0875dd9f3722fd458d6fad536a02071552cdb2e4f76",
+   "bytes": 16812
+  },
+  {
+   "ruta": "packages/sounds/awesund/cg2.wav",
+   "sha256": "e4b75b53db924713500d8699a258e51e2218a97b47c49da49c754dcc6f1ab9fa",
+   "bytes": 4138
+  },
+  {
+   "ruta": "packages/sounds/awesund/cg2_full.wav",
+   "sha256": "39b0ada367218eefbe23564429fc987dff2049769c93b8649eb5b230f3170aef",
+   "bytes": 8220
+  },
+  {
+   "ruta": "packages/sounds/awesund/explode.wav",
+   "sha256": "6523b74c545a8d7b7f66515d39016bd6dd693b8a53db4cf65102f0aebd2ed174",
+   "bytes": 55304
+  },
+  {
+   "ruta": "packages/sounds/awesund/explodemini.wav",
+   "sha256": "a1374dd245d47d3f891604f0a51934f2bf4b2d9e127859d3fd644b98a474104f",
+   "bytes": 10780
+  },
+  {
+   "ruta": "packages/sounds/awesund/flaunch.wav",
+   "sha256": "fa5a8bfdc4460bb5d6a0897c649f8cdc0d1309aa97634d5f074b3ffe0aa30458",
+   "bytes": 9116
+  },
+  {
+   "ruta": "packages/sounds/awesund/readmeFX1.txt",
+   "sha256": "1ca7e98f8f5f75d13fccf8965048ff29fd8e38cf0143039c255e3c9d5694271c",
+   "bytes": 2736
+  },
+  {
+   "ruta": "packages/sounds/awesund/rifle.wav",
+   "sha256": "eb4352b48773d40569093bab68e2d7d75947136f48eea34b5c6beb41ff9403bb",
+   "bytes": 36775
+  },
+  {
+   "ruta": "packages/sounds/awesund/rlaunch.wav",
+   "sha256": "10a48de9d7e117deef041aa23b6ba7d3318d86c1802a0ce3646688bce562edfc",
+   "bytes": 34880
+  },
+  {
+   "ruta": "packages/sounds/awesund/shotgun.wav",
+   "sha256": "96771659614143b571194b369238a851c111eafdb33aa404ddc52cff961e949e",
+   "bytes": 24854
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/base_captured.ogg",
+   "sha256": "1ca8720edbefbc5175321e1fa2ab6cb9b4580f6331b762e9ab625b65166379d3",
+   "bytes": 26173
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/base_lost.ogg",
+   "sha256": "ac4b09ecbc65cf6310227236cde75419e6f55abca6f5decc180e1d8cc995d416",
+   "bytes": 26358
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/fight.ogg",
+   "sha256": "c0029d8e77a4df392f59c0ef6b893801be4d8455654229837449481e3ab7b76b",
+   "bytes": 17666
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/health_boost.ogg",
+   "sha256": "494e47498eb6182a3ee698f31944b50b128e31ed6f5c6b098d79836d4ae8702d",
+   "bytes": 22658
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/health_boost_in_10_seconds.ogg",
+   "sha256": "bcefe86cecf6df0d0be1d369898860f13ef010aa1682940491f76571ec62e627",
+   "bytes": 37834
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/lets_fight.ogg",
+   "sha256": "bf55802803d585991b6661362fd3e2784f1b4d7bb63285c916e11671a12a5c76",
+   "bytes": 25903
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/quad_damage.ogg",
+   "sha256": "b0753914b5918886897be71d2b6f2eec0813601033b4a49dca055a1e4c4b1407",
+   "bytes": 27734
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/quad_damage_in_10_seconds.ogg",
+   "sha256": "322d9c597c0c8722599516aad05794b50d7f969c56e9e91634ea7fbc2903bf24",
+   "bytes": 40852
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/rain.ogg",
+   "sha256": "1bd07da8b594da51a4920a80064078c8ca56f13a54874d1acea34c9e349b59e1",
+   "bytes": 726057
+  },
+  {
+   "ruta": "packages/sounds/blindabuser/respawn_point_set.ogg",
+   "sha256": "631d4339738ef883fc575a1d3b27dd9347ca9c10f7b289065ef5756fb0994e51",
+   "bytes": 33113
+  },
+  {
+   "ruta": "packages/sounds/ctf/flagdrop.wav",
+   "sha256": "a4fda1647dcbcf52a205538a710f1a4daa1b7955f2ac514125788162e22f7894",
+   "bytes": 266804
+  },
+  {
+   "ruta": "packages/sounds/ctf/flagfail.wav",
+   "sha256": "b73465be119807595241cac3cc6a53e57a040d1ebb1f2687116fde6e663c3cfd",
+   "bytes": 79672
+  },
+  {
+   "ruta": "packages/sounds/ctf/flagpickup.wav",
+   "sha256": "24c1704f13dda1cd4c78affc98e88cdf5f23723160950e2f89a26f4ae76fd9c9",
+   "bytes": 41174
+  },
+  {
+   "ruta": "packages/sounds/ctf/flagreturn.wav",
+   "sha256": "318e708256237c44c7b1d9c5b7eb820823973bd8b56f11f72f2420ca722c900f",
+   "bytes": 33204
+  },
+  {
+   "ruta": "packages/sounds/ctf/flagscore.wav",
+   "sha256": "c7b765626e5be95d28570ba0ffe63876e2a354ed6acd806dbf15aa8ac5e8dbf7",
+   "bytes": 102254
+  },
+  {
+   "ruta": "packages/sounds/drakker/license.txt",
+   "sha256": "b5bed05e0d8522d21b923bf9f221b0e4c813d85054d038790979e1aeee91fde6",
+   "bytes": 74
+  },
+  {
+   "ruta": "packages/sounds/drakker/machine_needs_oil.ogg",
+   "sha256": "3ded70fe6ce11007a6e5772d1589f008a849d4b0603273f97d6e4c4e82cf57d5",
+   "bytes": 53702
+  },
+  {
+   "ruta": "packages/sounds/fanatic/ambience/ambience.wav",
+   "sha256": "1c446f91b70f4ec7b05212a6e102a184a566a371710868fa8f6a55d2fa51a792",
+   "bytes": 387954
+  },
+  {
+   "ruta": "packages/sounds/fanatic/feeding_room_high.wav",
+   "sha256": "cc3388409d941df4a722de99d7889c4fc29358514b5de19b8b6ed4f99a49e770",
+   "bytes": 137250
+  },
+  {
+   "ruta": "packages/sounds/fanatic/feeding_room_low.wav",
+   "sha256": "82b9ce7c5b22e75dea31389f6f0c6efa26ddb4be260b6c67cbf0e8968b39e7c5",
+   "bytes": 86256
+  },
+  {
+   "ruta": "packages/sounds/fanatic/forest.wav",
+   "sha256": "7e5e88b3aa7176fffae0f4dee168ed02e8d03013fbe3d9ff94146ec1523c4d35",
+   "bytes": 210982
+  },
+  {
+   "ruta": "packages/sounds/fanatic/fountain.wav",
+   "sha256": "69dd8f73fb837beac2a1864ac8c3d8d58e5ec263761d93b4543dad89695fd6e9",
+   "bytes": 110608
+  },
+  {
+   "ruta": "packages/sounds/fanatic/rain_hard.wav",
+   "sha256": "e2570d844e274505836af8ba4756b5ffb8dacd3674cc7fc7d373ebdb0c4c6087",
+   "bytes": 497646
+  },
+  {
+   "ruta": "packages/sounds/fanatic/rain_light.wav",
+   "sha256": "b2c522e3287d87eed0421de253bed72f58aa7a45d509f6abb9d43c2eab74d8e7",
+   "bytes": 277038
+  },
+  {
+   "ruta": "packages/sounds/fanatic/stream_light.wav",
+   "sha256": "7e5e88b3aa7176fffae0f4dee168ed02e8d03013fbe3d9ff94146ec1523c4d35",
+   "bytes": 210982
+  },
+  {
+   "ruta": "packages/sounds/fanatic/waterfall.wav",
+   "sha256": "dfa0737a195f1b99f285344da7af11fa4e89195d6dbf232b7bf4dd53a1e4c95b",
+   "bytes": 73074
+  },
+  {
+   "ruta": "packages/sounds/fanatic/wind.wav",
+   "sha256": "3d3eaf517f6805033ef013548b4829b6551df4018a511ef00ab992ef14c5e60f",
+   "bytes": 372442
+  },
+  {
+   "ruta": "packages/sounds/free/Sound.txt",
+   "sha256": "56795116fc6eaf03835487ca9007b54de790ef8120bf1130acbace320558a255",
+   "bytes": 170
+  },
+  {
+   "ruta": "packages/sounds/free/acid5.wav",
+   "sha256": "4196e1273c0b2a3565272e55ab7de5244c5e8092ad9502e858c9bbd9d858cdc9",
+   "bytes": 13196
+  },
+  {
+   "ruta": "packages/sounds/free/acid6.wav",
+   "sha256": "b7b3164c803d702f629d94921aa83a98c30eb1e4bc66cd5924ca0963d210e40e",
+   "bytes": 13292
+  },
+  {
+   "ruta": "packages/sounds/free/boing_x.wav",
+   "sha256": "fc0ca6bee9e0c10432cefd87c673cc8dc1cf9ef520a275ce7c7b11fee45cb0e6",
+   "bytes": 7740
+  },
+  {
+   "ruta": "packages/sounds/free/chaingun.wav",
+   "sha256": "103fe25686c3ce96381037e6301524c0672940490bc45b4927d4d79f2178625e",
+   "bytes": 10344
+  },
+  {
+   "ruta": "packages/sounds/free/chaingun_once.wav",
+   "sha256": "62aebdb6216ed37c2b1f712c1e432efae2195d7cf1414475b10bb9b26a08a17c",
+   "bytes": 836
+  },
+  {
+   "ruta": "packages/sounds/free/explode.wav",
+   "sha256": "318cbb9a0a2a99c85af90b10e7535b20cf300eb0cad8fb2eb1a7704a6cee0fad",
+   "bytes": 9272
+  },
+  {
+   "ruta": "packages/sounds/free/hit.ogg",
+   "sha256": "21c3082d3a86ff112c5b1f663228239cc4706d11ac13b331ae36af6644c09261",
+   "bytes": 5932
+  },
+  {
+   "ruta": "packages/sounds/free/itemback.wav",
+   "sha256": "4c75993f7c5404a83cb873f3048aff93c81e298f638ae48c50c34ae2d4c9d954",
+   "bytes": 6738
+  },
+  {
+   "ruta": "packages/sounds/free/itempick.wav",
+   "sha256": "7be705f4c1f8aa384c37e74ed2da56b5bdef8b8a38a74639c8028ec7a8e30498",
+   "bytes": 1878
+  },
+  {
+   "ruta": "packages/sounds/free/launch1.wav",
+   "sha256": "d8b8c7a8e1cfa0275c560c1afddf2d6840d2ea69043f9bf96d2d5bd8a19cb4f1",
+   "bytes": 14732
+  },
+  {
+   "ruta": "packages/sounds/free/piggrunt1.wav",
+   "sha256": "fc339bbbb509393baba2e25834d3c4dc8cfa6cd416071f7c0b6f466b7a59e6f5",
+   "bytes": 2844
+  },
+  {
+   "ruta": "packages/sounds/free/piggrunt2.wav",
+   "sha256": "0e6599d4919e5fa5e5c2052ec7b8ca22ff3de9c605a93c7dbee82619fba61789",
+   "bytes": 5936
+  },
+  {
+   "ruta": "packages/sounds/free/pistol.wav",
+   "sha256": "63a958cdd84b0c442b8d06665dce694af4a250ea4dc84cea9df822a82e7338f7",
+   "bytes": 35294
+  },
+  {
+   "ruta": "packages/sounds/free/punch1.wav",
+   "sha256": "e31a319deee9bb7d3694d43fab64d54e28091c6ba5fecb22e6bb91e80f0c2041",
+   "bytes": 2288
+  },
+  {
+   "ruta": "packages/sounds/free/punch2.wav",
+   "sha256": "c56dc052e7111d7ec87045cf8a8c3fbbbccbb29f1578d71dadfcf397b91b233a",
+   "bytes": 5212
+  },
+  {
+   "ruta": "packages/sounds/free/rifle1.wav",
+   "sha256": "cf9a395e68e97c68289dba9be0854164dc20097828c9863f3ffa86279cffbfdf",
+   "bytes": 14378
+  },
+  {
+   "ruta": "packages/sounds/free/rocketl.wav",
+   "sha256": "645fd5ebb563e5671dfd21b8293d18dc6a2e1c364e4c79f46c96ed9c78dff539",
+   "bytes": 8762
+  },
+  {
+   "ruta": "packages/sounds/free/rocketlaunch.wav",
+   "sha256": "dc9594858e7c8ebda2409dcf2e698ee3316be6cd8174fc2d2cee3103e2cf4574",
+   "bytes": 6912
+  },
+  {
+   "ruta": "packages/sounds/free/rumble.wav",
+   "sha256": "3a19bb2b87e94d639a980936df0ca0e191e37d487313b28070e28224d8653ef7",
+   "bytes": 6522
+  },
+  {
+   "ruta": "packages/sounds/free/shotgun.wav",
+   "sha256": "ece4f5c6a6c0147956955b3e5cbb005462587ce9a351ff248644351c2ca4a743",
+   "bytes": 23646
+  },
+  {
+   "ruta": "packages/sounds/free/splash1.wav",
+   "sha256": "ef5b6ed950f25c5f09e15d842d54d9c660793152f5d0af6ab2f1bc8c00915eed",
+   "bytes": 7518
+  },
+  {
+   "ruta": "packages/sounds/free/splash2.wav",
+   "sha256": "83004c3a6645199ef830cd62d380930e5f9676d213d6c535a1a35f47e04fc4f6",
+   "bytes": 19580
+  },
+  {
+   "ruta": "packages/sounds/free/teleport.wav",
+   "sha256": "f2b7512cdd11bf5a906551e16026ed4defff967f9e9f26293640e218eb90600a",
+   "bytes": 5310
+  },
+  {
+   "ruta": "packages/sounds/free/tick.wav",
+   "sha256": "2d872e809cefd0772520b658a7acea6f4935ddf8553faba01f0c0ecd88e8b2cb",
+   "bytes": 592
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/computer1.wav",
+   "sha256": "4e967f910308fdc08479131db1fc1ec0e266c950f6bfca4c20b88d4ba2e4ffad",
+   "bytes": 155796
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum1.wav",
+   "sha256": "1f0d706bf212754a72b17709d3bb99a207c737f35db43ac73ba9e9b4be53b13f",
+   "bytes": 204123
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum2.wav",
+   "sha256": "4fae49d4a14cfaf6b261b27bac80f5af4213345a8dcabf49bdd615e33cbfe1ee",
+   "bytes": 204123
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum3.wav",
+   "sha256": "0d5d7673993c4e0e40f185f3d529c6c35d614fb3e09157e8bbbd67bbd10afeef",
+   "bytes": 110294
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum4.wav",
+   "sha256": "199167670c26d733a86da0f4fac41518efdc8e5022097bbe025ebdc5521c1962",
+   "bytes": 145776
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum5.wav",
+   "sha256": "9af60975df4dda5a4a453eb18c11555968928367ac88f0de3da691040c25d705",
+   "bytes": 115861
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum6.wav",
+   "sha256": "a35744a5bd0325e8e617280dda02f06ffc09a8226d578c806c705148f31d4185",
+   "bytes": 130043
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/hum7.wav",
+   "sha256": "9ab99bdc2e92119cf0b2c4753fa99870ce47b13b743444578a6e004a8429f671",
+   "bytes": 110294
+  },
+  {
+   "ruta": "packages/sounds/kaiser/fx/warning1.wav",
+   "sha256": "b6efe9a52cf733f37a5ce526f1bc2144986e63898bc59f272c1be6ca8468e807",
+   "bytes": 30924
+  },
+  {
+   "ruta": "packages/sounds/lordkv/waves.ogg",
+   "sha256": "a74cf244be057c7cd46b1aaf24ed1cc2db5d5464e5ee41057b3bbcc3ba859172",
+   "bytes": 1214465
+  },
+  {
+   "ruta": "packages/sounds/lordkv/wind.ogg",
+   "sha256": "7fc6dea2a8ad36ea607cf5f784d85a7f5e78d2c45c3faed1d23a581d225b9250",
+   "bytes": 515821
+  },
+  {
+   "ruta": "packages/sounds/mysterious/electricity.ogg",
+   "sha256": "036572a27e0b26e7fc82c060ca3277bf6b1600c0143bf06ec5e380f7cfbe7ecd",
+   "bytes": 94098
+  },
+  {
+   "ruta": "packages/sounds/mysterious/leaking.ogg",
+   "sha256": "c6b72b6765a050797438452e49b4a9a01fc3f3d5c1a401411921a1b3645b6ecf",
+   "bytes": 41217
+  },
+  {
+   "ruta": "packages/sounds/mysterious/liquid.ogg",
+   "sha256": "87cac1128dc82f80e2aed8fb73ddd9ee28666d2563d5c446273f0e0fc8bda812",
+   "bytes": 131779
+  },
+  {
+   "ruta": "packages/sounds/nieb/jumppad.ogg",
+   "sha256": "b7aa8a5054197e4696c25db2fd19b1b974c98fadba30d14efe447e12ff8f39a9",
+   "bytes": 58088
+  },
+  {
+   "ruta": "packages/sounds/ppm/deathb.wav",
+   "sha256": "7a06386500a08f4e6b25804b2d6959f0807be9f52c16c01a57ebb69dc2b6c833",
+   "bytes": 20390
+  },
+  {
+   "ruta": "packages/sounds/ppm/deathd.wav",
+   "sha256": "54ef2476643d0d8236fbcf3775aaf7aa69f966ad1699f31e2ffd1f09a4cdfc6b",
+   "bytes": 6830
+  },
+  {
+   "ruta": "packages/sounds/ppm/deathe.wav",
+   "sha256": "2bf37fe013f04db67ed7e7a3de66d377f6acce4beee2b6a58504cf0835fa9124",
+   "bytes": 10199
+  },
+  {
+   "ruta": "packages/sounds/ppm/deathh.wav",
+   "sha256": "bc9e63ce4e725d862bef99ce46d65500473f667477f72bb4b9b90b73fe5b59c5",
+   "bytes": 11324
+  },
+  {
+   "ruta": "packages/sounds/ppm/deathr.wav",
+   "sha256": "0724ddd9274f6aa94185281c675c9ed9d6c9ca20d2fe6ce7df35872ea8b45fea",
+   "bytes": 20262
+  },
+  {
+   "ruta": "packages/sounds/ppm/deaths.wav",
+   "sha256": "9980821fa9bfcafea465674ff970a2ed1881209d4ebf129184caf70ed2347e08",
+   "bytes": 20044
+  },
+  {
+   "ruta": "packages/sounds/ppm/iceball.wav",
+   "sha256": "6c42aed6bbdf85a8d7d8889eea3acea54600a0ca266825964292c5c580a6b008",
+   "bytes": 8994
+  },
+  {
+   "ruta": "packages/sounds/ppm/painb.wav",
+   "sha256": "eb07cffa6ef620ae1a376b8198d714fd07f082198610f6308e7eab467ae96ded",
+   "bytes": 10044
+  },
+  {
+   "ruta": "packages/sounds/ppm/paind.wav",
+   "sha256": "f541ad89632a5ceca7f413d69242c558870406a9e256cc820c4d3c009c5c66f3",
+   "bytes": 6230
+  },
+  {
+   "ruta": "packages/sounds/ppm/paine.wav",
+   "sha256": "108203a26bb6d410f8d010653e809296664aa74f1d3bb9356cc93dbe22c311a3",
+   "bytes": 5422
+  },
+  {
+   "ruta": "packages/sounds/ppm/painh.wav",
+   "sha256": "70daba3338cb43904cf4230c2bf995dcba66ea9cb26e1c60c2dd8510f809af10",
+   "bytes": 11746
+  },
+  {
+   "ruta": "packages/sounds/ppm/paino.wav",
+   "sha256": "d6de8ddea72f9b3c37cac086fdf25e31f80a6fd3ee89d8af808155e46dba6e7a",
+   "bytes": 7316
+  },
+  {
+   "ruta": "packages/sounds/ppm/painp.wav",
+   "sha256": "12d522e7bcda7db1464daf87b96a87168edd3dc23eb0b24d5a7fa975696e344e",
+   "bytes": 11866
+  },
+  {
+   "ruta": "packages/sounds/ppm/painr.wav",
+   "sha256": "0958f21d776c3ab170fab0a9f9662b83b7a28abaf13e919bf83fb328005fbf59",
+   "bytes": 11548
+  },
+  {
+   "ruta": "packages/sounds/ppm/pains.wav",
+   "sha256": "8469c2bd8d4a0217b5aa35cd1c1f86dabd510e6e38b829c9d012949a1e52b4df",
+   "bytes": 12332
+  },
+  {
+   "ruta": "packages/sounds/ppm/slimeball.wav",
+   "sha256": "3af6c7f26b891f2d9e553c5450667bdb7b02fe11caa7fe1063be7dd396f41510",
+   "bytes": 6700
+  },
+  {
+   "ruta": "packages/sounds/q009/explosion.ogg",
+   "sha256": "4942bf1fa9cf5eaa320d310832e0af3f26e40cdc540fe4534dfcf57b8e6dd396",
+   "bytes": 26458
+  },
+  {
+   "ruta": "packages/sounds/q009/glauncher.ogg",
+   "sha256": "9cfa1895a63a550abd9bca5480e97b65edf58cdc5761e86eba08c916b28179a6",
+   "bytes": 33687
+  },
+  {
+   "ruta": "packages/sounds/q009/glauncher2.ogg",
+   "sha256": "e902669d80cb2c069a2091a9d3761ba22f61c2cd72d9e2e0077e92f16d81a713",
+   "bytes": 35442
+  },
+  {
+   "ruta": "packages/sounds/q009/glauncher3.ogg",
+   "sha256": "ca18b99eae1c898435cbd5726a9bd607b7dd1593aec767691db24ebe229c9d1b",
+   "bytes": 33228
+  },
+  {
+   "ruta": "packages/sounds/q009/grenade.ogg",
+   "sha256": "0ca117e812a74ebabdad3abe0bd78ce7c3cb82c55728495653290c4e5ae7bd23",
+   "bytes": 18868
+  },
+  {
+   "ruta": "packages/sounds/q009/grenade2.ogg",
+   "sha256": "b495d25aef281a875bc6fac7baa35fccc884946433b7e9453b144486ca85efcf",
+   "bytes": 18440
+  },
+  {
+   "ruta": "packages/sounds/q009/grenade3.ogg",
+   "sha256": "463eaa4e52c6a123c4d5640af751e282b4d8bee10776c7bee6b01d444606ede6",
+   "bytes": 15448
+  },
+  {
+   "ruta": "packages/sounds/q009/jumppad.ogg",
+   "sha256": "658b7c1adf3b3719c761a4fda4760b1c97b6b75f90673ee15a0dc33be047398a",
+   "bytes": 18891
+  },
+  {
+   "ruta": "packages/sounds/q009/license.txt",
+   "sha256": "4863004eb6a6d471b5b88b8299d9456aef0b47275bba8c3f2f1034b7ea8623a4",
+   "bytes": 19440
+  },
+  {
+   "ruta": "packages/sounds/q009/minigun.ogg",
+   "sha256": "3f1610732a1b9ef57c7e1a0b6d7b2cf049d342787b64a44bae16174a50b513db",
+   "bytes": 27887
+  },
+  {
+   "ruta": "packages/sounds/q009/minigun2.ogg",
+   "sha256": "ae38b3048ceeb2e75179eeb084a74535c1e99c2db7e0fb0be5f153ee310ddc5e",
+   "bytes": 23328
+  },
+  {
+   "ruta": "packages/sounds/q009/minigun3.ogg",
+   "sha256": "e4ab92d1641d86a281843314389dd225029dc70124b436f33f33aa99efd61aed",
+   "bytes": 26256
+  },
+  {
+   "ruta": "packages/sounds/q009/outofammo.ogg",
+   "sha256": "0092848933d9d3a60fc573965caa760ddd9c74b314f67e1a98341093e30e7e08",
+   "bytes": 17875
+  },
+  {
+   "ruta": "packages/sounds/q009/pistol.ogg",
+   "sha256": "f2125304b119d04352cd6a9471b048f96c3ef3c67e8b42062284d61c50ac287c",
+   "bytes": 28394
+  },
+  {
+   "ruta": "packages/sounds/q009/pistol2.ogg",
+   "sha256": "0c8f837319958a1087bd8f86c69b0888653e1208eb806e8a0b2a20c04e761f34",
+   "bytes": 28382
+  },
+  {
+   "ruta": "packages/sounds/q009/pistol3.ogg",
+   "sha256": "a36a76b6e3a89e612c628dd1c5bb3e10c7a7c838987156802626c5241cfa9cef",
+   "bytes": 26900
+  },
+  {
+   "ruta": "packages/sounds/q009/quaddamage_out.ogg",
+   "sha256": "451eab33364cbceda6a525ef26de52ce361d9c4a5b3b846ce633c48d63617a99",
+   "bytes": 32622
+  },
+  {
+   "ruta": "packages/sounds/q009/quaddamage_shoot.ogg",
+   "sha256": "228182b356244a0fd9796a25ad6de41a5cca129642a7f35b8f79b7d1f0c74dd0",
+   "bytes": 27708
+  },
+  {
+   "ruta": "packages/sounds/q009/readme.txt",
+   "sha256": "e6bf30214c5093052a563c9b4576c74332dd8de9c0af06579ae59b96cb926367",
+   "bytes": 1316
+  },
+  {
+   "ruta": "packages/sounds/q009/ren.ogg",
+   "sha256": "afba7e637c1558fbff1105f6f62b37459b61d93221afd4e814f4de5f769b15b9",
+   "bytes": 57450
+  },
+  {
+   "ruta": "packages/sounds/q009/ren2.ogg",
+   "sha256": "bfe98c4f39a0cb53aba6d43de2201751ce88002a91f5ad3a3a825796ccc0bd81",
+   "bytes": 61105
+  },
+  {
+   "ruta": "packages/sounds/q009/ren3.ogg",
+   "sha256": "3727883997ef68fe821116eac92a1e906cf9edac9fdec70bdb01504e5d0e4689",
+   "bytes": 62113
+  },
+  {
+   "ruta": "packages/sounds/q009/rifle.ogg",
+   "sha256": "f26f2813568898d7e3bcc0c2f3dc61428126dc9cd9de2a593493a3973dd4c036",
+   "bytes": 129037
+  },
+  {
+   "ruta": "packages/sounds/q009/rifle2.ogg",
+   "sha256": "965150c460b66e69fa2c7b793eb8475f6732fa1d3f4c6192b159f02f4e75f8dd",
+   "bytes": 124220
+  },
+  {
+   "ruta": "packages/sounds/q009/rifle3.ogg",
+   "sha256": "cf9f22db63b2fed70b03eca14173cb14192b7c3b49555668c31d119add453fde",
+   "bytes": 122683
+  },
+  {
+   "ruta": "packages/sounds/q009/rlauncher.ogg",
+   "sha256": "0fb8f5d3d1cb60404c7555ae41d8b62274e10f135aa0ba76eee3769cf60364ac",
+   "bytes": 57937
+  },
+  {
+   "ruta": "packages/sounds/q009/rlauncher2.ogg",
+   "sha256": "75fbcc099ea35a72333f16860482b61ee323cc6b5352c7ede9aaf31e61da0c94",
+   "bytes": 58699
+  },
+  {
+   "ruta": "packages/sounds/q009/rlauncher3.ogg",
+   "sha256": "d6ffa932b691c65c6c985cda35845762c72b000cc9235a32313ed72adc72236d",
+   "bytes": 57645
+  },
+  {
+   "ruta": "packages/sounds/q009/shotgun.ogg",
+   "sha256": "04f0f8ff75c940994c3f6c0f70b41069f24e53cb7ddcebd4f18c5b79de10ffe3",
+   "bytes": 125080
+  },
+  {
+   "ruta": "packages/sounds/q009/shotgun2.ogg",
+   "sha256": "a369c37078c1ad9075cfd7b4d60060c7597970892cce02be8597ccb99630d164",
+   "bytes": 126102
+  },
+  {
+   "ruta": "packages/sounds/q009/shotgun3.ogg",
+   "sha256": "c1b460c13a47721c9e3d4e6e3ae91ae7b73dee0df3b5465652243d159d6b11bc",
+   "bytes": 124398
+  },
+  {
+   "ruta": "packages/sounds/q009/teleport.ogg",
+   "sha256": "051b78f7d2de8d3bf2ec6e3f271921c151e80466be8cf6d13419513a8b44b1ad",
+   "bytes": 17122
+  },
+  {
+   "ruta": "packages/sounds/q009/weapswitch.ogg",
+   "sha256": "daef10a4badf147aa92627f2c669654be8e425bbe226b429fbf9686a79484999",
+   "bytes": 20443
+  },
+  {
+   "ruta": "packages/sounds/razgriz/ambient_night_01.ogg",
+   "sha256": "fadef2e8a7c443f8da0920f16b64a555ba6402d5dead0ce9af633a04e26fbe8b",
+   "bytes": 486856
+  },
+  {
+   "ruta": "packages/sounds/razgriz/energy_hum_01.ogg",
+   "sha256": "c66f4b6eab412f60ffa493a5f75bd1d6250c9d87415ca5f2da2da2f7fd8d894c",
+   "bytes": 16278
+  },
+  {
+   "ruta": "packages/sounds/razgriz/fire_crackle_01.ogg",
+   "sha256": "7efe503de7803d3b0deeddc779a47364d6456965262f0f5d5e934222bf909800",
+   "bytes": 263746
+  },
+  {
+   "ruta": "packages/sounds/razgriz/fire_crackle_02.ogg",
+   "sha256": "ad890286b6107fdda7141db7d61fbd9906e71885acb406091b98dfb12a181a85",
+   "bytes": 386919
+  },
+  {
+   "ruta": "packages/sounds/razgriz/high_wind_01.ogg",
+   "sha256": "646f24913081b7efcc5c79694a9bd4faf5313afa578e3bfc6d959eaadc9437a1",
+   "bytes": 260784
+  },
+  {
+   "ruta": "packages/sounds/razgriz/high_wind_02.ogg",
+   "sha256": "6ade2d1d1b6cf52177189c2b78ef23307cb8a1e03963aa3e2005403f329f1ad0",
+   "bytes": 74341
+  },
+  {
+   "ruta": "packages/sounds/razgriz/jumppad_01.ogg",
+   "sha256": "b99c7effa7e8b5d0eb9535d4441c66170d37ec1a539cf7cccf230c175c67daec",
+   "bytes": 44725
+  },
+  {
+   "ruta": "packages/sounds/razgriz/license.txt",
+   "sha256": "6e7f9a4f71bca0fbeff52cbb4aa888f0829b42ce615667730db643ece3f4221c",
+   "bytes": 1636
+  },
+  {
+   "ruta": "packages/sounds/razgriz/lone_cicada_01.ogg",
+   "sha256": "a3479009d355a45528b8e0f25eadf2dcf119cc6f339d8867f3a34c31b13c5f59",
+   "bytes": 91735
+  },
+  {
+   "ruta": "packages/sounds/razgriz/lone_cicada_02.ogg",
+   "sha256": "ff134dd71635703049a790f64ee817970f3540ad6ee33ff396473519b46213ff",
+   "bytes": 206442
+  },
+  {
+   "ruta": "packages/sounds/razgriz/lone_cricket_01.ogg",
+   "sha256": "788c5b945ad19da4864167b8cc178967c3394060b6cb1e914ed93a679a2c9833",
+   "bytes": 152038
+  },
+  {
+   "ruta": "packages/sounds/razgriz/lone_cricket_02.ogg",
+   "sha256": "c4592e2d529d0c0a15dbd6ecf36bd0f9db5a8dd5158550ff96ca8432cdaee4fc",
+   "bytes": 198530
+  },
+  {
+   "ruta": "packages/sounds/razgriz/lone_cricket_03.ogg",
+   "sha256": "c4b2032c30bb1ecae825c9326ec4577e6374a5a820b18cc7cf18172a43c50d37",
+   "bytes": 204616
+  },
+  {
+   "ruta": "packages/sounds/razgriz/teleport_01.ogg",
+   "sha256": "4efac7f92923cbf5c90efa616b71cbe13c3f77abd59967ed117e0b45d25f61c4",
+   "bytes": 18405
+  },
+  {
+   "ruta": "packages/sounds/razgriz/tight_wind_01.ogg",
+   "sha256": "1ad879119c16cfb7f7e8b22a6abc68070e888203a8f929ecd8b3b7344e2318ea",
+   "bytes": 151245
+  },
+  {
+   "ruta": "packages/sounds/razgriz/water_flow_01.ogg",
+   "sha256": "a45eab712433812ddef8d07d715c0bdc4786088aa558fc54462411626d89daa4",
+   "bytes": 187265
+  },
+  {
+   "ruta": "packages/sounds/readme.txt",
+   "sha256": "6788bdc00c960c0d9f08b617241872affcbb98f05b8b50116cd36fe6e7ffa260",
+   "bytes": 543
+  },
+  {
+   "ruta": "packages/sounds/soundsnap/burn.ogg",
+   "sha256": "2c0577b70cb159f11d336e3f0d5648a0010ee22eb57dac547582194372595f35",
+   "bytes": 36302
+  },
+  {
+   "ruta": "packages/sounds/soundsnap/chainsaw_attack.ogg",
+   "sha256": "91b4fe8660b0f16094b4cc1c22fc113817efb80fd5d969b7fb674adb3031eade",
+   "bytes": 11957
+  },
+  {
+   "ruta": "packages/sounds/soundsnap/chainsaw_idle.ogg",
+   "sha256": "e25c3ec5a405d524d68ad8b4b5c6c5d21debec0c75326335a304188107f72326",
+   "bytes": 48429
+  },
+  {
+   "ruta": "packages/sounds/soundsnap/fan.ogg",
+   "sha256": "fa8424f23db9ec09a8a7428024753d229b19067112e832e2a65f755097a46168",
+   "bytes": 33666
+  },
+  {
+   "ruta": "packages/sounds/soundsnap/readme.txt",
+   "sha256": "780a18cf2496a90cde4f035f30e6e7da4bc7edf6040cac4a7e77f96478cccf04",
+   "bytes": 505
+  },
+  {
+   "ruta": "packages/sounds/soundtransit/distant_storm.ogg",
+   "sha256": "007f18b10383fbbf7fe7d7aa9e0d09e2c4437a41d737b3b2434ef68a098fd47a",
+   "bytes": 240244
+  },
+  {
+   "ruta": "packages/sounds/soundtransit/outdoors.ogg",
+   "sha256": "bc7306d077b68d530abceb3ef42567ba169cd1cda08535e5de598669c6491a5f",
+   "bytes": 445316
+  },
+  {
+   "ruta": "packages/sounds/soundtransit/seashore.ogg",
+   "sha256": "44ec48b0259f13b8a67ecaa0c9cfb4242f2a31c23fd8bfbe42f72fbbd3f992ff",
+   "bytes": 491764
+  },
+  {
+   "ruta": "packages/sounds/soundtransit/waterfall.ogg",
+   "sha256": "e226a0c3c7671c17e198feaeaba4c0241fcd36eb2057d72913a305bd8311eb59",
+   "bytes": 448898
+  },
+  {
+   "ruta": "packages/sounds/sprite/license.txt",
+   "sha256": "8a3a90f0ecc4372f5c02aee39369626a3eb02ea3974aefb3d0dd6593cd627aef",
+   "bytes": 208
+  },
+  {
+   "ruta": "packages/sounds/sprite/teleport.ogg",
+   "sha256": "d8d7b57dbac779cdb0f8b036f4d4ffd264b027dc2827c17a411cdc809e3c39a4",
+   "bytes": 67066
+  },
+  {
+   "ruta": "packages/sprite/verlauf.jpg",
+   "sha256": "53092ea11682dc09b42218d4e41fa39c63e0dca9667f27fcac60991270550a48",
+   "bytes": 4165
+  },
+  {
+   "ruta": "packages/sprite/verlauf2.jpg",
+   "sha256": "6092f254b59d301bb809d90c1825917031622cb06c16a1ef990c42ef163d4853",
+   "bytes": 2882
+  },
+  {
+   "ruta": "packages/sprite/verlauf2_g.jpg",
+   "sha256": "95a9642024e075ae5b1436ded8f6b3a3dfb2f01b19e47047dead47ff9657b0f8",
+   "bytes": 4549
+  },
+  {
+   "ruta": "packages/sprite/verlauf_g.jpg",
+   "sha256": "0a36d84695be05e6bee5b50a1c74dc06c2bc65af79e1d74f8dbbea3c109a45ce",
+   "bytes": 4265
+  },
+  {
+   "ruta": "packages/textures/default.png",
+   "sha256": "435ad45917784ab682aceaf8a34cb0b4ec32786933afe673c264d643c973d705",
+   "bytes": 2170
+  },
+  {
+   "ruta": "packages/textures/grass.png",
+   "sha256": "6674ac893692b1312e8c147e02fa2a5732a7b6e454d0fbad5f4b3e08f6741b73",
+   "bytes": 44101
+  },
+  {
+   "ruta": "packages/textures/grass_aard.png",
+   "sha256": "28cefb4316201dd295372f699c8dda2e5cdb164e2519d035ebcf81056afa3b64",
+   "bytes": 40687
+  },
+  {
+   "ruta": "packages/textures/grass_abbey.png",
+   "sha256": "5ae45641d696a4402747cb1c41c25c47dd09751e4bfb007a4907d305373a9ff3",
+   "bytes": 49464
+  },
+  {
+   "ruta": "packages/textures/grass_dead.png",
+   "sha256": "b345cc8812ea5878e8c56a14da97aae7b231cd328a4a4c16c344414426e7c81b",
+   "bytes": 35079
+  },
+  {
+   "ruta": "packages/textures/grass_dg.png",
+   "sha256": "353b9369d88927f64f826d7e0ada886725fedef50bf4264ed086b718251e7025",
+   "bytes": 41910
+  },
+  {
+   "ruta": "packages/textures/grass_ik.png",
+   "sha256": "9d033525a22af64f11bb3661ea2c2a36bbc5dfb6faed2554fa345fdafd9a15e8",
+   "bytes": 34735
+  },
+  {
+   "ruta": "packages/textures/grass_kurt.png",
+   "sha256": "6674ac893692b1312e8c147e02fa2a5732a7b6e454d0fbad5f4b3e08f6741b73",
+   "bytes": 44101
+  },
+  {
+   "ruta": "packages/textures/grass_kurt2.png",
+   "sha256": "2d917df6211e1979f21d4e891336bf87b8d0abf5e429dc0477095ce00482cee8",
+   "bytes": 121304
+  },
+  {
+   "ruta": "packages/textures/notexture.png",
+   "sha256": "8e83bdfefd4d2ac895a4ab6079e2738a85befc64698630d018db0ae28b498fb3",
+   "bytes": 1985
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/ceiling02_c.jpg",
+   "sha256": "ba6c18b8dd2af2f129aa9fb56e1f616e7f68776eb9077f4dcce0cf32ef99a950",
+   "bytes": 55474
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/floor06a_c.jpg",
+   "sha256": "ead6b551d4f6f4d2c5bdf146842ae0076d19411a60ec032b05e1152f2ae5883e",
+   "bytes": 27067
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/wall02a_c.jpg",
+   "sha256": "4ed130b1f76d49989dfc459bd7680df477ee211fa12a319c9f23e2b140992e6d",
+   "bytes": 111391
+  },
+  {
+   "ruta": "packages/textures/sky.png",
+   "sha256": "3e6a0c99fef090c3a47e73d1b8e7cd05e080f496e84cbb46f139c0e87e66b7c4",
+   "bytes": 710
+  },
+  {
+   "ruta": "packages/textures/steep_fur_d.png",
+   "sha256": "25d82c181029bfa7223be4909e49512013efc59d2a3965c767593237b2e4009b",
+   "bytes": 1969
+  },
+  {
+   "ruta": "packages/textures/steep_fur_n.png",
+   "sha256": "a173f0972a2c50b1412318632723f776edf8d0be78c2f27c0a8d091aa8bb5857",
+   "bytes": 334
+  },
+  {
+   "ruta": "packages/textures/steep_fur_z.png",
+   "sha256": "2f03d088a021f7a9a27c4568df2222b617078bd92321bed8b9847c56b573c3fc",
+   "bytes": 1964
+  },
+  {
+   "ruta": "packages/textures/waterdudv.jpg",
+   "sha256": "78df3f47661ae9d11e93886273aa104e71189f92978b8a3feed890ac02777f10",
+   "bytes": 105044
+  },
+  {
+   "ruta": "packages/textures/waterfall.jpg",
+   "sha256": "8a6aec7a5a79fa0ca0fc0658f466f0ce10cbeaa251d331de9ce70dee52962e80",
+   "bytes": 37194
+  },
+  {
+   "ruta": "packages/textures/waterfalldudv.jpg",
+   "sha256": "bdb26b86ddda2bbb7d372a1b09325eafd5db5a7c4ea4b02766e73a8fef8aa499",
+   "bytes": 196869
+  },
+  {
+   "ruta": "packages/textures/waterfalln.jpg",
+   "sha256": "11aa1e10e84a246324f10832bc716c34cc0bbebe6657c39a50c29627e2f6515f",
+   "bytes": 177562
+  },
+  {
+   "ruta": "packages/textures/watern.jpg",
+   "sha256": "24f29fbd74d0efe66097839a1e9c18da69d30bdd22815f98b786417d1217aa8c",
+   "bytes": 74932
+  }
+ ],
+ "borrar": []
+}

@@ -1,0 +1,8 @@
+JUEGO DE TERROR - v0.6 (con actualizador)
+(c) 2026 Facundo - El Gallo McFlay. Todos los derechos reservados.
+Motor: MEV 3D (base Cube 2 / Sauerbraten, licencia zlib).
+
+Abrir JUGAR-TERROR.bat. Antes de abrir el juego busca actualizaciones y baja solo
+lo que cambio. Si no hay internet, abre igual con lo que tenes.
+M o ESC = menu de pruebas. F = linterna. E = arrancarte el Nurrucapa.
+Si falla, mandame log-terror.txt.
