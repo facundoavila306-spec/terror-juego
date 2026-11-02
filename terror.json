@@ -1,6 +1,6 @@
 {
- "version": "1.3",
- "notas": "Menu: se tacha al senalar",
+ "version": "1.4",
+ "notas": "Menu sin rotulo main",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "84d624a191890b107f0f7d3b4f72c4af7781aeeb1e44c05ce7217943d2d80cbc",
-   "bytes": 4859
+   "sha256": "58a231135f062f9204e50a0cdea32e36803147ae730820f9e2aef37bfdce087f",
+   "bytes": 4861
   },
   {
    "ruta": "data/terror_mapa.cfg",
