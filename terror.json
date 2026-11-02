@@ -1,11 +1,11 @@
 {
- "version": "5.5",
- "notas": "Puertas visibles: marco amarillo y luz calida",
+ "version": "5.6",
+ "notas": "Mapa Central Electrica (basado en powerplant, texturas CC0)",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "a68a52cd6592b99f05136e34a5c0cea19728fa678488025f39ad5db39335d6b4",
-   "bytes": 2324
+   "sha256": "afbbd71be78a92f4a28a9377a608da2222c4339d04df880412655b4adc98b966",
+   "bytes": 2886
   },
   {
    "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
@@ -279,13 +279,18 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "1f1d41a42b08ebcffc77d84e1f219af1cece75af5bfacc127b6e8c02313c56fa",
-   "bytes": 7341
+   "sha256": "ab718d888cca6885b148da3b472ab2e12f3995fe8aaa9943005f0a941e31fc58",
+   "bytes": 7594
   },
   {
    "ruta": "data/terror_mapa.cfg",
    "sha256": "44b4c5827b38ff75e3b8117cd37ef9b4dc74dbc33a2b9470c9b4445da82977e1",
    "bytes": 4149
+  },
+  {
+   "ruta": "data/tramos/central.cfg",
+   "sha256": "d13fa4b1f17686dae1c95e3b4a71e14ce82daf116c998f5d0ff5f2f46cdda78c",
+   "bytes": 2638
   },
   {
    "ruta": "data/tramos/comisaria.cfg",
@@ -301,6 +306,16 @@
    "ruta": "data/tramos/hospital.cfg",
    "sha256": "1ccd2e8449be075505e1bf702cb7edc2ed7bc97235d3add02f1b51f8c4d37259",
    "bytes": 18813
+  },
+  {
+   "ruta": "packages/base/central_electrica.cfg",
+   "sha256": "cfdcde555cd86c92f7ec92c923c5f606cdf2328133865968a3815daa7d019f10",
+   "bytes": 26975
+  },
+  {
+   "ruta": "packages/base/central_electrica.ogz",
+   "sha256": "f2a6441235465fdc74586d4a5454004c5eb9f861e8b8df36eb3fcfb7f0482a17",
+   "bytes": 701538
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -3261,6 +3276,226 @@
    "ruta": "packages/textures/philipk/pk02/wall02a_n.png",
    "sha256": "810d2639e8f2740b596a83ba695f5e61cb0664d7a7a8fc4db1316ede3162d741",
    "bytes": 65159
+  },
+  {
+   "ruta": "packages/textures/pp/ash.jpg",
+   "sha256": "a1d3f9c08aa41e7e59554a564c52655b2a61ead1bcec7133db0e50e4afef4b6a",
+   "bytes": 111084
+  },
+  {
+   "ruta": "packages/textures/pp/bricks3.jpg",
+   "sha256": "8be4c134a34e84d9323369228b4ba5004aece7cbb93b566f2e6ee1786d51237c",
+   "bytes": 142721
+  },
+  {
+   "ruta": "packages/textures/pp/dirt1.jpg",
+   "sha256": "4c731c615ac2dcadce3cb185df5984b2d4c90fafc80b7e97ab2ce12c0eb717b0",
+   "bytes": 143179
+  },
+  {
+   "ruta": "packages/textures/pp/dirt2.jpg",
+   "sha256": "8bac1acb43a0f242ea56e8b78b97315036895a8367113aaa12cab71f5350c66b",
+   "bytes": 148902
+  },
+  {
+   "ruta": "packages/textures/pp/dirt3.jpg",
+   "sha256": "5841d2ada42035ae1d7b658711b7a6fd348951696ac4c7b449fc21c8e67f31fd",
+   "bytes": 161560
+  },
+  {
+   "ruta": "packages/textures/pp/dirt4.jpg",
+   "sha256": "9b7d23d0c87feb5a3057d9aebbb08400ddaf68b21c7cf048f504d8bb8f1fdbe7",
+   "bytes": 131750
+  },
+  {
+   "ruta": "packages/textures/pp/grass1.jpg",
+   "sha256": "74b3c6eefa8ca4eed820868bdd971027e2f543e8f1b46e69c7cda4a4953693e5",
+   "bytes": 182044
+  },
+  {
+   "ruta": "packages/textures/pp/grass2.jpg",
+   "sha256": "0b5f35e750f13b54161b53693895e3fe6e0b27266b26b5c2e2afa418208a7048",
+   "bytes": 176268
+  },
+  {
+   "ruta": "packages/textures/pp/grass3.jpg",
+   "sha256": "55b1679c4622e7becd23c32bc2745ab69891dfaf37569236a77e8991b8f86cbc",
+   "bytes": 168262
+  },
+  {
+   "ruta": "packages/textures/pp/grass4.jpg",
+   "sha256": "fef7d5be57465e373d510202080822722b5694d2a70b38c1a820d49766185b3d",
+   "bytes": 169963
+  },
+  {
+   "ruta": "packages/textures/pp/insulation.jpg",
+   "sha256": "65daaa52fee2a4f738023b770beacf085fce7e60f9a925ba3ea8b72dfead488c",
+   "bytes": 59485
+  },
+  {
+   "ruta": "packages/textures/pp/metal1.jpg",
+   "sha256": "0f91cbc9809d7a0adf7d6848cc3ed41e959a8ed3ee015b1ad03eab049f83322c",
+   "bytes": 61797
+  },
+  {
+   "ruta": "packages/textures/pp/metal4.jpg",
+   "sha256": "72c9fee3619dfd1147b51f67a515aa71259fc0700086ba62ef5978bfddb7de49",
+   "bytes": 60759
+  },
+  {
+   "ruta": "packages/textures/pp/metal5.jpg",
+   "sha256": "5e9eadca8087b4a33495343a659d2d3295b7ba226d5c7b06317e308bf9f87f62",
+   "bytes": 44400
+  },
+  {
+   "ruta": "packages/textures/pp/planks2.jpg",
+   "sha256": "cbf4dcf123e7a41c70c1ccfc279df1b4c8dd8e61eb0dec09e26d11c876c669c9",
+   "bytes": 84656
+  },
+  {
+   "ruta": "packages/textures/pp/planks4.jpg",
+   "sha256": "f6d44ce6884024111fdfb26dabb19278b2a317303082587782e0ee880117eb05",
+   "bytes": 68123
+  },
+  {
+   "ruta": "packages/textures/pp/planks5.jpg",
+   "sha256": "386247beb2cee25cfa95505e344fec20c653a3883f9a9148632b11011a56b018",
+   "bytes": 95419
+  },
+  {
+   "ruta": "packages/textures/pp/public_sector_floor1.jpg",
+   "sha256": "9803039c0b4938751ed3e3d7d3808beb0fc710658663669272bd7dba850b304d",
+   "bytes": 93775
+  },
+  {
+   "ruta": "packages/textures/pp/public_sector_floor2.jpg",
+   "sha256": "c42ad1ab8504b45f6a79975799f8ad09699e94a118223279a78a8fe5920006d2",
+   "bytes": 132450
+  },
+  {
+   "ruta": "packages/textures/pp/public_sector_wall1.jpg",
+   "sha256": "e838d15c5f92a2d3c684105f20c579f50e2ae758aaf0fe8e3b90c3ec2bcf7670",
+   "bytes": 52991
+  },
+  {
+   "ruta": "packages/textures/pp/public_sector_wall2.jpg",
+   "sha256": "e65af9c8aa1bb40147f4ebd776f2dba5d8b0f24b35c64e079d1b30890d6ee6d6",
+   "bytes": 112328
+  },
+  {
+   "ruta": "packages/textures/pp/rocks2.jpg",
+   "sha256": "733c3db4c1324a38c1d8a5e7d347da6cc47f77eb02e385506dd350fce6277641",
+   "bytes": 142888
+  },
+  {
+   "ruta": "packages/textures/pp/rocks3.jpg",
+   "sha256": "552f88204d5d550320ab66df612345f50724f9e9d0e5c3a929e01732d7056fef",
+   "bytes": 172976
+  },
+  {
+   "ruta": "packages/textures/pp/rocks4.jpg",
+   "sha256": "5b577a471c9aaf034105f68c9cc6aec3746421389d274743a60acd083c707159",
+   "bytes": 134245
+  },
+  {
+   "ruta": "packages/textures/pp/rug1.jpg",
+   "sha256": "df5aa941111e4c776de9dba1907cd5524c35469483d123dfa1d8b853f65e6323",
+   "bytes": 135721
+  },
+  {
+   "ruta": "packages/textures/pp/rug3.jpg",
+   "sha256": "737aac716fc3810ef20079136ab0d6f6dd704eb54519e74aee5f62bb285e8a69",
+   "bytes": 133634
+  },
+  {
+   "ruta": "packages/textures/pp/rug4.jpg",
+   "sha256": "11d4c18038a47465607c53d92745c4cf8a4057a267541f3682c689fed263a358",
+   "bytes": 118855
+  },
+  {
+   "ruta": "packages/textures/pp/rust1.jpg",
+   "sha256": "eb17fcc2693844e3db84d7ffc9e859f0d23fb39632e8d1aa42d7156615e2e90c",
+   "bytes": 83734
+  },
+  {
+   "ruta": "packages/textures/pp/rust2.jpg",
+   "sha256": "d5b9f081341436cb580f3faac46ee2a9fc842ec210ae1991658845f33752288a",
+   "bytes": 145014
+  },
+  {
+   "ruta": "packages/textures/pp/rust4.jpg",
+   "sha256": "16be58c2353e15ccccc47a2b6163546f8460d8729e4ff862f68e188d1124d974",
+   "bytes": 84363
+  },
+  {
+   "ruta": "packages/textures/pp/rust5.jpg",
+   "sha256": "25a61abc6c360fe8282976fd9d8efff6032871cd74ab09b85129704973cc6d9f",
+   "bytes": 92130
+  },
+  {
+   "ruta": "packages/textures/pp/stone2.jpg",
+   "sha256": "3a565c16698efe64f700f0dc7c591a208e5327a1e8e643b6730fa6fa7173fd2d",
+   "bytes": 163896
+  },
+  {
+   "ruta": "packages/textures/pp/stone3.jpg",
+   "sha256": "2988958978a2b7b942f826c1c7b897d815b7bc03f86997ef0f3c306f5ad3e7fe",
+   "bytes": 142331
+  },
+  {
+   "ruta": "packages/textures/pp/stone4.jpg",
+   "sha256": "2477a16607a91a222651f2e00d7b3b6a715f7f6d6f3386735c53bf693a0f8a58",
+   "bytes": 151117
+  },
+  {
+   "ruta": "packages/textures/pp/stone5.jpg",
+   "sha256": "b2113cbbf2fdbac6872c96aaa0abc82457ae4d59924b2caf4432950750db7516",
+   "bytes": 138435
+  },
+  {
+   "ruta": "packages/textures/pp/symbol.jpg",
+   "sha256": "ffa1914fecdeb88ad73220e0350d88c4eb887706e57b9c961fb03a515c0138eb",
+   "bytes": 92054
+  },
+  {
+   "ruta": "packages/textures/pp/tarp.jpg",
+   "sha256": "ad675c60e21db3b3b68bd0e04a3b7d0043da6f2d205782ea7cbefd58d7cf4b5c",
+   "bytes": 124092
+  },
+  {
+   "ruta": "packages/textures/pp/tiles3.jpg",
+   "sha256": "0e126df451b4aa012c7c96bd20076a65a653fbccd35e3020a14d2dbcf511189b",
+   "bytes": 74999
+  },
+  {
+   "ruta": "packages/textures/pp/tree.jpg",
+   "sha256": "18499df5f2806b39aa1e1af62291d6d1b8b52f30563615800e78e1ba188a9d33",
+   "bytes": 101414
+  },
+  {
+   "ruta": "packages/textures/pp/vent.jpg",
+   "sha256": "e00e1b130c0e93d812e5599ae688ead97be8903c141b4dd6daf4613a517cdf63",
+   "bytes": 84097
+  },
+  {
+   "ruta": "packages/textures/pp/wood1.jpg",
+   "sha256": "f91bff8ec1f5ab1d6d36e27fad40fd0a05d9eb1b8ccef067f0a248c98b4d7149",
+   "bytes": 144765
+  },
+  {
+   "ruta": "packages/textures/pp/wood3.jpg",
+   "sha256": "8494faacfd0db8b6dc7e7da08a13dc319a0cea3411aebe72093999f1601d69f2",
+   "bytes": 151043
+  },
+  {
+   "ruta": "packages/textures/pp/wood4.jpg",
+   "sha256": "adab64658cc14b715d10c589aab52940500d02142ffd7c4cdd67a0af065c9b1d",
+   "bytes": 122002
+  },
+  {
+   "ruta": "packages/textures/pp/wood5.jpg",
+   "sha256": "5719fc1aec11e63cafdb78c6c925145544fc35d6d8207c9ad6028d312b46c0dc",
+   "bytes": 77025
   },
   {
    "ruta": "packages/textures/sky.png",

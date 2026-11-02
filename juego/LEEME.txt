@@ -27,3 +27,10 @@ v5.4 - ZONA SEGURA al arrancar: Terapia Intensiva, pasillo, estacion de enfermer
 
 --- 5.5 ---
 Puertas visibles: marco amarillo y luz calida en cada puerta.
+
+--- 5.6 ---
+Nuevo mapa de juego: CENTRAL ELECTRICA. Es una version MODIFICADA del mapa "powerplant" de Sauerbraten,
+de David "Drakker" Pelletier (licencia del autor: se puede modificar y redistribuir si se aclara que es
+una version modificada, con otro nombre y creditos; mapa original: Sauerbraten, "powerplant").
+Cambios: todas las texturas reemplazadas por texturas CC0 (WRAD), sin items, sonidos ni modelos del original,
+con criaturas, 3 fusibles y generador propios. Objetivo: buscar los 3 fusibles (tecla E) y prender el generador en el punto de partida.
