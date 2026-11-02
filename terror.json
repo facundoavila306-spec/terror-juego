@@ -1,11 +1,16 @@
 {
- "version": "4.0",
- "notas": "Hospital lineal: UTI, tarjeta, hall, vacunatorio, aislamiento, ala norte, fusible en Rayos X, persiana y salida.",
+ "version": "4.1",
+ "notas": "Texturas fotograficas CC0 (WRAD) en hospital y comisaria; luz mas suave (blurlms, lightprecision 24). Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "069f6fc2b9c3551f6a1cd6fe618e1bb297349b18b3fd39b8da74ae300c250472",
-   "bytes": 772
+   "sha256": "80d325db51ab786e22925b3614428dc8a3555c4592441ed1b7aa3cdc3305ef89",
+   "bytes": 858
+  },
+  {
+   "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
+   "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+   "bytes": 7048
   },
   {
    "ruta": "bin64/SDL2.dll",
@@ -294,8 +299,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "2352b4efec51bfa2e56fbad668eb9d2fa8679fe63ca401f981d1c6ccd90c5af0",
-   "bytes": 18474
+   "sha256": "eb596d271ac812ddcadbf5bb1017c6ac4909bea35b32f687e17eeff480ddf584",
+   "bytes": 18519
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -5044,8 +5049,8 @@
   },
   {
    "ruta": "packages/textures/nieb/brick-red.jpg",
-   "sha256": "4f975a1b6620743957f193513e229cfedf0955aaeab8e0ce9e9e82eddf830f02",
-   "bytes": 144584
+   "sha256": "d6ae5a53a6e8c1f67058f265f1df0302add8536c8c40709312d34acc479cf5dc",
+   "bytes": 76124
   },
   {
    "ruta": "packages/textures/nieb/brick-tan.jpg",
@@ -5114,8 +5119,8 @@
   },
   {
    "ruta": "packages/textures/nieb/metal-grey.jpg",
-   "sha256": "545ce1733ea6d8cc0706c4b4539bed18e90ea598b2da1ffc5d2552583734a72e",
-   "bytes": 118516
+   "sha256": "3c115285fc99f827e9b4a648dbf732bf52b3f08451d95908d340dbc073c6ee12",
+   "bytes": 74050
   },
   {
    "ruta": "packages/textures/nieb/metal-orange.jpg",
@@ -5274,8 +5279,8 @@
   },
   {
    "ruta": "packages/textures/zm/hosp/acero.jpg",
-   "sha256": "5cd88fd645fbb0f120cd1cbdd9d210e37607ab8c16e48cb427ad57afe05b1b0d",
-   "bytes": 7452
+   "sha256": "ca0340b94d2c7917a7df3d70876aae5dbec636e259498f951b9da6d478b00d4f",
+   "bytes": 68283
   },
   {
    "ruta": "packages/textures/zm/hosp/asfalto.jpg",
@@ -5299,23 +5304,23 @@
   },
   {
    "ruta": "packages/textures/zm/hosp/banda_gris.jpg",
-   "sha256": "f4ea9cc32ee6422b5335406577b0bc476a93b5ea71d88b10b08e0c404f6d7076",
-   "bytes": 29347
+   "sha256": "966526840bbbf8c97180a7ceb124eab76f72879ec08a156bfa22284ff584d9d6",
+   "bytes": 126577
   },
   {
    "ruta": "packages/textures/zm/hosp/cielorraso.jpg",
-   "sha256": "fb4a31f831e5f9cfb72d2ee14bc0e76735372fc5a3fb2a5ab865855d90105b7c",
-   "bytes": 85882
+   "sha256": "afddaf98115ca8a2783a556e2294c709b67e8106158a27a62fce4c717415e889",
+   "bytes": 59952
   },
   {
    "ruta": "packages/textures/zm/hosp/granito.jpg",
-   "sha256": "78313860785d0b5b9efc3629982db8516ec04f4a0c3d680fdceae8006325cbad",
-   "bytes": 76518
+   "sha256": "0da38f321a88777ebb0759619a0c49b0ab22507e24f2a82905f54bd914d77ae9",
+   "bytes": 154601
   },
   {
    "ruta": "packages/textures/zm/hosp/losa.jpg",
-   "sha256": "c6a03cc5fa8221d141d87844f3621031e39ade94f6bfb090181f62a6018982ec",
-   "bytes": 11443
+   "sha256": "534c39d5a497896ef842500bbf0ff635d3c1350ea76a0074f9d59ff80a94f963",
+   "bytes": 72296
   },
   {
    "ruta": "packages/textures/zm/hosp/marmol.jpg",
@@ -5329,38 +5334,38 @@
   },
   {
    "ruta": "packages/textures/zm/hosp/pared.jpg",
-   "sha256": "d6e9b3126fb4925613bf9cef33c86c7ff2be1492e7e70d89fc9ebcce66431882",
-   "bytes": 11403
+   "sha256": "534c39d5a497896ef842500bbf0ff635d3c1350ea76a0074f9d59ff80a94f963",
+   "bytes": 72296
   },
   {
    "ruta": "packages/textures/zm/hosp/pared_amarilla.jpg",
-   "sha256": "aa31e023380dd482bd209ab4d2588b3e9f3b3f64ab76c7cb33d413ecd34fd934",
-   "bytes": 11540
+   "sha256": "6b6887e97e4a8ffb5b3715bf1f1f63185ce1eb5ee6c478fad2f8ff23d74edf8d",
+   "bytes": 115520
   },
   {
    "ruta": "packages/textures/zm/hosp/pared_sucia.jpg",
-   "sha256": "aeb70d351c8ea97e4260f6933652d1e7d588e1fc787497b22e65988e9f661ead",
-   "bytes": 16987
+   "sha256": "b23aa06cb3bd8368909701c03562c9292ae582b4defe5b564daf6141cdae2891",
+   "bytes": 122943
   },
   {
    "ruta": "packages/textures/zm/hosp/terrazo.jpg",
-   "sha256": "a105ec81133981eeb6979384c76149c741b5278c0b331ab07e1cffad876323f5",
-   "bytes": 104617
+   "sha256": "b2dc551ba9499f0657bb18150c45686240c4eb324f9fb4918df30b5b96ece36e",
+   "bytes": 103421
   },
   {
    "ruta": "packages/textures/zm/hosp/terrazo_sucio.jpg",
-   "sha256": "d973b3c4f7b5fcfed68f7a836b44543d48a011922d91d402c1149529dd4faad0",
-   "bytes": 102396
+   "sha256": "499ed3d75b74bbaa454028d54c49c093f8cc032b0a296e200278f1d4b721d470",
+   "bytes": 144170
   },
   {
    "ruta": "packages/textures/zm/hosp/vereda.jpg",
-   "sha256": "be1c004944efd3afed0d83efdfbdf3f55de5cf4fc9cb3aff7c4b58cf16ca9fef",
-   "bytes": 110208
+   "sha256": "fbc2dba7541c648084fba37c45f759fdcc0449826eabeb45b4b4e5f26d5b8e30",
+   "bytes": 126855
   },
   {
    "ruta": "packages/textures/zm/hosp/vinilico.jpg",
-   "sha256": "2d048dcbb508b5b9e4d41b609d1d98e9987b75c43dfcba7fd39c18e6acb2a89b",
-   "bytes": 110016
+   "sha256": "499ed3d75b74bbaa454028d54c49c093f8cc032b0a296e200278f1d4b721d470",
+   "bytes": 144170
   },
   {
    "ruta": "packages/textures/zm/hosp/vinilico_sangre.jpg",

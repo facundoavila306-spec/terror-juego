@@ -7,7 +7,7 @@ Abrir JUGAR-TERROR.bat: busca actualizaciones y abre en el MENU PRINCIPAL.
 - En el juego: ESC = pausa (volver al menu principal), M = menu de criaturas, F = linterna, E = arrancarte el Nurrucapa.
 Si falla, mandame log-terror.txt.
 
-Texturas de paredes y pisos: Nieb (CC-BY 3.0) y Philip Klevestav PK02 (CC-BY 3.0). Todo lo demas (criaturas, armas, sonidos, musica, carteles) es propio.
+Texturas de paredes y pisos del hospital y la comisaria: WRAD Textures de wriks (CC0, uso comercial libre). Otras: Nieb (CC-BY 3.0) y Philip Klevestav PK02 (CC-BY 3.0). Todo lo demas (criaturas, armas, sonidos, musica, carteles) es propio.
 
 v3.2 - Tramo 1: Hospital Castro Rendon (4 pisos, de Terapia Intensiva a la calle). Luego sigue la comisaria.
 Texturas: Nieb y Philip Klevestav (CC-BY).
