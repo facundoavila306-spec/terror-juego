@@ -1,6 +1,6 @@
 {
- "version": "3.0",
- "notas": "Primer tramo: Comisaria Primera (llaves, deposito, comerciante, salida). JUGAR lo abre",
+ "version": "3.1",
+ "notas": "Musica nueva con ritmo: menu, tramo y combate (entra sola cuando hay criaturas cerca)",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "91399790191da5ebf6bcaf111e235dbb60cb246c60c20d84a4dbf72a310200a7",
+   "sha256": "35b04c3a59acba11402ea2af7837224d7396b184004a52c2e3212b79fd904a66",
    "bytes": 2390528
   },
   {
@@ -279,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "37cde6824f7b7ba9a03d59554c55a25c4d4d57d27ab2b7056d3519630959832d",
-   "bytes": 7287
+   "sha256": "4dbabbf8777db7d4afae92f93bd75738bbea90a5b427d0b92c957ba67af056a7",
+   "bytes": 7332
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -4248,14 +4248,19 @@
    "bytes": 74932
   },
   {
+   "ruta": "packages/zm/combate.ogg",
+   "sha256": "ae8e9485fc113b8ac085e5ee6f31590e43b5490ac68fac17866b8cd897c95e17",
+   "bytes": 1501439
+  },
+  {
    "ruta": "packages/zm/menu.ogg",
-   "sha256": "c549cd226664beeeea5e597eba9408e0b51bf6d2b92d69ae2a2225adf360ba04",
-   "bytes": 1481673
+   "sha256": "251eed5adea58b57a9beb4f4de2786f313c780fd4b9212f9624a3cd9e0b09af4",
+   "bytes": 1516572
   },
   {
    "ruta": "packages/zm/tramo.ogg",
-   "sha256": "7114e9940708328f9140784d7b8d16ee4c3a9eb763ec5126384578b8f86f656d",
-   "bytes": 1741352
+   "sha256": "7b6464895c6a75770229a1a76a5c88b82babb6886663dad5d3d8d033219e1de6",
+   "bytes": 1920944
   }
  ],
  "borrar": []
