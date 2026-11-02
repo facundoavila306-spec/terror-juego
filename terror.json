@@ -1,6 +1,6 @@
 {
- "version": "0.9",
- "notas": "Cartel: tachadura y ZONA en rojo aerosol",
+ "version": "1.0",
+ "notas": "Menu 6: letras de aerosol rojo a la izquierda",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "b4a96a7d5d98aebb7963365aa02454c6d35a810652bd99ada14234b224243087",
-   "bytes": 2360320
+   "sha256": "64268e70463431d2bfe3efcb8880cd6858f2a7d289fc30cb42cf40ad4ab1e4af",
+   "bytes": 2362368
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -168,6 +168,31 @@
    "bytes": 42399
   },
   {
+   "ruta": "data/menu_creditos.png",
+   "sha256": "6a6a6b07ed30bb19f182bb9d97e5acd3670f84447bc74be2e1ba9a59384626d4",
+   "bytes": 116442
+  },
+  {
+   "ruta": "data/menu_jugar.png",
+   "sha256": "ef95f879685b202bef6cd5f1db3ec222c863f9bdd9076e2248a86272864dee2a",
+   "bytes": 76685
+  },
+  {
+   "ruta": "data/menu_lab.png",
+   "sha256": "324690130e1df1424bf7a114a81203ec8052ec1d0ac45827a8bc9db623536131",
+   "bytes": 119732
+  },
+  {
+   "ruta": "data/menu_opciones.png",
+   "sha256": "dec6dc5b0337704237b7219a41e57ca0fd1bddf7b45964fd5f2911eb60ea55ef",
+   "bytes": 118969
+  },
+  {
+   "ruta": "data/menu_salir.png",
+   "sha256": "b3cc309e3106489a4bdc68189676023b9b69da622174d3c2502d0520d73de971",
+   "bytes": 66059
+  },
+  {
    "ruta": "data/menus.cfg",
    "sha256": "88d7e411eb997c50478d161dde8156be913fe6ff932c91dd67557c7e7d88abd2",
    "bytes": 73231
@@ -199,8 +224,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "5b2be829fd58ed0f883a49b85813762d59332d37a6994fae886735ed13864878",
-   "bytes": 4813
+   "sha256": "8a90b7bde8d047416a75447a488736483e5611b976d31d8c04f3bcad17e2ce22",
+   "bytes": 4832
   },
   {
    "ruta": "data/terror_mapa.cfg",
