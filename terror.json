@@ -1,6 +1,6 @@
 {
- "version": "4.3",
- "notas": "Capturados: personas con un Nurrucapa prendido a la cara que avanzan atacando (nuevo enemigo, 9 en el hospital). Sin probar en Windows.",
+ "version": "4.4",
+ "notas": "Capturados: sin tiro a la cabeza, el Nurrucapa se desprende y te persigue para subirse. Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -29,8 +29,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "656a8638128311c894f4c78a7075be476b95f3f02085d2a23d987bb68ef3d2c5",
-   "bytes": 2403328
+   "sha256": "16d85ae5824346738c4825a94a41835f26cde69edbc264cc60213630e417a6a8",
+   "bytes": 2404352
   },
   {
    "ruta": "bin64/zlib1.dll",
