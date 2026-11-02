@@ -1,6 +1,6 @@
 {
- "version": "1.7",
- "notas": "Animaciones rehechas con peso en las 6 criaturas; el golpe cae en el momento del impacto",
+ "version": "1.8",
+ "notas": "Arsenal argentino: facon, Bersa, Bataan 71, FMK-3, Mauser 1909, FMK-2 y FAL",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "3dfeaf721cef97c077b79e1d009ec4c91a9e81b0670da067560a8bb98241f97d",
-   "bytes": 2368000
+   "sha256": "44ee1b8fbd087749bc10fe30576116626e6d23ed2ff469fd6efe16dcb7504730",
+   "bytes": 2370048
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "d16802f95d16cc856989c2f2a1d6d5a9f78dd7387b9431abdb8d459a4e8e3969",
-   "bytes": 5520
+   "sha256": "956e2fb798d8019d7cdc35062b2a057f80878a69105e2ff3a098e858d1821001",
+   "bytes": 5963
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -869,8 +869,8 @@
   },
   {
    "ruta": "packages/hud/items.png",
-   "sha256": "76c688aae1142fadc24fbffa6e392f5e40cd89aa9507a4a4a3a117a8ebfc3509",
-   "bytes": 98323
+   "sha256": "a594057d90e6a4b03468e617b478d2ce394952b63b25c3ecd87f367f87d085b7",
+   "bytes": 248354
   },
   {
    "ruta": "packages/hud/license.txt",
@@ -1216,6 +1216,146 @@
    "ruta": "packages/models/ammo/tris.md3",
    "sha256": "d27490e8a6a6063eae306ae5329f7752cf276e5ee21f6a84e2949f2d76dcec6e",
    "bytes": 7268
+  },
+  {
+   "ruta": "packages/models/armas/bataan/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/bataan/md2.cfg",
+   "sha256": "e4372e028a76bc7ce1e03893f60e988a29732b9ebcdfe9767f70433fecfe61c4",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/bataan/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/bataan/tris.md2",
+   "sha256": "d26d7d9b732c8b115f86a38fd3de10867702f61ab91f6c5e2b00217e633596c4",
+   "bytes": 287360
+  },
+  {
+   "ruta": "packages/models/armas/bersa/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/bersa/md2.cfg",
+   "sha256": "b78aeaab4fdb5203dc8b7d3ead90c34c734262a37b36b74c2481838b3bb03454",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/bersa/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/bersa/tris.md2",
+   "sha256": "404652a57e4c20bebd8aecbd471909183ff7465410c4a8f6f3937f733002daa2",
+   "bytes": 171144
+  },
+  {
+   "ruta": "packages/models/armas/facon/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/facon/md2.cfg",
+   "sha256": "9b24c221019b3bf1fa17b485e8168875cb6b47a935041ab734f9aa6a1fe83df0",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/facon/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/facon/tris.md2",
+   "sha256": "2cb44e8515e435bf3cca40a370fe3c85a24084f303080fa6c16f1fc3f347ea42",
+   "bytes": 170760
+  },
+  {
+   "ruta": "packages/models/armas/fal/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/fal/md2.cfg",
+   "sha256": "47be513d1104290cc028bc7efbbe399772225543bb7eac1f5c10d95fb6494375",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/fal/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/fal/tris.md2",
+   "sha256": "bd19c8b34470ab05a976377da7e7434b115be96da2a10470bd1c9f62fbc9f228",
+   "bytes": 328256
+  },
+  {
+   "ruta": "packages/models/armas/fmk2/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/fmk2/md2.cfg",
+   "sha256": "0eb59b0e6b3f711b146a4af771b4b31e90fa1a5c7e28abcd68883bc0b582e421",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/fmk2/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/fmk2/tris.md2",
+   "sha256": "3023269a6c6651e0b6bb15f465dc8801376c410b71858742ad0be1a6ab2f1700",
+   "bytes": 250192
+  },
+  {
+   "ruta": "packages/models/armas/fmk3/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/fmk3/md2.cfg",
+   "sha256": "8bcc551b2647d868e26e0b7d048b76f9dacd610deb7f20888b3c950e5ef8c372",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/fmk3/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/fmk3/tris.md2",
+   "sha256": "814b631bcaeb94bd558d04ba284b0198219ae6f02459204c1a33d0c3cbbc4002",
+   "bytes": 296480
+  },
+  {
+   "ruta": "packages/models/armas/mauser/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/armas/mauser/md2.cfg",
+   "sha256": "75053750f78a951c013cc5dbfa27cb88f77393aa86642d699b77cfb29f8c6715",
+   "bytes": 134
+  },
+  {
+   "ruta": "packages/models/armas/mauser/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/armas/mauser/tris.md2",
+   "sha256": "e58786c609b4b8517abece75ac719d00735d5897a7fe9ce6b3e41ed18e420552",
+   "bytes": 313984
   },
   {
    "ruta": "packages/models/armor/armor.txt",
