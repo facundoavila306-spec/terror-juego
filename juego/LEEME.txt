@@ -6,3 +6,5 @@ Abrir JUGAR-TERROR.bat: busca actualizaciones y abre en el MENU PRINCIPAL.
 - JUGAR / LABORATORIO DE CRIATURAS / OPCIONES / CREDITOS / SALIR.
 - En el juego: ESC = pausa (volver al menu principal), M = menu de criaturas, F = linterna, E = arrancarte el Nurrucapa.
 Si falla, mandame log-terror.txt.
+
+Texturas de paredes y pisos: Nieb (CC-BY 3.0) y Philip Klevestav PK02 (CC-BY 3.0). Todo lo demas (criaturas, armas, sonidos, musica, carteles) es propio.

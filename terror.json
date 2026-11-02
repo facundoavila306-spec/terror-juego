@@ -1,11 +1,11 @@
 {
- "version": "2.9",
- "notas": "Menu de pausa: tres carteles de ruta, tachado con aerosol",
+ "version": "3.0",
+ "notas": "Primer tramo: Comisaria Primera (llaves, deposito, comerciante, salida). JUGAR lo abre",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "4c32442b428e82623ac081cb554552f55aed8a9a5b668071caccfc8ce2299eb4",
-   "bytes": 464
+   "sha256": "286eda52308bba4cb3e59368d761bebd573977a45ced18dbb06454ada413b729",
+   "bytes": 619
   },
   {
    "ruta": "bin64/SDL2.dll",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "d4329ade5de3e812d063f9fa0623dd6765572f67539868b89c3b364e0b1f4379",
-   "bytes": 2380800
+   "sha256": "91399790191da5ebf6bcaf111e235dbb60cb246c60c20d84a4dbf72a310200a7",
+   "bytes": 2390528
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -279,13 +279,23 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "983441c9fdc41d7d1cda437c31b7b477bb47523059a4ae38adc171f31c5960a1",
-   "bytes": 6203
+   "sha256": "37cde6824f7b7ba9a03d59554c55a25c4d4d57d27ab2b7056d3519630959832d",
+   "bytes": 7287
   },
   {
    "ruta": "data/terror_mapa.cfg",
    "sha256": "44b4c5827b38ff75e3b8117cd37ef9b4dc74dbc33a2b9470c9b4445da82977e1",
    "bytes": 4149
+  },
+  {
+   "ruta": "data/tramos/comisaria.cfg",
+   "sha256": "c3cf25578fc5503b1c4b152378e9a6fef30d72c18745948e49edff4ed88453fb",
+   "bytes": 5820
+  },
+  {
+   "ruta": "packages/base/comisaria.cfg",
+   "sha256": "5aef6bd225fd2cc99cdcd21ae3060722e154a5b207b84787cb09d6a3cdaf0af6",
+   "bytes": 2268
   },
   {
    "ruta": "packages/base/terror1.cfg",
@@ -2053,6 +2063,106 @@
    "bytes": 12810
   },
   {
+   "ruta": "packages/models/objetos/barricada/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/objetos/barricada/md2.cfg",
+   "sha256": "a0bff7dbe89726e9b661f50861c5be3540dc3f6236b2150eaae8e1f6d85ee5e4",
+   "bytes": 75
+  },
+  {
+   "ruta": "packages/models/objetos/barricada/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/objetos/barricada/tris.md2",
+   "sha256": "a1ba19597dc1d1b5eb98cb070f8f81e6353427c3d894f42fd535343c585b9a3c",
+   "bytes": 8816
+  },
+  {
+   "ruta": "packages/models/objetos/botiquin/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/objetos/botiquin/md2.cfg",
+   "sha256": "de74ddc15f68406178975b46b92b2825bd81a9a048d91738088fe3b27f148e3a",
+   "bytes": 75
+  },
+  {
+   "ruta": "packages/models/objetos/botiquin/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/objetos/botiquin/tris.md2",
+   "sha256": "9085ed7cc0617b08e70a7becdb4ea012245ebfc9c43d87fe22145412a2039906",
+   "bytes": 4496
+  },
+  {
+   "ruta": "packages/models/objetos/caja_balas/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/objetos/caja_balas/md2.cfg",
+   "sha256": "de74ddc15f68406178975b46b92b2825bd81a9a048d91738088fe3b27f148e3a",
+   "bytes": 75
+  },
+  {
+   "ruta": "packages/models/objetos/caja_balas/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/objetos/caja_balas/tris.md2",
+   "sha256": "08fa2510565ae3a20a67ca160f901c3d77db5a616558c14f912a286d06a8b968",
+   "bytes": 4496
+  },
+  {
+   "ruta": "packages/models/objetos/farol/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/objetos/farol/md2.cfg",
+   "sha256": "c675cebcb089d7fd0c1bf1035cc01c639f8e8cc3afdef0cd998946a50bc48985",
+   "bytes": 76
+  },
+  {
+   "ruta": "packages/models/objetos/farol/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/objetos/farol/tris.md2",
+   "sha256": "937e40ddc7fc73704ca589f374c980beb394312a5f2e7f35cf3469efbe61a667",
+   "bytes": 25248
+  },
+  {
+   "ruta": "packages/models/objetos/llave/masks.png",
+   "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
+   "bytes": 47520
+  },
+  {
+   "ruta": "packages/models/objetos/llave/md2.cfg",
+   "sha256": "3c00a3a1d75170363784bedee551311f8178cd728161afda8ef3e6ffb7f3bf7b",
+   "bytes": 76
+  },
+  {
+   "ruta": "packages/models/objetos/llave/skin.jpg",
+   "sha256": "186e171b7470b3cfc8dc11ef510bc75c6b1c80ab2b3b8b949094a8a74ba77267",
+   "bytes": 17607
+  },
+  {
+   "ruta": "packages/models/objetos/llave/tris.md2",
+   "sha256": "fef05b44f03e20fedbaf5f20b85c64e04c08308ff426696bd64230fec2608848",
+   "bytes": 20072
+  },
+  {
    "ruta": "packages/models/projectiles/grenade/license.txt",
    "sha256": "7b8c75e33903f8f5ef3c61454a5e4cd1b6d6fb0ee05988d9c3f4032d51abdbaa",
    "bytes": 1650
@@ -2461,6 +2571,36 @@
    "ruta": "packages/particles/steam.png",
    "sha256": "35242a796c8ca6a1451107a8f1b3aa4546cf75165ba9f3edf81e03c46ec9b351",
    "bytes": 5027
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_bk.jpg",
+   "sha256": "8a1c039b193439560af9d144f8b7605347e47f42b4a6417c4261a431608cc0c4",
+   "bytes": 13178
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_dn.jpg",
+   "sha256": "8ecce2b6ea5afe3b2c6a884c1ba483ee7ab47b12583b77f401048e230aa14f84",
+   "bytes": 4723
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_ft.jpg",
+   "sha256": "6ea4c9eebc0b10c6fa7e3bae50c4644ae057c982372264bca32af46c987cd009",
+   "bytes": 12835
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_lf.jpg",
+   "sha256": "d6616493d097e013e348d8b13177e50883661e152880adf31f11a5c381e423bb",
+   "bytes": 12854
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_rt.jpg",
+   "sha256": "aa73af5bf27b86256ab8949a62d7e4a041242d4a12942bbb6f01b56c767394cb",
+   "bytes": 12441
+  },
+  {
+   "ruta": "packages/skyboxes/zm/noche_up.jpg",
+   "sha256": "a6b02397d65637b08d40507ab11bdccc4b18140d27905e92be9d195bcaa33eb7",
+   "bytes": 16579
   },
   {
    "ruta": "packages/sounds/aard/bang.wav",
@@ -3868,6 +4008,101 @@
    "bytes": 121304
   },
   {
+   "ruta": "packages/textures/nieb/box1.jpg",
+   "sha256": "21429f167ebaeddeff96bcecc50ccbbb4d44a6e3f74c7bb129f97cc245d81935",
+   "bytes": 167863
+  },
+  {
+   "ruta": "packages/textures/nieb/box2.jpg",
+   "sha256": "d757e5537f228cc2052d5741993bda7c84317968b38134152253d2ba7f66e0bc",
+   "bytes": 42661
+  },
+  {
+   "ruta": "packages/textures/nieb/brick-red.jpg",
+   "sha256": "4f975a1b6620743957f193513e229cfedf0955aaeab8e0ce9e9e82eddf830f02",
+   "bytes": 144584
+  },
+  {
+   "ruta": "packages/textures/nieb/brick-tan.jpg",
+   "sha256": "e87f578ec4737936abc3d219bf9783907f3cd15de30d702c259db4a88dd89288",
+   "bytes": 135565
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete-dark.jpg",
+   "sha256": "71afd4851aa012ea0aa0efe61f436aa773fb793807020241487ccd341f41efab",
+   "bytes": 126565
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete-tan.jpg",
+   "sha256": "83ec3b0299b07cd37a4152059212bf11728f1a5a7a2d98fff3456c8a7ea77982",
+   "bytes": 102110
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete02.jpg",
+   "sha256": "8086e7c52c3434f716ddf32a27e94832508b928feb40af661fe843690af9d04a",
+   "bytes": 215776
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete02_normal.png",
+   "sha256": "549994df8fb2d4ced19a6c866f6b38808fae93b976bacccfb95e9327930265ad",
+   "bytes": 482068
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete03.jpg",
+   "sha256": "0169072ad8f28507c582f6be93b32e181509754006e6e52f4c7925d004eee126",
+   "bytes": 235300
+  },
+  {
+   "ruta": "packages/textures/nieb/concrete03_normal.png",
+   "sha256": "5bc396feae266a392176b3d2f2a3a8f9d29bca910b17cf5068d6755ffee83d1e",
+   "bytes": 441845
+  },
+  {
+   "ruta": "packages/textures/nieb/door1.jpg",
+   "sha256": "0a1236aff6d1add5f6e94a4281299b73e7942de64e61e2644f1108fc54a399ce",
+   "bytes": 95925
+  },
+  {
+   "ruta": "packages/textures/nieb/floor1.jpg",
+   "sha256": "2483368413636e956932c962263524964908879a2df4734a5dcdc141ecf135a4",
+   "bytes": 121298
+  },
+  {
+   "ruta": "packages/textures/nieb/floor1_normal.png",
+   "sha256": "c6dd231f6314ae914b3611535a3fb530a0703e595e066ff733f637553de136b9",
+   "bytes": 306771
+  },
+  {
+   "ruta": "packages/textures/nieb/floor2.jpg",
+   "sha256": "637d3a37dcbd4d42cf2c4544c158caf7cbaba502fe857336e18cc0fcbbf816d0",
+   "bytes": 119537
+  },
+  {
+   "ruta": "packages/textures/nieb/floor2_normal.png",
+   "sha256": "ef4e908deb6eb9760a7ac94cf6cd8e293d79ff3473ce27e63b39a031a0ee7be9",
+   "bytes": 340137
+  },
+  {
+   "ruta": "packages/textures/nieb/metal-door.jpg",
+   "sha256": "c02090827afca4f0ff8dd317facbfc72198a7ed4647558f7efe0085c98c1432d",
+   "bytes": 39383
+  },
+  {
+   "ruta": "packages/textures/nieb/metal-grey.jpg",
+   "sha256": "545ce1733ea6d8cc0706c4b4539bed18e90ea598b2da1ffc5d2552583734a72e",
+   "bytes": 118516
+  },
+  {
+   "ruta": "packages/textures/nieb/metal-orange.jpg",
+   "sha256": "8f9f75be06954104d8890d67433dea1eea076959a6b2a021f764f1847e41423e",
+   "bytes": 123774
+  },
+  {
+   "ruta": "packages/textures/nieb/rough1.jpg",
+   "sha256": "a223386bcb1fc788ab673982689facdcf1f07cbd4908e5f1d7ee72a16f7b7589",
+   "bytes": 42030
+  },
+  {
    "ruta": "packages/textures/notexture.png",
    "sha256": "8e83bdfefd4d2ac895a4ab6079e2738a85befc64698630d018db0ae28b498fb3",
    "bytes": 1985
@@ -3878,14 +4113,94 @@
    "bytes": 55474
   },
   {
+   "ruta": "packages/textures/philipk/pk02/ceiling02_n.png",
+   "sha256": "3ce1d1359e32c96bb4aaf56a3e712063ff7bd65132b2e1e7770529aab6b8fc04",
+   "bytes": 39582
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/computer01a_c.jpg",
+   "sha256": "daaa473611e8bb04d25b1e82287b39819b4bbd2acfab874d07fcc4b924b11887",
+   "bytes": 85243
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/computer01a_n.png",
+   "sha256": "94b968c81b55e8b233607c5f75dd17f59e270d7bafd4120b892a6a83d773927d",
+   "bytes": 30145
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/floor03_c.jpg",
+   "sha256": "394492e164fb63dfa0a1048f7b14e4eff09388dbe5fa294e91cd18706913bade",
+   "bytes": 28521
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/floor03_n.png",
+   "sha256": "81e1a3ae44f268aed6816be4bc0ca078fd961d29490342b53cad5e9cff331547",
+   "bytes": 19262
+  },
+  {
    "ruta": "packages/textures/philipk/pk02/floor06a_c.jpg",
    "sha256": "ead6b551d4f6f4d2c5bdf146842ae0076d19411a60ec032b05e1152f2ae5883e",
    "bytes": 27067
   },
   {
+   "ruta": "packages/textures/philipk/pk02/light01_n.png",
+   "sha256": "5069ad9b480d3a0688560a79fca39d609faee53b01b3d8175d37eaf57d6a443d",
+   "bytes": 3396
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/light01a_c.jpg",
+   "sha256": "d12ef4cf3b67eec88fb992032b72f43fa16643e509a4432dcb6043440431ae85",
+   "bytes": 5926
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/panels01a_c.jpg",
+   "sha256": "8e37468876825c9e32f1dcbb84801909738bc4e35bf3c3cc0a1ca22e82c49a77",
+   "bytes": 114043
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/panels01a_n.png",
+   "sha256": "813a4e9c6a2cc758559c9687060f6b434b352697fb0a9d98a7dc363f5af9895b",
+   "bytes": 61011
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/pipes01_c.jpg",
+   "sha256": "fc372ba30fde7124e2cc6c5853e50a9fffe160c188e0a076210fae385ad4b2a9",
+   "bytes": 108361
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/pipes01_n.png",
+   "sha256": "c9a526bd03ad6c3f76a757393a56439e0d0601ab797820914be6079a2a5a3a76",
+   "bytes": 106795
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/plates01a_c.jpg",
+   "sha256": "4322524fde4db6f304af3fc179c3ef758be9d9f7f2f8b89659d68d1ce0cceabf",
+   "bytes": 144722
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/plates01a_n.png",
+   "sha256": "400b003c8e08b6fa584e5057941facc7dc9f637cd6fa981e17a2d252236c3eae",
+   "bytes": 82040
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/trim_set01_n.png",
+   "sha256": "eef3223a4423c5d7c7492f03ff1f403681b88e77b97206d3e1956def09eb3e25",
+   "bytes": 28569
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/trim_set01a_c.jpg",
+   "sha256": "8c345d155b4e88749b8d8c0fc43a7676535e977bf6b44e6da13b8b9f6a498706",
+   "bytes": 85267
+  },
+  {
    "ruta": "packages/textures/philipk/pk02/wall02a_c.jpg",
    "sha256": "4ed130b1f76d49989dfc459bd7680df477ee211fa12a319c9f23e2b140992e6d",
    "bytes": 111391
+  },
+  {
+   "ruta": "packages/textures/philipk/pk02/wall02a_n.png",
+   "sha256": "810d2639e8f2740b596a83ba695f5e61cb0664d7a7a8fc4db1316ede3162d741",
+   "bytes": 65159
   },
   {
    "ruta": "packages/textures/sky.png",
