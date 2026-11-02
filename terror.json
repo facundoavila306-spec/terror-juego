@@ -1,6 +1,6 @@
 {
- "version": "1.4",
- "notas": "Menu sin rotulo main",
+ "version": "1.5",
+ "notas": "Menus sin panel ni solapas",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "129967871a72dc21da6ddbd102faa70bef294072324b24ac7298970906086eb1",
+   "sha256": "40b7bb639027d66181edae0348c81b8c27fe5d2788b015fa0ce483ca36fa0724",
    "bytes": 2362368
   },
   {
@@ -114,8 +114,8 @@
   },
   {
    "ruta": "data/guiskin.png",
-   "sha256": "2e8acac2f06eb0555cbd5e7a808a838407e337a1dd0fa0394a66254d4b6f0d07",
-   "bytes": 1758
+   "sha256": "e660ff3607b231417fffe9bed8f9f7b653d7b06aa036352b825f34004e4880b7",
+   "bytes": 1669
   },
   {
    "ruta": "data/guislider.png",
