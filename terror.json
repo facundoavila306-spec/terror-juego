@@ -1,6 +1,6 @@
 {
- "version": "4.1",
- "notas": "Texturas fotograficas CC0 (WRAD) en hospital y comisaria; luz mas suave (blurlms, lightprecision 24). Sin probar en Windows.",
+ "version": "4.2",
+ "notas": "Sobrevivientes atrapados en capullos de Nurrucapa (4 en el hospital, E para liberar, +chapas). Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -299,8 +299,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "eb596d271ac812ddcadbf5bb1017c6ac4909bea35b32f687e17eeff480ddf584",
-   "bytes": 18519
+   "sha256": "9b45c22806dcd8932c43dda4008e26691dcb2c54152b01d2f6fb1ac923e9f2a9",
+   "bytes": 19335
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -1766,6 +1766,26 @@
    "ruta": "packages/models/hospital/camilla/tris.md2",
    "sha256": "09ddb57f4973e8d5c06d09017335d9d9330c0cbe4dedbb7b6710e2b6b5f2c0f2",
    "bytes": 50448
+  },
+  {
+   "ruta": "packages/models/hospital/capturado/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/capturado/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/capturado/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/capturado/tris.md2",
+   "sha256": "b52f72de245a7ed0b598d1c5e11dcd98b90ef85c8528be5ae51aca8e6cc618e1",
+   "bytes": 243872
   },
   {
    "ruta": "packages/models/hospital/carrito/masks.png",
