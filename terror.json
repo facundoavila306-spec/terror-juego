@@ -1,6 +1,6 @@
 {
- "version": "4.2",
- "notas": "Sobrevivientes atrapados en capullos de Nurrucapa (4 en el hospital, E para liberar, +chapas). Sin probar en Windows.",
+ "version": "4.3",
+ "notas": "Capturados: personas con un Nurrucapa prendido a la cara que avanzan atacando (nuevo enemigo, 9 en el hospital). Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -29,7 +29,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "dbfe003035cea02c2c2996637b86f008cbe4374d0551bef773eec97a2bb4f014",
+   "sha256": "656a8638128311c894f4c78a7075be476b95f3f02085d2a23d987bb68ef3d2c5",
    "bytes": 2403328
   },
   {
@@ -299,8 +299,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "9b45c22806dcd8932c43dda4008e26691dcb2c54152b01d2f6fb1ac923e9f2a9",
-   "bytes": 19335
+   "sha256": "1ccd2e8449be075505e1bf702cb7edc2ed7bc97235d3add02f1b51f8c4d37259",
+   "bytes": 18813
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -2516,6 +2516,31 @@
    "ruta": "packages/models/hospital/portasuero/tris.md2",
    "sha256": "522e7a47e66b75e922628429dc7f44a30fc450956e453565480d785f31f4fe39",
    "bytes": 69600
+  },
+  {
+   "ruta": "packages/models/hospital/poseido/esqueleto.txt",
+   "sha256": "8c6c29b53c917ec6d0bd80057169ad12443f0b3bab83a503d6b219bd6267386b",
+   "bytes": 25033
+  },
+  {
+   "ruta": "packages/models/hospital/poseido/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/poseido/md2.cfg",
+   "sha256": "468e24ead3796a4c8c5dae3d0a1f870a4f08be30b9d0006e12319349a3d31c21",
+   "bytes": 292
+  },
+  {
+   "ruta": "packages/models/hospital/poseido/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/poseido/tris.md2",
+   "sha256": "e0c634c8ac606bbba40d0e866ddaafeff5fc6b48b061b306610eec98088d4f91",
+   "bytes": 1058448
   },
   {
    "ruta": "packages/models/hospital/puerta_vaiven/masks.png",
