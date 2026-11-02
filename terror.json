@@ -1,6 +1,6 @@
 {
- "version": "1.8",
- "notas": "Arsenal argentino: facon, Bersa, Bataan 71, FMK-3, Mauser 1909, FMK-2 y FAL",
+ "version": "1.9",
+ "notas": "Golpes que se sienten: sacudida de camara; Nica zarpazo y pisoton; Nuzluz manotazo y agarre; muertes en el piso; todas las armas al arrancar",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -2099,8 +2099,8 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/esqueleto.txt",
-   "sha256": "744adf74e78b3aa36e9eec056790bcaccb8b5498bce4f78ec9a7bc8976a403d6",
-   "bytes": 16706
+   "sha256": "143ecec0837b1439d9ed43007b349b84cfc567fa4aac9acf3ddad1644f6c1b14",
+   "bytes": 16723
   },
   {
    "ruta": "packages/models/vaca/nakru/masks.png",
@@ -2119,13 +2119,13 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/tris.md2",
-   "sha256": "3302c390a397d3a841339b48042f66470b87475f24d3e47cd75b787067551c81",
+   "sha256": "10840278e6f5d9fec3ff6c01590895539a0dee187d76086cc79f076ae0ce57fd",
    "bytes": 2097816
   },
   {
    "ruta": "packages/models/vaca/naloma/esqueleto.txt",
-   "sha256": "06b73aa3c40c79e01abf950d6ddaf4f0b0f0a95d97bfadb229487afb03e439b6",
-   "bytes": 21832
+   "sha256": "1e27b6e961037a194326d34fa6de5cd3acded465fd3a3d99d6f87b9196014a0f",
+   "bytes": 21883
   },
   {
    "ruta": "packages/models/vaca/naloma/masks.png",
@@ -2144,13 +2144,13 @@
   },
   {
    "ruta": "packages/models/vaca/naloma/tris.md2",
-   "sha256": "259c8003feac36d25e7a1900efa2e7c51440584005be86226baee0d9268b50f6",
+   "sha256": "5adfdda35d09fce8c0b6c081e4e886d5d196af261d54b8d92b933947bbddafd3",
    "bytes": 1597312
   },
   {
    "ruta": "packages/models/vaca/nara/esqueleto.txt",
-   "sha256": "6528225df52dd09bc18efab86026c88eb027c94d0145391cda7b6ab8fc66a34c",
-   "bytes": 26790
+   "sha256": "eea3fa7b7cfff7321e4271046527835656c5f9095d14ae166ba9a3b16e9bc3a2",
+   "bytes": 26746
   },
   {
    "ruta": "packages/models/vaca/nara/masks.png",
@@ -2169,13 +2169,13 @@
   },
   {
    "ruta": "packages/models/vaca/nara/tris.md2",
-   "sha256": "89309e2e245f95e4f357ca46e52d85acfa95013f4bcaf35ec15ff9bde7eef4a7",
+   "sha256": "0e084792729669fe82e25eeab7ebcb1f43ca0d083704ba353da5c61e2479e9f9",
    "bytes": 1617808
   },
   {
    "ruta": "packages/models/vaca/nica/esqueleto.txt",
-   "sha256": "95c286ef4db689ace41b824b618ef90d98ef623de79b1c13f895ab21dcfb8272",
-   "bytes": 30972
+   "sha256": "e5478f37695620da73dde6f4463511db24a7004d8019de5f6b461d31e26301af",
+   "bytes": 30721
   },
   {
    "ruta": "packages/models/vaca/nica/masks.png",
@@ -2194,13 +2194,13 @@
   },
   {
    "ruta": "packages/models/vaca/nica/tris.md2",
-   "sha256": "b24eaa65452b0f28b0e4f7b953902a55b5d40d7c6f9ba50a52e08abe848a46f8",
+   "sha256": "49895ccf0da663e9b43d91b9d9272464ab8b122d53a215214104132ec287cd9c",
    "bytes": 1926896
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/esqueleto.txt",
-   "sha256": "3220cd197b38ce8903affe11297f87bb83fa16b730cac002988d9361976f4abf",
-   "bytes": 37215
+   "sha256": "3694b858acf55fe2d9cee3dce149c164adf2b24ea1828343dd73f34ec5f9e9f0",
+   "bytes": 36888
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/masks.png",
@@ -2219,13 +2219,13 @@
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/tris.md2",
-   "sha256": "93613035f81a93c46de718755f2a0253253dd3851a6225364d1a54eba3fb03f1",
+   "sha256": "133d0aad7dff298593f5280f5c89d8f7a0f106e5cb502e8c7b4e24f115e870b3",
    "bytes": 850208
   },
   {
    "ruta": "packages/models/vaca/nuzluz/esqueleto.txt",
-   "sha256": "6fb924c4ce341d2a53b1f904bf7a59abd0d25a661b5ff1ce04d3f3acc0e5d0ac",
-   "bytes": 25315
+   "sha256": "09bb7db376f1b8ce5ea4155ae952313831eb7d13037fba76371dfa230a36bea4",
+   "bytes": 25316
   },
   {
    "ruta": "packages/models/vaca/nuzluz/masks.png",
@@ -2244,7 +2244,7 @@
   },
   {
    "ruta": "packages/models/vaca/nuzluz/tris.md2",
-   "sha256": "afcaa8001817bacfe97c7b7d25e10cfbf226fe0e5386aa2160b5499f9b931eb4",
+   "sha256": "5a8750f6430aa11ab9acd9efea67df6331374d4c8bdbcee873ca54c1d1f04599",
    "bytes": 1455640
   },
   {
