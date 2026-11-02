@@ -1,6 +1,6 @@
 {
- "version": "2.7",
- "notas": "Nakru se entierra y sale en otro lado (embosca, cruza aberturas)",
+ "version": "2.8",
+ "notas": "Sonidos propios para armas, criaturas y golpes; musica de menu y de tramo",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "f45a7f3e3462d06d7b728ac3617beef2befa8758b30c616d38a3e2bc96d871b6",
-   "bytes": 2380288
+   "sha256": "d4329ade5de3e812d063f9fa0623dd6765572f67539868b89c3b364e0b1f4379",
+   "bytes": 2380800
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -229,8 +229,8 @@
   },
   {
    "ruta": "data/sounds.cfg",
-   "sha256": "417a9847e24755f3bbecb11f064a06057108ce9ee63f978585e4815c5e407876",
-   "bytes": 2990
+   "sha256": "36762cf10749fe5bd845fe4d2092497dfecc264b6bc83f44f009273ae91327f0",
+   "bytes": 3862
   },
   {
    "ruta": "data/stdedit.cfg",
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "653992d4d44dfeb06b13741a6a03012c3cf8f2bac4f58ebcb37e793cf4432e5e",
-   "bytes": 6149
+   "sha256": "21e47d74ce8dfc5e85265d1d4f94a7214f8e22afc2ef0f37ebe56854f0f7b209",
+   "bytes": 6296
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -3538,6 +3538,241 @@
    "bytes": 67066
   },
   {
+   "ruta": "packages/sounds/zm/aterrizaje.ogg",
+   "sha256": "2e2879b77aa2ee975ab478a730bc97d8591560b520d0f6da9be5f934fb49a4ce",
+   "bytes": 4669
+  },
+  {
+   "ruta": "packages/sounds/zm/bataan.ogg",
+   "sha256": "31b6e02096d2f3b23c0d4d64c0ee3ba234b70d91c0bcacee420305ad181297af",
+   "bytes": 8915
+  },
+  {
+   "ruta": "packages/sounds/zm/bersa.ogg",
+   "sha256": "05a6b596b732b8166951919df8048ceb0cee860982c15858bb29b3305e9aa296",
+   "bytes": 6503
+  },
+  {
+   "ruta": "packages/sounds/zm/colazo.ogg",
+   "sha256": "656b3f1718607d77932a67a4350782ea5e2ce8f6adc9e52bbfd17fa31ab9bf0e",
+   "bytes": 8044
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor1.ogg",
+   "sha256": "cb15c50f639d3e81c8ddce31ee2e0fe4bfc95e30ccca9b9bb154940db63c31ef",
+   "bytes": 6188
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor2.ogg",
+   "sha256": "e8b59b6dce03054ab75774db0257ef87acc0d30ed749d3585fcdec14d51a7e09",
+   "bytes": 6768
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor3.ogg",
+   "sha256": "5779d98b6e66f56c7701e327aea3651fd3c9169645225d5a20f86fbbce9397ea",
+   "bytes": 7332
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor4.ogg",
+   "sha256": "29ebbfed6c6ade151aca45810601481af7dfcecdea79be0bac0beba153adca16",
+   "bytes": 7871
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor5.ogg",
+   "sha256": "ae7c18ffabf5dd13a2b159cdb9333d5be3dbe5a9e40fe933f8f5d04771eef160",
+   "bytes": 8501
+  },
+  {
+   "ruta": "packages/sounds/zm/dolor6.ogg",
+   "sha256": "b0478a44e16ce26682dcffa1920407213a054bedcfab96946fd2687ec161c442",
+   "bytes": 9054
+  },
+  {
+   "ruta": "packages/sounds/zm/explosion.ogg",
+   "sha256": "4bb71ec5b83040f6332ea9e43a36583fde52359aee96acb3799374b59465c344",
+   "bytes": 16454
+  },
+  {
+   "ruta": "packages/sounds/zm/facon.ogg",
+   "sha256": "27930c69a51a6812157ebd164d364333222a08fa3e812b39a6cda0185af69786",
+   "bytes": 4733
+  },
+  {
+   "ruta": "packages/sounds/zm/fal.ogg",
+   "sha256": "1c4a4a1360997350a0623a2f2d3356024b03c74cc33ea39fe24186027194b626",
+   "bytes": 7661
+  },
+  {
+   "ruta": "packages/sounds/zm/fmk3.ogg",
+   "sha256": "edbe0feca27e6b1b7c0acb8fa4a05a3325db18f2c7d9e21ea47d20e381e6520d",
+   "bytes": 5819
+  },
+  {
+   "ruta": "packages/sounds/zm/garrapata.ogg",
+   "sha256": "c5ffdd39f1795618d434bb0f7880767e3692ebf2ab7259f05ec880399b4ccc0e",
+   "bytes": 7789
+  },
+  {
+   "ruta": "packages/sounds/zm/golpe_ok.ogg",
+   "sha256": "91ddcff86e41567ed5d21f1ee0fd16770ab51cbf498a1f6c8e109393888e1f4c",
+   "bytes": 3864
+  },
+  {
+   "ruta": "packages/sounds/zm/granada_tiro.ogg",
+   "sha256": "437081a15ef8bebaf8711f0ec1d326c67e90a0894858cabd3e9271046f91e51c",
+   "bytes": 5502
+  },
+  {
+   "ruta": "packages/sounds/zm/item.ogg",
+   "sha256": "667f1d160df49078996f19b12b94bc4e09b29321582f5209e0093514c788d30f",
+   "bytes": 4316
+  },
+  {
+   "ruta": "packages/sounds/zm/mauser.ogg",
+   "sha256": "bafc1b1938784d538b4fabfc666e2e6075550a0337c39f90291fee5149ec3d6c",
+   "bytes": 10492
+  },
+  {
+   "ruta": "packages/sounds/zm/mordida.ogg",
+   "sha256": "002b2d610548cc56cd771b2229b12b02c873e1eb427e45924ba6f382ea4b2a64",
+   "bytes": 5713
+  },
+  {
+   "ruta": "packages/sounds/zm/muerte1.ogg",
+   "sha256": "d91ee2a4c2adc4346518ba798a8059858717b6148e27b8f26c845a8d1683a149",
+   "bytes": 14259
+  },
+  {
+   "ruta": "packages/sounds/zm/muerte2.ogg",
+   "sha256": "a24ac4cef47b8ff98c2ff394cece41b7b43dff96bcb1d7fbccfdee47390bc59e",
+   "bytes": 14422
+  },
+  {
+   "ruta": "packages/sounds/zm/nakru_dolor.ogg",
+   "sha256": "0f2290357daae696703ee3e8892e3e28d510117a95a3c4b82fe3f92424bf3411",
+   "bytes": 10202
+  },
+  {
+   "ruta": "packages/sounds/zm/nakru_muerte.ogg",
+   "sha256": "2b7e47a6cc959488439b9aeed4828850e47331ce7e81a632e219e70ffefa2a73",
+   "bytes": 16738
+  },
+  {
+   "ruta": "packages/sounds/zm/nakru_rumor.ogg",
+   "sha256": "588a6db0b34556777c4df7a73c1bf58c99cf16685cca55afbf8a0ed5641cb7eb",
+   "bytes": 17051
+  },
+  {
+   "ruta": "packages/sounds/zm/naloma_chillido.ogg",
+   "sha256": "8144d98ce70f286581e18f209c8daee53f12ca872ccadf98342da7b1601ece2f",
+   "bytes": 11452
+  },
+  {
+   "ruta": "packages/sounds/zm/naloma_dolor.ogg",
+   "sha256": "ab40a708a7670493169ed6e67168dfad7fde18c9ce10a20a07eaa64029648825",
+   "bytes": 5486
+  },
+  {
+   "ruta": "packages/sounds/zm/naloma_muerte.ogg",
+   "sha256": "ab3e01e80ad0d43bbc14ecf856724d56dcb3338f0333125b82ab0f21bf0ebc45",
+   "bytes": 13826
+  },
+  {
+   "ruta": "packages/sounds/zm/nara_chillido.ogg",
+   "sha256": "e0c948f1a3125ec2305fa06f58eb573cf096e5ad1d3c903106a6a34176628485",
+   "bytes": 8637
+  },
+  {
+   "ruta": "packages/sounds/zm/nara_grunido.ogg",
+   "sha256": "34855957186697577b0552ae66c4c76eeecdbfaa93c74acf1cd4ce97c12d1d37",
+   "bytes": 6593
+  },
+  {
+   "ruta": "packages/sounds/zm/nara_muerte.ogg",
+   "sha256": "6089f326d5fd088f0f62e9103423f21535847b2592caf2a3c2b132fb419dbf15",
+   "bytes": 13837
+  },
+  {
+   "ruta": "packages/sounds/zm/nica_dolor.ogg",
+   "sha256": "e4ce6704642685b15492caaeea4c87753841bb9db3a5ad8fbe4bc29b0c4ea10f",
+   "bytes": 8087
+  },
+  {
+   "ruta": "packages/sounds/zm/nica_muerte.ogg",
+   "sha256": "02fa1f93849f0b5a1456eaa3283998fddf993ce2e2a4a00098f16f1f6d5f3035",
+   "bytes": 20182
+  },
+  {
+   "ruta": "packages/sounds/zm/nica_rugido.ogg",
+   "sha256": "2b889a91d07a08e3fa90fd0211590035ac9fdb8a2e472dd779cb3b4b98b791de",
+   "bytes": 15644
+  },
+  {
+   "ruta": "packages/sounds/zm/nurrucapa_chirrido.ogg",
+   "sha256": "6a02cf866c6b0a092465b489e7a2cb207a89e7f0dffb480b6ad21830c5290680",
+   "bytes": 7655
+  },
+  {
+   "ruta": "packages/sounds/zm/nurrucapa_dolor.ogg",
+   "sha256": "8e47a684c15a5673b698e71087bd3147c7c4e76453b2d5b6c08233e63d18ac9f",
+   "bytes": 5093
+  },
+  {
+   "ruta": "packages/sounds/zm/nurrucapa_muerte.ogg",
+   "sha256": "854254d586c6f3b99f54f4252f6c96340b81b2ba718f823e419da0fa13273b9f",
+   "bytes": 7795
+  },
+  {
+   "ruta": "packages/sounds/zm/nuzluz_dolor.ogg",
+   "sha256": "a03028ec05934117e0760f0eac5e5a996de6e7e1304f523d8d6b49b830dada26",
+   "bytes": 8281
+  },
+  {
+   "ruta": "packages/sounds/zm/nuzluz_grunido.ogg",
+   "sha256": "1dc594cc1c5cab06c04d5be687dded6cdfeebcd29bb8ba6fb9aa56ff2d83da0b",
+   "bytes": 11467
+  },
+  {
+   "ruta": "packages/sounds/zm/nuzluz_muerte.ogg",
+   "sha256": "881b76e0330e9d86d43c7efd23eb6c63a72ff3782f05172ec4d6f476cceb5425",
+   "bytes": 14637
+  },
+  {
+   "ruta": "packages/sounds/zm/pisoton.ogg",
+   "sha256": "555d0c4c439e36868e1ae56e908c981005cabfaf16f96fcc2bdd95cad88eb316",
+   "bytes": 16377
+  },
+  {
+   "ruta": "packages/sounds/zm/recarga.ogg",
+   "sha256": "e4d39a1a565ef0ec11003bfdd894a6cbe071af7ca6d11b0fef837f873de4f19e",
+   "bytes": 7288
+  },
+  {
+   "ruta": "packages/sounds/zm/salto.ogg",
+   "sha256": "d212017c3df01c2ab288098552ef4ccbedd9863c22d31d70fea7e7e4c23266aa",
+   "bytes": 4253
+  },
+  {
+   "ruta": "packages/sounds/zm/sin_balas.ogg",
+   "sha256": "b1becaab498c359b113bb37e8d702e1cbab284bc8412488880d7eed70b1f5c5a",
+   "bytes": 4038
+  },
+  {
+   "ruta": "packages/sounds/zm/splash1.ogg",
+   "sha256": "f18ee027839370faeb0c6c282d8241baa4a757850bfd9aed96ccbaebb0485680",
+   "bytes": 6298
+  },
+  {
+   "ruta": "packages/sounds/zm/splash2.ogg",
+   "sha256": "754f981e4b86b87ad199d668b4b7bf385f361c98682fa1c90c8f0c6b66fb37d4",
+   "bytes": 6301
+  },
+  {
+   "ruta": "packages/sounds/zm/tierra.ogg",
+   "sha256": "549d588b4457106a5b1e719f01b9851e7b224374d5846885ccbbb5d5a1b46848",
+   "bytes": 14415
+  },
+  {
    "ruta": "packages/sprite/verlauf.jpg",
    "sha256": "53092ea11682dc09b42218d4e41fa39c63e0dca9667f27fcac60991270550a48",
    "bytes": 4165
@@ -3666,6 +3901,16 @@
    "ruta": "packages/textures/watern.jpg",
    "sha256": "24f29fbd74d0efe66097839a1e9c18da69d30bdd22815f98b786417d1217aa8c",
    "bytes": 74932
+  },
+  {
+   "ruta": "packages/zm/menu.ogg",
+   "sha256": "c549cd226664beeeea5e597eba9408e0b51bf6d2b92d69ae2a2225adf360ba04",
+   "bytes": 1481673
+  },
+  {
+   "ruta": "packages/zm/tramo.ogg",
+   "sha256": "7114e9940708328f9140784d7b8d16ee4c3a9eb763ec5126384578b8f86f656d",
+   "bytes": 1741352
   }
  ],
  "borrar": []
