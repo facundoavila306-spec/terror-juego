@@ -1,6 +1,6 @@
 {
- "version": "3.6",
- "notas": "Hospital rehecho: una sola planta cerrada (UTI -> tarjeta -> puerta con lectora -> hall -> calle), sin escaleras.",
+ "version": "3.7",
+ "notas": "Mapa (M): plano completo con nombres de salas.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -294,7 +294,7 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "01d5cba727cb4b5cbda5f581414f68863139728fe9e2ddd331d378e029c3df78",
+   "sha256": "f0d85a708acf0763740eb377a4c54974bbe8a40814cffeffc9f1ca1f6f498688",
    "bytes": 12883
   },
   {
@@ -929,8 +929,8 @@
   },
   {
    "ruta": "packages/hud/mapa_hospital0.png",
-   "sha256": "99ca07c2606e6ebc7263174b319b8661d3d59483365d1b2caf52ee428f9186e6",
-   "bytes": 10472
+   "sha256": "0efa4fb179d4a12bb1066d4444f58da62c5649279e558db0cd6026a1b2ceb07d",
+   "bytes": 37948
   },
   {
    "ruta": "packages/hud/radar.png",
@@ -5383,9 +5383,5 @@
    "bytes": 2579884
   }
  ],
- "borrar": [
-  "packages/hud/mapa_hospital1.png",
-  "packages/hud/mapa_hospital2.png",
-  "packages/hud/mapa_hospital3.png"
- ]
+ "borrar": []
 }
