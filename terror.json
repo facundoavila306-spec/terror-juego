@@ -1,6 +1,6 @@
 {
- "version": "2.6",
- "notas": "Nakru: gusano horizontal con cola; colazo si lo atacas por atras; pasa por puertas",
+ "version": "2.7",
+ "notas": "Nakru se entierra y sale en otro lado (embosca, cruza aberturas)",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "c2f42a3295eee26467f3d3773b2bbba5621bc9b396dca8c2af99dd320010955f",
-   "bytes": 2376704
+   "sha256": "f45a7f3e3462d06d7b728ac3617beef2befa8758b30c616d38a3e2bc96d871b6",
+   "bytes": 2380288
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "cbdce02ee68b7e18d0e97c7a73173d1b9d5c064a617784f506a2e906b9a9ab8d",
-   "bytes": 6092
+   "sha256": "653992d4d44dfeb06b13741a6a03012c3cf8f2bac4f58ebcb37e793cf4432e5e",
+   "bytes": 6149
   },
   {
    "ruta": "data/terror_mapa.cfg",
