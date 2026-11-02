@@ -1,6 +1,6 @@
 {
- "version": "3.9",
- "notas": "Hospital: ala norte con 5 consultorios y Rayos X, circuito con Aislamiento.",
+ "version": "4.0",
+ "notas": "Hospital lineal: UTI, tarjeta, hall, vacunatorio, aislamiento, ala norte, fusible en Rayos X, persiana y salida.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "7454410444f4a5389ad8965a1df7eda81a5415ab53b759bfe1b1e9094db68fa5",
-   "bytes": 17553
+   "sha256": "2352b4efec51bfa2e56fbad668eb9d2fa8679fe63ca401f981d1c6ccd90c5af0",
+   "bytes": 18474
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -929,8 +929,8 @@
   },
   {
    "ruta": "packages/hud/mapa_hospital0.png",
-   "sha256": "ea8a90e3d985b045bc4c764e44ad396cda540a36b0d809cae25ccad4089b094c",
-   "bytes": 49631
+   "sha256": "14bf753b5d27be37b5f128e9a5365d9b13deb6bb8334dbb1d1536bd5212744ca",
+   "bytes": 49646
   },
   {
    "ruta": "packages/hud/radar.png",
