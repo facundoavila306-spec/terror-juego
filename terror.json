@@ -1,6 +1,6 @@
 {
- "version": "3.5",
- "notas": "Tecla E leida directo del teclado (no depende del bind).",
+ "version": "3.6",
+ "notas": "Hospital rehecho: una sola planta cerrada (UTI -> tarjeta -> puerta con lectora -> hall -> calle), sin escaleras.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "e8455c76ab0d8a7dd79571ca9ae017fae47d4f24a70098451150016ba965a7ac",
-   "bytes": 35393
+   "sha256": "01d5cba727cb4b5cbda5f581414f68863139728fe9e2ddd331d378e029c3df78",
+   "bytes": 12883
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -929,23 +929,8 @@
   },
   {
    "ruta": "packages/hud/mapa_hospital0.png",
-   "sha256": "c464877fd5fe31e17b7748bb9a4b99553363f2f3371d4fa75d4c3d4de44c405d",
-   "bytes": 10374
-  },
-  {
-   "ruta": "packages/hud/mapa_hospital1.png",
-   "sha256": "56556e3ebffa6ab6f21253f3fd964c0cb8497d39abe61255a3e0542dae367b22",
-   "bytes": 10729
-  },
-  {
-   "ruta": "packages/hud/mapa_hospital2.png",
-   "sha256": "dc61ba5f9d063e03c0c020dcb35255aeb37ec9d22a801664edd5019b080f8445",
-   "bytes": 12583
-  },
-  {
-   "ruta": "packages/hud/mapa_hospital3.png",
-   "sha256": "9870daced86e56822509855701391e14bf01f311cfca15b0c7ca8c6121d1d2d1",
-   "bytes": 10921
+   "sha256": "99ca07c2606e6ebc7263174b319b8661d3d59483365d1b2caf52ee428f9186e6",
+   "bytes": 10472
   },
   {
    "ruta": "packages/hud/radar.png",
@@ -5398,5 +5383,9 @@
    "bytes": 2579884
   }
  ],
- "borrar": []
+ "borrar": [
+  "packages/hud/mapa_hospital1.png",
+  "packages/hud/mapa_hospital2.png",
+  "packages/hud/mapa_hospital3.png"
+ ]
 }
