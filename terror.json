@@ -1,6 +1,6 @@
 {
- "version": "2.1",
- "notas": "Balas desde la punta del canon; Nurrucapa en la cara se ve y se saca con E o saltando",
+ "version": "2.2",
+ "notas": "Nurrucapa con panza, boca de abajo y dientes; en la cara se ve en silueta con algo de luz",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "e273b3f096928de631487ef115975200115e595440238c07de9c967065f9c014",
+   "sha256": "d39b29bb78848b4aa50be04464003a18e39de6a9acabb8751668b3053b2cf9f7",
    "bytes": 2373632
   },
   {
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "956e2fb798d8019d7cdc35062b2a057f80878a69105e2ff3a098e858d1821001",
-   "bytes": 5963
+   "sha256": "cbdce02ee68b7e18d0e97c7a73173d1b9d5c064a617784f506a2e906b9a9ab8d",
+   "bytes": 6092
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -2219,8 +2219,8 @@
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/tris.md2",
-   "sha256": "133d0aad7dff298593f5280f5c89d8f7a0f106e5cb502e8c7b4e24f115e870b3",
-   "bytes": 850208
+   "sha256": "67da71a35cd656d8e0b5bf48699a80b8ea71cb16e3ef034b057f3c99b1af4b41",
+   "bytes": 1155488
   },
   {
    "ruta": "packages/models/vaca/nuzluz/esqueleto.txt",
