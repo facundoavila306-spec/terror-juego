@@ -1,6 +1,6 @@
 {
- "version": "3.4",
- "notas": "Mapa con tecla M (plano por piso), facon arreglado (ya no cambia de arma), hospital: cartel flotante corregido.",
+ "version": "3.5",
+ "notas": "Tecla E leida directo del teclado (no depende del bind).",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "36689dfb2398d07bd9d4f981cc5586a88871e7d9ce1e3e71b53eec326d4840b4",
-   "bytes": 2402816
+   "sha256": "dbfe003035cea02c2c2996637b86f008cbe4374d0551bef773eec97a2bb4f014",
+   "bytes": 2403328
   },
   {
    "ruta": "bin64/zlib1.dll",
