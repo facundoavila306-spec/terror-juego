@@ -1,11 +1,11 @@
 {
- "version": "3.1",
- "notas": "Musica nueva con ritmo: menu, tramo y combate (entra sola cuando hay criaturas cerca)",
+ "version": "3.2",
+ "notas": "Hospital Castro Rendon: 4 pisos, herido Ramon, de UTI a la calle. Despues la comisaria.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "286eda52308bba4cb3e59368d761bebd573977a45ced18dbb06454ada413b729",
-   "bytes": 619
+   "sha256": "069f6fc2b9c3551f6a1cd6fe618e1bb297349b18b3fd39b8da74ae300c250472",
+   "bytes": 772
   },
   {
    "ruta": "bin64/SDL2.dll",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "35b04c3a59acba11402ea2af7837224d7396b184004a52c2e3212b79fd904a66",
-   "bytes": 2390528
+   "sha256": "1267347b36515bf250b5b857bae21c97445130ce8b0994134b4722ffb00abb6a",
+   "bytes": 2399744
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -279,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "4dbabbf8777db7d4afae92f93bd75738bbea90a5b427d0b92c957ba67af056a7",
-   "bytes": 7332
+   "sha256": "1f5e4a7cf527d473ea1abf747f0800adea60142ad6707b7130bd6d15bd920ed7",
+   "bytes": 7331
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -293,9 +293,19 @@
    "bytes": 5820
   },
   {
+   "ruta": "data/tramos/hospital.cfg",
+   "sha256": "7b6017039be6d8f89adbdb9001dbec4061bb4314fc43958bed5ecfe161d5c06c",
+   "bytes": 35332
+  },
+  {
    "ruta": "packages/base/comisaria.cfg",
    "sha256": "5aef6bd225fd2cc99cdcd21ae3060722e154a5b207b84787cb09d6a3cdaf0af6",
    "bytes": 2268
+  },
+  {
+   "ruta": "packages/base/hospital.cfg",
+   "sha256": "56e4e6922968093ba0f59b5f1e35cc8aeeb9f99f53d14753422e134e69875fd4",
+   "bytes": 987
   },
   {
    "ruta": "packages/base/terror1.cfg",
@@ -1606,6 +1616,1016 @@
    "ruta": "packages/models/health/tris.md3",
    "sha256": "44618d53723d44b6911dd3ad3f4687a383ce82e2545e1ee5e0d346adb0174401",
    "bytes": 4724
+  },
+  {
+   "ruta": "packages/models/hospital/armario/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/armario/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/armario/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/armario/tris.md2",
+   "sha256": "9738eb5234d8d525b439c30466bc795000251b70c7134356a62cf2c0da2c5dbe",
+   "bytes": 7376
+  },
+  {
+   "ruta": "packages/models/hospital/banco/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/banco/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/banco/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/banco/tris.md2",
+   "sha256": "8feedf2c0951c55623c8ed1ac4d26d12fa43b40d7a24bfccccce728f6f84f13a",
+   "bytes": 5936
+  },
+  {
+   "ruta": "packages/models/hospital/baranda/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/baranda/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/baranda/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/baranda/tris.md2",
+   "sha256": "b6a1df5f47ec475940771094ce2ce989629885f628c5ab8c7b49db312c1ec118",
+   "bytes": 20224
+  },
+  {
+   "ruta": "packages/models/hospital/baranda_esc/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/baranda_esc/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/baranda_esc/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/baranda_esc/tris.md2",
+   "sha256": "bfdb8c53a3a376c35dcd147fa73383004f8728776cb939ccaf7f368c000fe76a",
+   "bytes": 31168
+  },
+  {
+   "ruta": "packages/models/hospital/cama/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/cama/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/cama/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/cama/tris.md2",
+   "sha256": "a33b1550dc0c2c5526f010684141e699b21233dd44b778cc9ff00c0b5d1ddab1",
+   "bytes": 64848
+  },
+  {
+   "ruta": "packages/models/hospital/cama_uti/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/cama_uti/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/cama_uti/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/cama_uti/tris.md2",
+   "sha256": "1bbfc47c208f2e74fce3f12ccab3ca76d16faa8a63e1614c8b7d558604c6f2df",
+   "bytes": 114376
+  },
+  {
+   "ruta": "packages/models/hospital/camilla/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/camilla/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/camilla/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/camilla/tris.md2",
+   "sha256": "09ddb57f4973e8d5c06d09017335d9d9330c0cbe4dedbb7b6710e2b6b5f2c0f2",
+   "bytes": 50448
+  },
+  {
+   "ruta": "packages/models/hospital/carrito/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/carrito/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/carrito/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/carrito/tris.md2",
+   "sha256": "9e4cffcda13dc3d8ad3453b5c7d57e0ad5cab9e3620cf7bf181ea255a79ec389",
+   "bytes": 72920
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_aislamiento/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_aislamiento/skin.png",
+   "sha256": "a78231c5c0c1507302c519e08653d4df48195953d2b2f4615eaf5f9d1d4ac82a",
+   "bytes": 48152
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_aislamiento/tris.md2",
+   "sha256": "4b6729c653ebc810d5f5ee003c9fc61a3205cf633485fff46ba54654523d9e00",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box1/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box1/skin.png",
+   "sha256": "7ea322893bc1ac4f523487677281a7f6f160627e38e5030a869e78b21df43e92",
+   "bytes": 38659
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box1/tris.md2",
+   "sha256": "75b43ca8de8154ca2cf0beb5ec0fa59b970772f52b93e27ebe3d7e1e337d439f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box2/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box2/skin.png",
+   "sha256": "5d3124ca0a98279a0d07d8402b5a6d613328ef7a1e5cd108c852391b25535fd5",
+   "bytes": 47380
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box2/tris.md2",
+   "sha256": "75b43ca8de8154ca2cf0beb5ec0fa59b970772f52b93e27ebe3d7e1e337d439f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box3/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box3/skin.png",
+   "sha256": "9a10f837388837b2e97ae9cc49f4a24c6eb8b6911815396efca780f954b3bbf5",
+   "bytes": 46896
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box3/tris.md2",
+   "sha256": "75b43ca8de8154ca2cf0beb5ec0fa59b970772f52b93e27ebe3d7e1e337d439f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box4/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box4/skin.png",
+   "sha256": "b4ec4d3fbbf264eabbb44f8f3db77fbb894bdfc30707b8f3137142bed3f7a66d",
+   "bytes": 35148
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_box4/tris.md2",
+   "sha256": "75b43ca8de8154ca2cf0beb5ec0fa59b970772f52b93e27ebe3d7e1e337d439f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_cama02/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_cama02/skin.png",
+   "sha256": "72173b6659de279e1e5ef63fb8c5744709570ec3a3f5f6ef57a2d7f7d85a99fc",
+   "bytes": 42191
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_cama02/tris.md2",
+   "sha256": "de6322989199a8795be4e0676dc56dc99b9cdd02b9d616bc3e9cbaf9f1aa7567",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_escalera/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_escalera/skin.png",
+   "sha256": "d99f8394b078c568393c3a1196e276d08fae9f9d5a8f33751389e0ee54892e82",
+   "bytes": 62826
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_escalera/tris.md2",
+   "sha256": "b34a099c0331de23320983b95a19497c05726f4e662348462acc0cce41d88133",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_farmacia/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_farmacia/skin.png",
+   "sha256": "6596fe3bc402e00fde2e7e39d8e8723e734696a7e126408d314f275f8e47de84",
+   "bytes": 52574
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_farmacia/tris.md2",
+   "sha256": "a1aa893d7cf7b0fdb7cd614185fef4d6dd1f19d98570b9ec83decd1c842b3bcf",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_guardia/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_guardia/skin.png",
+   "sha256": "97d65dffa3993aceef3771afe752cadd44a313c3913d733dbfffc74bb0779dcc",
+   "bytes": 57387
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_guardia/tris.md2",
+   "sha256": "4b6729c653ebc810d5f5ee003c9fc61a3205cf633485fff46ba54654523d9e00",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_informes/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_informes/skin.png",
+   "sha256": "11e5190561182a3503895f9c22d7c365ddadadf9228c47ec54ffd92108ffdd18",
+   "bytes": 95868
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_informes/tris.md2",
+   "sha256": "e85b7539037e7dbee4636e9c055f398e79e30f72b0d4f19713c76a4dcf599972",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_internacion/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_internacion/skin.png",
+   "sha256": "6b830aa07109ebe0931a4d1f81201a805f913a7d02166302013d4f2e215a50f2",
+   "bytes": 57615
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_internacion/tris.md2",
+   "sha256": "2a33f193f0c4b1bf27a9aba650e89e2ebacb99aace7914c28859f666f87116fd",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pediatria/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pediatria/skin.png",
+   "sha256": "75612498a5c1760457a29a0917039a18b997afc7c05c10a493640ce48d93b1b5",
+   "bytes": 72378
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pediatria/tris.md2",
+   "sha256": "edfb3e722ade70df0d501dfa61e8d2309e232af9a2d82ea4655132e50e9ce35f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso1/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso1/skin.png",
+   "sha256": "30409854fc153041429462920de31896a5c82ccc16fa2aa7da0023672b566f8d",
+   "bytes": 79322
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso1/tris.md2",
+   "sha256": "1f910c3170fec7da56233f9761baf09c153c5c872b4f01563996c247082c2b90",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso2/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso2/skin.png",
+   "sha256": "b1e382aa5def3c4502ea86dadc8162261a6be20797eba6d9803945ad0748ba59",
+   "bytes": 72333
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso2/tris.md2",
+   "sha256": "1f910c3170fec7da56233f9761baf09c153c5c872b4f01563996c247082c2b90",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso3/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso3/skin.png",
+   "sha256": "6d0cc8ad86d626a45d31a6a73876a611debee484f9c7bf109993bb82597756c0",
+   "bytes": 75216
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_piso3/tris.md2",
+   "sha256": "1f910c3170fec7da56233f9761baf09c153c5c872b4f01563996c247082c2b90",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pisopb/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pisopb/skin.png",
+   "sha256": "e2b3cb21a098cf7bbf070a90c33e076ccdb60c01dab8de8aced54a89e7e4db67",
+   "bytes": 70112
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_pisopb/tris.md2",
+   "sha256": "1f910c3170fec7da56233f9761baf09c153c5c872b4f01563996c247082c2b90",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_quirofanos/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_quirofanos/skin.png",
+   "sha256": "45111d59f7618c16c8bf5564b8e5826033fed8564599a192b4874b1f554c80e6",
+   "bytes": 95240
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_quirofanos/tris.md2",
+   "sha256": "08a991f8c78bedcae8d2a3e756c3528eaab1d8c0f597f6365324281f50646589",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_salida/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_salida/skin.png",
+   "sha256": "547bc27c711d41416ab8bfb94eed33b63bb24e0dbeb6b1fc3ed0b11cec89e9e5",
+   "bytes": 13729
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_salida/tris.md2",
+   "sha256": "7876abfd10a99b58c08881b3c8fed204a86d1d8348647283bd39dc6875271901",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_tv/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_tv/skin.png",
+   "sha256": "dc97f8b5f880e58699c1f39bd23e947ede4549ae1691fecacc0f8f1421fc1f6c",
+   "bytes": 203117
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_tv/tris.md2",
+   "sha256": "b125d335e4f072b0537ffd96fdc6c03d5578b28490e15dc6067a1d521fc62aa8",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_uti/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_uti/skin.png",
+   "sha256": "c517103c8efdbb96181b178eaecbdae83a526106b7cfaaf1b752dd9434547a24",
+   "bytes": 56963
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_uti/tris.md2",
+   "sha256": "edfb3e722ade70df0d501dfa61e8d2309e232af9a2d82ea4655132e50e9ce35f",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_vacunatorio/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_vacunatorio/skin.png",
+   "sha256": "8c5c6ab1c58afd09bfa01632e9dcd7f6a87938234099c6e705c102a55c8215d3",
+   "bytes": 60680
+  },
+  {
+   "ruta": "packages/models/hospital/cartel_vacunatorio/tris.md2",
+   "sha256": "c02f2d116231a554163aee43bced21233de94d70086cefb133a79615df82840d",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/charco/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/charco/md2.cfg",
+   "sha256": "1d6f9a8b2318ace8c2b70af2b0f7aa51dcd0e0c93114c370bacc0fd1dc743fb5",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/charco/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/charco/tris.md2",
+   "sha256": "34dc9939b56aae550132debdca1d492445283a349c3c120a0bf901cde041b054",
+   "bytes": 72960
+  },
+  {
+   "ruta": "packages/models/hospital/escombros/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/escombros/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/escombros/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/escombros/tris.md2",
+   "sha256": "09bfe277d7fdea04d053b54e473bcd1ef30bf5b6fc134098070cf7ebe5c7347c",
+   "bytes": 45664
+  },
+  {
+   "ruta": "packages/models/hospital/escritorio/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/escritorio/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/escritorio/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/escritorio/tris.md2",
+   "sha256": "b5e4e8c8ec13d33b0cdc083cd71f1b0822d2bd87b43e07906e7e42ec67fd5c49",
+   "bytes": 23072
+  },
+  {
+   "ruta": "packages/models/hospital/estante/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/estante/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/estante/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/estante/tris.md2",
+   "sha256": "bf3c554f9e54e1453125c2e63a54ecfc8f375afec6929e01faa85a6b656a2a22",
+   "bytes": 31856
+  },
+  {
+   "ruta": "packages/models/hospital/extintor/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/extintor/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/extintor/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/extintor/tris.md2",
+   "sha256": "e2ef745f75a51942744efe02046682f76f5f68177aebce1710beae0d07f5e46e",
+   "bytes": 22544
+  },
+  {
+   "ruta": "packages/models/hospital/fachada/md2.cfg",
+   "sha256": "3c5fbb152db967fd9e028e888038d6c506d65ae36e1f6f3b2883c1f1d2c53a7f",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/fachada/skin.png",
+   "sha256": "e9aa811641768ede8e899df7031c56df56cc4406155faadc772cadd680d49290",
+   "bytes": 95001
+  },
+  {
+   "ruta": "packages/models/hospital/fachada/tris.md2",
+   "sha256": "b03f085b8a1cc150adbef2cf0f23cc077ea9274dcdbda8829feab25da22d7905",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_escalera/md2.cfg",
+   "sha256": "bf63cc8698870ec70f2f6aa10d444c17fffbb0b48944ca9b68cfe6788a291f2f",
+   "bytes": 77
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_escalera/skin.png",
+   "sha256": "58716a2b70843c201117c3723af305e643426943121b7a11172a94ebb88bae7a",
+   "bytes": 77577
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_escalera/tris.md2",
+   "sha256": "7955f5ac3d1716e03f9f9a7749901112eaf51c90992bf8338b61d40867410a75",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_guardia/md2.cfg",
+   "sha256": "bf63cc8698870ec70f2f6aa10d444c17fffbb0b48944ca9b68cfe6788a291f2f",
+   "bytes": 77
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_guardia/skin.png",
+   "sha256": "92008d13caa424d9bfe1c74f51dc37e95bf23de3de3aacdba619cabb84cb28ae",
+   "bytes": 65468
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_guardia/tris.md2",
+   "sha256": "7955f5ac3d1716e03f9f9a7749901112eaf51c90992bf8338b61d40867410a75",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_nosalgan/md2.cfg",
+   "sha256": "bf63cc8698870ec70f2f6aa10d444c17fffbb0b48944ca9b68cfe6788a291f2f",
+   "bytes": 77
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_nosalgan/skin.png",
+   "sha256": "a2d544c09d708c10fe2475b509d065e2a05249ea2a7ae7d75aa0ad3f58a134d8",
+   "bytes": 45369
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_nosalgan/tris.md2",
+   "sha256": "b32291976dce04ed7c5d28d153abef5c31607c045ee4967d0bcc6605e1143420",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_ramon/md2.cfg",
+   "sha256": "bf63cc8698870ec70f2f6aa10d444c17fffbb0b48944ca9b68cfe6788a291f2f",
+   "bytes": 77
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_ramon/skin.png",
+   "sha256": "beeace7d06ab260d6ccf11c7d56b5726faf4a105452be279939f72889aaeb303",
+   "bytes": 73973
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_ramon/tris.md2",
+   "sha256": "f2e03386984e26a4283af20711ec9c7b8be41aa03e8188ef25aa1f0884bd3890",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_salida/md2.cfg",
+   "sha256": "bf63cc8698870ec70f2f6aa10d444c17fffbb0b48944ca9b68cfe6788a291f2f",
+   "bytes": 77
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_salida/skin.png",
+   "sha256": "fe3b61d6b9d5e32ebba4efcb1aaee5816e76356ff1106289a01064f5b30df97c",
+   "bytes": 55846
+  },
+  {
+   "ruta": "packages/models/hospital/grafiti_salida/tris.md2",
+   "sha256": "b32291976dce04ed7c5d28d153abef5c31607c045ee4967d0bcc6605e1143420",
+   "bytes": 1476
+  },
+  {
+   "ruta": "packages/models/hospital/herido/esqueleto.txt",
+   "sha256": "9d21ed4ccd4557a87de7e5debab1650a38bd9ea380989a5ba472c7398adbbead",
+   "bytes": 24728
+  },
+  {
+   "ruta": "packages/models/hospital/herido/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/herido/md2.cfg",
+   "sha256": "468e24ead3796a4c8c5dae3d0a1f870a4f08be30b9d0006e12319349a3d31c21",
+   "bytes": 292
+  },
+  {
+   "ruta": "packages/models/hospital/herido/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/herido/tris.md2",
+   "sha256": "1d482289dd26a444c0209285bd54c914c93b2f1153527151075a93291acbf31e",
+   "bytes": 875840
+  },
+  {
+   "ruta": "packages/models/hospital/lampara/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/lampara/md2.cfg",
+   "sha256": "1d6f9a8b2318ace8c2b70af2b0f7aa51dcd0e0c93114c370bacc0fd1dc743fb5",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/lampara/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/lampara/tris.md2",
+   "sha256": "a9c8e6b55b03066ed769783aa036dd55c98fbdaf4e8baef52e87ac44548ac8d9",
+   "bytes": 40560
+  },
+  {
+   "ruta": "packages/models/hospital/mesa_quirofano/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/mesa_quirofano/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/mesa_quirofano/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/mesa_quirofano/tris.md2",
+   "sha256": "f1386458532f69f56a07caf31a9260a0ecd86bb4587f04512999304ef00d886d",
+   "bytes": 19224
+  },
+  {
+   "ruta": "packages/models/hospital/mostrador/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/mostrador/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/mostrador/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/mostrador/tris.md2",
+   "sha256": "58483293ff371eccaae5929148b2e2da14fd228169ef881cb957323eb1835ab2",
+   "bytes": 63536
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_acostado/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_acostado/md2.cfg",
+   "sha256": "91e0c3eed66fb2e22b3fcd9c0c24a91573cc38142be9031cee1353d22c02123f",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_acostado/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_acostado/tris.md2",
+   "sha256": "31db466b3715aec38139dc5cf02142eed2578d0cabb9fec0c223d31dd80f0334",
+   "bytes": 307904
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_boca_abajo/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_boca_abajo/md2.cfg",
+   "sha256": "91e0c3eed66fb2e22b3fcd9c0c24a91573cc38142be9031cee1353d22c02123f",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_boca_abajo/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_boca_abajo/tris.md2",
+   "sha256": "6f6e6337bfb87621f4b3558c6b71d675498578c96fd6bc700c737209cda06b48",
+   "bytes": 307904
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_sentado/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_sentado/md2.cfg",
+   "sha256": "91e0c3eed66fb2e22b3fcd9c0c24a91573cc38142be9031cee1353d22c02123f",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_sentado/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/muerto_sentado/tris.md2",
+   "sha256": "3c919fdacdb7b3878c5514ec85ac586bb1aa33d42a59cf738e14c807f8ec5a60",
+   "bytes": 307904
+  },
+  {
+   "ruta": "packages/models/hospital/plafon/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/plafon/md2.cfg",
+   "sha256": "1d6f9a8b2318ace8c2b70af2b0f7aa51dcd0e0c93114c370bacc0fd1dc743fb5",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/plafon/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/plafon/tris.md2",
+   "sha256": "dcbac48eb7697429cbdb127efe31afececa8a9719b382788fe425ca1d5e88fdd",
+   "bytes": 18896
+  },
+  {
+   "ruta": "packages/models/hospital/plafon_apagado/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/plafon_apagado/md2.cfg",
+   "sha256": "1d6f9a8b2318ace8c2b70af2b0f7aa51dcd0e0c93114c370bacc0fd1dc743fb5",
+   "bytes": 60
+  },
+  {
+   "ruta": "packages/models/hospital/plafon_apagado/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/plafon_apagado/tris.md2",
+   "sha256": "5f0284799ccbfdc5aba300e1f327272aa906a52f01352904dbc46af8cda9cbd2",
+   "bytes": 18896
+  },
+  {
+   "ruta": "packages/models/hospital/portasuero/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/portasuero/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/portasuero/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/portasuero/tris.md2",
+   "sha256": "522e7a47e66b75e922628429dc7f44a30fc450956e453565480d785f31f4fe39",
+   "bytes": 69600
+  },
+  {
+   "ruta": "packages/models/hospital/puerta_vaiven/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/puerta_vaiven/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/puerta_vaiven/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/puerta_vaiven/tris.md2",
+   "sha256": "3f5f42372aea420387df92fe4625c393ef1ec598bc2fa769137088c73a72d229",
+   "bytes": 13560
+  },
+  {
+   "ruta": "packages/models/hospital/silla/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/silla/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/silla/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/silla/tris.md2",
+   "sha256": "ec5f4d70f0197e4b73f9c0a0d033a8fa7d4162b9cc6201da95009a0036181302",
+   "bytes": 60992
+  },
+  {
+   "ruta": "packages/models/hospital/silla_espera/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/silla_espera/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/silla_espera/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/silla_espera/tris.md2",
+   "sha256": "64596e30dacf8c5e00c1e9efe1847d1285b8758ee8d4eb4d06c4fea629a63f14",
+   "bytes": 16016
+  },
+  {
+   "ruta": "packages/models/hospital/silla_ruedas/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/silla_ruedas/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/silla_ruedas/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/silla_ruedas/tris.md2",
+   "sha256": "f40913c43ef7779135bbbf10ba48f93cc663eab152ce84706fe33005555ad45b",
+   "bytes": 139664
+  },
+  {
+   "ruta": "packages/models/hospital/tacho/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/tacho/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/tacho/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/tacho/tris.md2",
+   "sha256": "cedd64c6a405e6de19920df23879f9fd155e94df1c657b92e571d056550a79ec",
+   "bytes": 11024
+  },
+  {
+   "ruta": "packages/models/hospital/tv/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/tv/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/tv/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/tv/tris.md2",
+   "sha256": "0ca6c59fcf9be0c805f774d10cd8417ec8dfdfbf7e0caeaef921c7944fb24018",
+   "bytes": 4496
+  },
+  {
+   "ruta": "packages/models/hospital/ventanilla/masks.png",
+   "sha256": "f7c7e28c3cf25d0994ae6ba2ded8983693b8b62e344dd97b9edfc65935e1b19f",
+   "bytes": 35860
+  },
+  {
+   "ruta": "packages/models/hospital/ventanilla/md2.cfg",
+   "sha256": "1e19870b0050525ee2321a637dce688cd30ae8436548ff66226a344c541de1cf",
+   "bytes": 47
+  },
+  {
+   "ruta": "packages/models/hospital/ventanilla/skin.jpg",
+   "sha256": "131f73a0bf9658503bdf09524fbf1dd42e6e52b030ee70e342ce9cc16629ce23",
+   "bytes": 20202
+  },
+  {
+   "ruta": "packages/models/hospital/ventanilla/tris.md2",
+   "sha256": "28bef161c863bbe9948cc4b68a4941b98e0b869216d010c2635624e17a646edc",
+   "bytes": 32864
   },
   {
    "ruta": "packages/models/hudguns/chaing/chaing.md5mesh",
@@ -4246,6 +5266,101 @@
    "ruta": "packages/textures/watern.jpg",
    "sha256": "24f29fbd74d0efe66097839a1e9c18da69d30bdd22815f98b786417d1217aa8c",
    "bytes": 74932
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/acero.jpg",
+   "sha256": "5cd88fd645fbb0f120cd1cbdd9d210e37607ab8c16e48cb427ad57afe05b1b0d",
+   "bytes": 7452
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/asfalto.jpg",
+   "sha256": "a8bfb8590691418180947dd3d993f70cc15bdb17246dbcad0fc7488f971eefdc",
+   "bytes": 102161
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/azulejo.jpg",
+   "sha256": "75b6df7cb20eacf6965128a6b17e0692604183b59668319a42cf1eac81c3c0b3",
+   "bytes": 60994
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/azulejo_amarillo.jpg",
+   "sha256": "7df876925f9650dd72a63e9af84c35940588d7e9332a6265405fb45d706c40dc",
+   "bytes": 66329
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/banda_azul.jpg",
+   "sha256": "92c41075cfe573db79bcc00d8dd04a061102db6e6459781ba9291acd9d21c7f1",
+   "bytes": 32715
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/banda_gris.jpg",
+   "sha256": "f4ea9cc32ee6422b5335406577b0bc476a93b5ea71d88b10b08e0c404f6d7076",
+   "bytes": 29347
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/cielorraso.jpg",
+   "sha256": "fb4a31f831e5f9cfb72d2ee14bc0e76735372fc5a3fb2a5ab865855d90105b7c",
+   "bytes": 85882
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/granito.jpg",
+   "sha256": "78313860785d0b5b9efc3629982db8516ec04f4a0c3d680fdceae8006325cbad",
+   "bytes": 76518
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/losa.jpg",
+   "sha256": "c6a03cc5fa8221d141d87844f3621031e39ade94f6bfb090181f62a6018982ec",
+   "bytes": 11443
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/marmol.jpg",
+   "sha256": "dd948ebba08356e1b2e3d78b0a4c680e50c5f7127122db7c0c096659b994dc34",
+   "bytes": 23960
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/mural.jpg",
+   "sha256": "498b24c01a5dd6ff9b630c9836f578cf7a30fc9eec35cc9a38e43057b59dca09",
+   "bytes": 31994
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/pared.jpg",
+   "sha256": "d6e9b3126fb4925613bf9cef33c86c7ff2be1492e7e70d89fc9ebcce66431882",
+   "bytes": 11403
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/pared_amarilla.jpg",
+   "sha256": "aa31e023380dd482bd209ab4d2588b3e9f3b3f64ab76c7cb33d413ecd34fd934",
+   "bytes": 11540
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/pared_sucia.jpg",
+   "sha256": "aeb70d351c8ea97e4260f6933652d1e7d588e1fc787497b22e65988e9f661ead",
+   "bytes": 16987
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/terrazo.jpg",
+   "sha256": "a105ec81133981eeb6979384c76149c741b5278c0b331ab07e1cffad876323f5",
+   "bytes": 104617
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/terrazo_sucio.jpg",
+   "sha256": "d973b3c4f7b5fcfed68f7a836b44543d48a011922d91d402c1149529dd4faad0",
+   "bytes": 102396
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/vereda.jpg",
+   "sha256": "be1c004944efd3afed0d83efdfbdf3f55de5cf4fc9cb3aff7c4b58cf16ca9fef",
+   "bytes": 110208
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/vinilico.jpg",
+   "sha256": "2d048dcbb508b5b9e4d41b609d1d98e9987b75c43dfcba7fd39c18e6acb2a89b",
+   "bytes": 110016
+  },
+  {
+   "ruta": "packages/textures/zm/hosp/vinilico_sangre.jpg",
+   "sha256": "0fa9fc722d64f503d750b3771c47ed9536e50a5c1286007518d2d9b2989827ec",
+   "bytes": 108324
   },
   {
    "ruta": "packages/zm/combate.ogg",
