@@ -1,6 +1,6 @@
 {
- "version": "4.4",
- "notas": "Capturados: sin tiro a la cabeza, el Nurrucapa se desprende y te persigue para subirse. Sin probar en Windows.",
+ "version": "4.5",
+ "notas": "Capturados: sin avisos; con tiro a la cabeza o explosion muere el Nurrucapa tambien, si no se desprende. Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -29,7 +29,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "16d85ae5824346738c4825a94a41835f26cde69edbc264cc60213630e417a6a8",
+   "sha256": "71af1f56d4d65d92943593cc91ce08764d1eec91e9cc3ee58f9d3210431cf64f",
    "bytes": 2404352
   },
   {
