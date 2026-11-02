@@ -1,6 +1,6 @@
 {
- "version": "3.8",
- "notas": "Hospital mas conectado: circuitos alrededor del hall (pasajes de fachada, vacunatorio-aislamiento).",
+ "version": "3.9",
+ "notas": "Hospital: ala norte con 5 consultorios y Rayos X, circuito con Aislamiento.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "e0bb1ff12842a018bd2fd428135ab9a43f118651f28505d2b72b3914e0a98f93",
-   "bytes": 14009
+   "sha256": "7454410444f4a5389ad8965a1df7eda81a5415ab53b759bfe1b1e9094db68fa5",
+   "bytes": 17553
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -929,8 +929,8 @@
   },
   {
    "ruta": "packages/hud/mapa_hospital0.png",
-   "sha256": "f6fb6f765b41c111654a924ed484fa0ff258f0ec16f7ec8e0ef03f68e24c457d",
-   "bytes": 40720
+   "sha256": "ea8a90e3d985b045bc4c764e44ad396cda540a36b0d809cae25ccad4089b094c",
+   "bytes": 49631
   },
   {
    "ruta": "packages/hud/radar.png",
