@@ -1,6 +1,6 @@
 {
- "version": "2.2",
- "notas": "Nurrucapa con panza, boca de abajo y dientes; en la cara se ve en silueta con algo de luz",
+ "version": "2.3",
+ "notas": "Menu: la opcion senalada se agranda",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "d39b29bb78848b4aa50be04464003a18e39de6a9acabb8751668b3053b2cf9f7",
-   "bytes": 2373632
+   "sha256": "eab42df3f239f67df0502ccb577cd6b64a0a9d722f7c897073ffc7310b1f0141",
+   "bytes": 2374144
   },
   {
    "ruta": "bin64/zlib1.dll",
