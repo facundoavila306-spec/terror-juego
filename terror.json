@@ -1,6 +1,6 @@
 {
- "version": "0.8",
- "notas": "Menu nuevo: cartel de ruta ZONA MUERTA, panel plano",
+ "version": "0.9",
+ "notas": "Cartel: tachadura y ZONA en rojo aerosol",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -174,8 +174,8 @@
   },
   {
    "ruta": "data/portada.png",
-   "sha256": "1bb5178f10b52c381d5976f444f28c465e190c14171c00b73c2402aec3d5ff20",
-   "bytes": 2548755
+   "sha256": "1184bf999a6f76c38e368ea7a0298a8955abeb7783a5dd66ca8dd8e0728198ff",
+   "bytes": 2556916
   },
   {
    "ruta": "data/sounds.cfg",
