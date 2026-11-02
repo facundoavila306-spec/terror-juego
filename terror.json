@@ -1,6 +1,6 @@
 {
- "version": "1.5",
- "notas": "Menus sin panel ni solapas",
+ "version": "1.6",
+ "notas": "Pausa con ESC; modo esqueleto, alambre, camara exterior y camara lenta en el laboratorio",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "40b7bb639027d66181edae0348c81b8c27fe5d2788b015fa0ce483ca36fa0724",
-   "bytes": 2362368
+   "sha256": "81993fea8f86cf30af1cf50224dd8bdc7f7e5804f680d2eeae320e907bf2c5ad",
+   "bytes": 2368000
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -249,8 +249,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "58a231135f062f9204e50a0cdea32e36803147ae730820f9e2aef37bfdce087f",
-   "bytes": 4861
+   "sha256": "d16802f95d16cc856989c2f2a1d6d5a9f78dd7387b9431abdb8d459a4e8e3969",
+   "bytes": 5520
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -1958,14 +1958,19 @@
    "bytes": 12212
   },
   {
+   "ruta": "packages/models/vaca/nakru/esqueleto.txt",
+   "sha256": "b77ca40c8ed842ef78afb996263c4d225b8e75eec0f03067011d898600b6303a",
+   "bytes": 12134
+  },
+  {
    "ruta": "packages/models/vaca/nakru/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/nakru/md2.cfg",
-   "sha256": "710b2594a2ebb5c75b7321cd572891e6c7f08c783874b85a4a3d6983f0f9efa7",
-   "bytes": 275
+   "sha256": "2e41fc5d3e966b7974586febc3354e2715c8991cc5399a3992361e41a2b422e1",
+   "bytes": 288
   },
   {
    "ruta": "packages/models/vaca/nakru/skin.jpg",
@@ -1978,14 +1983,19 @@
    "bytes": 1724136
   },
   {
+   "ruta": "packages/models/vaca/naloma/esqueleto.txt",
+   "sha256": "4834ee6835a1e7e68fa23bbca5bfb9269b2b252969b330244e4d869623e8efd6",
+   "bytes": 15886
+  },
+  {
    "ruta": "packages/models/vaca/naloma/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/naloma/md2.cfg",
-   "sha256": "c7aa83d449c4ffcdad56e2ec2a110e2f27e48ac16ed996647e30874bc608bf66",
-   "bytes": 275
+   "sha256": "acc7adaab7bb8ea648885798e35eb3466999e791a5d624385d65e8912ac16cda",
+   "bytes": 288
   },
   {
    "ruta": "packages/models/vaca/naloma/skin.jpg",
@@ -1998,14 +2008,19 @@
    "bytes": 1307072
   },
   {
+   "ruta": "packages/models/vaca/nara/esqueleto.txt",
+   "sha256": "443651d23c7fcf3771e7efe0efff95b3d2cda059334625878057e4d435e8e941",
+   "bytes": 19499
+  },
+  {
    "ruta": "packages/models/vaca/nara/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/nara/md2.cfg",
-   "sha256": "386adcb680a8093151ec957d17d2808f925529102ddf627dea97d2cac196d428",
-   "bytes": 276
+   "sha256": "c2b9b9d629e6ac13b39b5ce75694a4b6301c52b60c840d4582d3b1ea935d6d0c",
+   "bytes": 289
   },
   {
    "ruta": "packages/models/vaca/nara/skin.jpg",
@@ -2018,14 +2033,19 @@
    "bytes": 1327088
   },
   {
+   "ruta": "packages/models/vaca/nica/esqueleto.txt",
+   "sha256": "37a6d3071078040e71927014498920c174463aabc7d88ceee3fe662de85c2f66",
+   "bytes": 23404
+  },
+  {
    "ruta": "packages/models/vaca/nica/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/nica/md2.cfg",
-   "sha256": "bbe520229826490fcef76285616b7aeca9ffd8d6810b0cf6cfacd55cddfc6ccc",
-   "bytes": 280
+   "sha256": "eb72fb35be525f39fe90928fe72e3cc612420b09c04b7778c96d1592fa91b231",
+   "bytes": 293
   },
   {
    "ruta": "packages/models/vaca/nica/skin.jpg",
@@ -2038,14 +2058,19 @@
    "bytes": 1609376
   },
   {
+   "ruta": "packages/models/vaca/nurrucapa/esqueleto.txt",
+   "sha256": "89452f887ea454243c5c58903599a178705f7c44bbcda4e37db2ca4368c15dae",
+   "bytes": 18803
+  },
+  {
    "ruta": "packages/models/vaca/nurrucapa/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/md2.cfg",
-   "sha256": "c0f17fee707cd767a3422f3cb01406a31fa723cd1c2c92ba538174aafdf4b964",
-   "bytes": 279
+   "sha256": "b1fba24a053653c9b9d3fcab3cf189ab1b448ee6ec9ce54b25864a2f5fa896bf",
+   "bytes": 292
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/skin.jpg",
@@ -2058,14 +2083,19 @@
    "bytes": 693040
   },
   {
+   "ruta": "packages/models/vaca/nuzluz/esqueleto.txt",
+   "sha256": "b933a0e052e78f234f2c9dd48556af9cb82a61688121ccfdb46ca77082b70950",
+   "bytes": 18286
+  },
+  {
    "ruta": "packages/models/vaca/nuzluz/masks.png",
    "sha256": "c981a367584b26a431cdf0650e11ce5bcd1374d89fe18f36719ecc83d56c7b03",
    "bytes": 168334
   },
   {
    "ruta": "packages/models/vaca/nuzluz/md2.cfg",
-   "sha256": "87be461af1c6e63853687633f177f2747a8891db30d96c1224c648631d9f8d1b",
-   "bytes": 276
+   "sha256": "09654309e3bbce2f45ccfd62f04d40b2e52d8463c9a88e9b6c625b515c6c6252",
+   "bytes": 289
   },
   {
    "ruta": "packages/models/vaca/nuzluz/skin.jpg",
