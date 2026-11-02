@@ -1,11 +1,11 @@
 {
- "version": "4.5",
- "notas": "Capturados: sin avisos; con tiro a la cabeza o explosion muere el Nurrucapa tambien, si no se desprende. Sin probar en Windows.",
+ "version": "5.0",
+ "notas": "Complejo hospitalario 110x110 m en circuito: hospital, calle, Morgue, Maternidad, Playa, Casa de Maquinas y Garaje; generador, llave, bidon y fusible. Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "80d325db51ab786e22925b3614428dc8a3555c4592441ed1b7aa3cdc3305ef89",
-   "bytes": 858
+   "sha256": "4ccb7b22b1d6303b11e50f40261160fd84e8840abe81ffd38bd33d0129ed24a1",
+   "bytes": 1281
   },
   {
    "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
@@ -284,7 +284,7 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "77bc03fff071aeb27bc59b2a8d3194f1e30686c743c8b7d98b7dc5fb6e088511",
+   "sha256": "1f1d41a42b08ebcffc77d84e1f219af1cece75af5bfacc127b6e8c02313c56fa",
    "bytes": 7341
   },
   {
@@ -296,6 +296,11 @@
    "ruta": "data/tramos/comisaria.cfg",
    "sha256": "c3cf25578fc5503b1c4b152378e9a6fef30d72c18745948e49edff4ed88453fb",
    "bytes": 5820
+  },
+  {
+   "ruta": "data/tramos/complejo.cfg",
+   "sha256": "46b16b27bfa5c457e39492f4fdbbe136cb5fbb0c087afab6d0bdf5da0118377b",
+   "bytes": 28506
   },
   {
    "ruta": "data/tramos/hospital.cfg",
@@ -931,6 +936,11 @@
    "ruta": "packages/hud/license.txt",
    "sha256": "2e17e091287c7dcfc37ba3d67b1d6e3b30091b33eebe5f7c7c9767fe0034cf65",
    "bytes": 170
+  },
+  {
+   "ruta": "packages/hud/mapa_complejo0.png",
+   "sha256": "3ebd4a3b7fb42e53cb186e8a193b2de387b4fb12663d2cfff6cd7bc893a59f73",
+   "bytes": 17962
   },
   {
    "ruta": "packages/hud/mapa_hospital0.png",

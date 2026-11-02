@@ -11,3 +11,7 @@ Texturas de paredes y pisos del hospital y la comisaria: WRAD Textures de wriks 
 
 v3.2 - Tramo 1: Hospital Castro Rendon (4 pisos, de Terapia Intensiva a la calle). Luego sigue la comisaria.
 Texturas: Nieb y Philip Klevestav (CC-BY).
+
+v5.0 - COMPLEJO HOSPITALARIO CASTRO RENDON (110 x 110 m): hospital + calle + Morgue + Maternidad + Playa + Casa de Maquinas + Garaje, todo conectado en circuito.
+Objetivo: arrancar el generador (bidon del Garaje + fusible de la Morgue + llave del Garaje en Pediatria) y escapar en la camioneta al oeste de la calle.
+El primer arranque puede tardar mas en cargar (calcula la luz de un mapa grande). Tecla M: mapa. E: usar.
