@@ -22,3 +22,5 @@ Motor: base Cube 2 (licencia zlib).
 
 v5.3 - ARREGLO GRANDE: los edificios nuevos del complejo (Morgue, Maternidad, Playa, Casa de Maquinas, Garaje) salian sin texturas, luces ni muebles. Sangre redonda (ya no cuadrada).
 Los objetivos (llaves, fusible, palanca, generador...) ahora tienen una luz ambar y aparecen como rombo amarillo en el mapa (M). Se agarran desde mas lejos.
+
+v5.4 - ZONA SEGURA al arrancar: Terapia Intensiva, pasillo, estacion de enfermeria y Jefatura no tienen criaturas hasta que agarres la tarjeta. Movete, investiga, agarra balas y botiquin.

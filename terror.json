@@ -1,11 +1,11 @@
 {
- "version": "5.3",
- "notas": "Fix grande del complejo: edificios con texturas, luces y muebles; objetivos con luz ambar y rombo amarillo en el mapa; sangre sin cuadrados. Sin probar en Windows.",
+ "version": "5.4",
+ "notas": "Zona segura al arrancar (UTI, pasillo, estacion, jefatura sin criaturas hasta la tarjeta). Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "a008b1b70a4b816eedbf8d9d6c3e0d0f1fae5c4894b01cfb3ba62bbba08189c4",
-   "bytes": 2060
+   "sha256": "919302e39cb2463888c9734d60048badc8608b5fe15702197b5b95685d15aaf9",
+   "bytes": 2249
   },
   {
    "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/complejo.cfg",
-   "sha256": "e72f9f787f211702bc747f27487eb4b336f28e492c79fb635907442ade116edb",
-   "bytes": 36541
+   "sha256": "1b046093ce668a51e2fd5c2c0581b883a62f0184de2f4e064dc89b2eaa5e4f78",
+   "bytes": 36397
   },
   {
    "ruta": "data/tramos/hospital.cfg",
