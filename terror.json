@@ -1,6 +1,6 @@
 {
- "version": "2.3",
- "notas": "Menu: la opcion senalada se agranda",
+ "version": "2.4",
+ "notas": "Balas desde la punta real del arma dibujada; nombre del arma debajo de las balas",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "eab42df3f239f67df0502ccb577cd6b64a0a9d722f7c897073ffc7310b1f0141",
-   "bytes": 2374144
+   "sha256": "61428b8bf87ca961acbe0f33bcdf95ec645cca9fd2d99bd620535be6eae88b7a",
+   "bytes": 2374656
   },
   {
    "ruta": "bin64/zlib1.dll",
