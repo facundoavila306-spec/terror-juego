@@ -1,6 +1,6 @@
 {
- "version": "3.3",
- "notas": "Tecla E arreglada (usar/sacar Nurrucapa), facon con mas alcance y golpe, musica de tramo y combate nuevas: mas largas, suaves y variadas.",
+ "version": "3.4",
+ "notas": "Mapa con tecla M (plano por piso), facon arreglado (ya no cambia de arma), hospital: cartel flotante corregido.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "f7801f8143f7b56037d698d0655d363c6be7320b3a38f922ecb9e942cc4d56a0",
-   "bytes": 2399744
+   "sha256": "36689dfb2398d07bd9d4f981cc5586a88871e7d9ce1e3e71b53eec326d4840b4",
+   "bytes": 2402816
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -279,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "eeb717ae649c918724c7b1cde49f014ccf5c396d555f83937d8b829a0e8e313e",
-   "bytes": 7327
+   "sha256": "77bc03fff071aeb27bc59b2a8d3194f1e30686c743c8b7d98b7dc5fb6e088511",
+   "bytes": 7341
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/hospital.cfg",
-   "sha256": "7b6017039be6d8f89adbdb9001dbec4061bb4314fc43958bed5ecfe161d5c06c",
-   "bytes": 35332
+   "sha256": "e8455c76ab0d8a7dd79571ca9ae017fae47d4f24a70098451150016ba965a7ac",
+   "bytes": 35393
   },
   {
    "ruta": "packages/base/comisaria.cfg",
@@ -926,6 +926,26 @@
    "ruta": "packages/hud/license.txt",
    "sha256": "2e17e091287c7dcfc37ba3d67b1d6e3b30091b33eebe5f7c7c9767fe0034cf65",
    "bytes": 170
+  },
+  {
+   "ruta": "packages/hud/mapa_hospital0.png",
+   "sha256": "c464877fd5fe31e17b7748bb9a4b99553363f2f3371d4fa75d4c3d4de44c405d",
+   "bytes": 10374
+  },
+  {
+   "ruta": "packages/hud/mapa_hospital1.png",
+   "sha256": "56556e3ebffa6ab6f21253f3fd964c0cb8497d39abe61255a3e0542dae367b22",
+   "bytes": 10729
+  },
+  {
+   "ruta": "packages/hud/mapa_hospital2.png",
+   "sha256": "dc61ba5f9d063e03c0c020dcb35255aeb37ec9d22a801664edd5019b080f8445",
+   "bytes": 12583
+  },
+  {
+   "ruta": "packages/hud/mapa_hospital3.png",
+   "sha256": "9870daced86e56822509855701391e14bf01f311cfca15b0c7ca8c6121d1d2d1",
+   "bytes": 10921
   },
   {
    "ruta": "packages/hud/radar.png",
