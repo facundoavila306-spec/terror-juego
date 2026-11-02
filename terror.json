@@ -1,6 +1,6 @@
 {
- "version": "3.2",
- "notas": "Hospital Castro Rendon: 4 pisos, herido Ramon, de UTI a la calle. Despues la comisaria.",
+ "version": "3.3",
+ "notas": "Tecla E arreglada (usar/sacar Nurrucapa), facon con mas alcance y golpe, musica de tramo y combate nuevas: mas largas, suaves y variadas.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "1267347b36515bf250b5b857bae21c97445130ce8b0994134b4722ffb00abb6a",
+   "sha256": "f7801f8143f7b56037d698d0655d363c6be7320b3a38f922ecb9e942cc4d56a0",
    "bytes": 2399744
   },
   {
@@ -279,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "1f5e4a7cf527d473ea1abf747f0800adea60142ad6707b7130bd6d15bd920ed7",
-   "bytes": 7331
+   "sha256": "d46c8343fe67f76d58dd50da6d60b6063173f92b39e4d8402a601e5013af4d5d",
+   "bytes": 7328
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -5364,8 +5364,8 @@
   },
   {
    "ruta": "packages/zm/combate.ogg",
-   "sha256": "ae8e9485fc113b8ac085e5ee6f31590e43b5490ac68fac17866b8cd897c95e17",
-   "bytes": 1501439
+   "sha256": "fc6dde433d189887d12e7ba3498670342b61961461366ff9ca8f9da5fcbe97c4",
+   "bytes": 1909457
   },
   {
    "ruta": "packages/zm/menu.ogg",
@@ -5374,8 +5374,8 @@
   },
   {
    "ruta": "packages/zm/tramo.ogg",
-   "sha256": "7b6464895c6a75770229a1a76a5c88b82babb6886663dad5d3d8d033219e1de6",
-   "bytes": 1920944
+   "sha256": "9ebdc88c3a7afa787404a99e4f689695650e844acdcca13fc108b3f5a7dcc3b8",
+   "bytes": 2579884
   }
  ],
  "borrar": []
