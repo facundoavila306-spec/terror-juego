@@ -34,3 +34,6 @@ de David "Drakker" Pelletier (licencia del autor: se puede modificar y redistrib
 una version modificada, con otro nombre y creditos; mapa original: Sauerbraten, "powerplant").
 Cambios: todas las texturas reemplazadas por texturas CC0 (WRAD), sin items, sonidos ni modelos del original,
 con criaturas, 3 fusibles y generador propios. Objetivo: buscar los 3 fusibles (tecla E) y prender el generador en el punto de partida.
+
+--- 5.7 ---
+Central Electrica: texturas limpias y coherentes (concreto, metal, ladrillo, pasto) en vez de mezcla.
