@@ -1,6 +1,6 @@
 {
- "version": "2.8",
- "notas": "Sonidos propios para armas, criaturas y golpes; musica de menu y de tramo",
+ "version": "2.9",
+ "notas": "Menu de pausa: tres carteles de ruta, tachado con aerosol",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -223,6 +223,36 @@
    "bytes": 73231
   },
   {
+   "ruta": "data/pausa_continuar.png",
+   "sha256": "66d1d12c4c6b7cb55efb5b994d788ee3d4da68a6d74b59bea529d3b1165b900e",
+   "bytes": 8025
+  },
+  {
+   "ruta": "data/pausa_continuar_t.png",
+   "sha256": "ab07914214360d61c3995fbcd20c788fceae7496772176ac5aff9625fecd8057",
+   "bytes": 32177
+  },
+  {
+   "ruta": "data/pausa_opciones.png",
+   "sha256": "813f7aa3914e2c2524a2e376b60b2db7347566aa449a278b2a89e1121b47f1ef",
+   "bytes": 7859
+  },
+  {
+   "ruta": "data/pausa_opciones_t.png",
+   "sha256": "1f5f78ffa54d3ae09031b640c40d33bf12cd537afa3844bf235e404c3b67596b",
+   "bytes": 28773
+  },
+  {
+   "ruta": "data/pausa_salir.png",
+   "sha256": "69e1c8afde5c92be0c4e8d9b57640a7e8b1ce45282df6c13b822d5380794fd98",
+   "bytes": 7947
+  },
+  {
+   "ruta": "data/pausa_salir_t.png",
+   "sha256": "db45a067e41d5588ee9dacc3fc625102c51cfb64c8f119dd733943a0da14358f",
+   "bytes": 29264
+  },
+  {
    "ruta": "data/portada.png",
    "sha256": "1184bf999a6f76c38e368ea7a0298a8955abeb7783a5dd66ca8dd8e0728198ff",
    "bytes": 2556916
@@ -249,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "21e47d74ce8dfc5e85265d1d4f94a7214f8e22afc2ef0f37ebe56854f0f7b209",
-   "bytes": 6296
+   "sha256": "983441c9fdc41d7d1cda437c31b7b477bb47523059a4ae38adc171f31c5960a1",
+   "bytes": 6203
   },
   {
    "ruta": "data/terror_mapa.cfg",
