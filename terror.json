@@ -1,6 +1,6 @@
 {
- "version": "2.5",
- "notas": "Garrapata: HUD normal, mas grande, chupa vida; nombre del arma visible",
+ "version": "2.6",
+ "notas": "Nakru: gusano horizontal con cola; colazo si lo atacas por atras; pasa por puertas",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "e1887f67d5f9a0ccd6b92576aff9398cd05b5d0ae2953e66e22b520ccafbe4c7",
-   "bytes": 2374656
+   "sha256": "c2f42a3295eee26467f3d3773b2bbba5621bc9b396dca8c2af99dd320010955f",
+   "bytes": 2376704
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -2099,8 +2099,8 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/esqueleto.txt",
-   "sha256": "143ecec0837b1439d9ed43007b349b84cfc567fa4aac9acf3ddad1644f6c1b14",
-   "bytes": 16723
+   "sha256": "bbaab2fd1be62deb96121ef80cba61be05c6025f6b19189d336be2a1706711f3",
+   "bytes": 19399
   },
   {
    "ruta": "packages/models/vaca/nakru/masks.png",
@@ -2109,7 +2109,7 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/md2.cfg",
-   "sha256": "2844765e9d188be43debe38cbccb537afcb272b0b56b946f5d914c328775d420",
+   "sha256": "ba8a4559f94d841bca825c8f3664d838e3ec21b27b9aefe906f6373b0c22af30",
    "bytes": 291
   },
   {
@@ -2119,8 +2119,8 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/tris.md2",
-   "sha256": "10840278e6f5d9fec3ff6c01590895539a0dee187d76086cc79f076ae0ce57fd",
-   "bytes": 2097816
+   "sha256": "4ed497d273fbee822bf3320f87768924b23863fd7ede5c3a9bc53a3592e50771",
+   "bytes": 2566448
   },
   {
    "ruta": "packages/models/vaca/naloma/esqueleto.txt",
