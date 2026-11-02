@@ -1,6 +1,6 @@
 {
- "version": "1.9",
- "notas": "Golpes que se sienten: sacudida de camara; Nica zarpazo y pisoton; Nuzluz manotazo y agarre; muertes en el piso; todas las armas al arrancar",
+ "version": "2.0",
+ "notas": "Golpes que se sienten: sacudida de camara; Nica zarpazo y pisoton esquivable; Nuzluz manotazo y agarre; todas las armas al arrancar",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "44ee1b8fbd087749bc10fe30576116626e6d23ed2ff469fd6efe16dcb7504730",
-   "bytes": 2370048
+   "sha256": "29dddf7a01954252d8ff53dcabb803fef5a00dd7e0c7188d0a981f94bc7d5136",
+   "bytes": 2372608
   },
   {
    "ruta": "bin64/zlib1.dll",
