@@ -1,6 +1,6 @@
 {
- "version": "1.6",
- "notas": "Pausa con ESC; modo esqueleto, alambre, camara exterior y camara lenta en el laboratorio",
+ "version": "1.7",
+ "notas": "Animaciones rehechas con peso en las 6 criaturas; el golpe cae en el momento del impacto",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "81993fea8f86cf30af1cf50224dd8bdc7f7e5804f680d2eeae320e907bf2c5ad",
+   "sha256": "3dfeaf721cef97c077b79e1d009ec4c91a9e81b0670da067560a8bb98241f97d",
    "bytes": 2368000
   },
   {
@@ -1959,8 +1959,8 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/esqueleto.txt",
-   "sha256": "b77ca40c8ed842ef78afb996263c4d225b8e75eec0f03067011d898600b6303a",
-   "bytes": 12134
+   "sha256": "744adf74e78b3aa36e9eec056790bcaccb8b5498bce4f78ec9a7bc8976a403d6",
+   "bytes": 16706
   },
   {
    "ruta": "packages/models/vaca/nakru/masks.png",
@@ -1969,8 +1969,8 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/md2.cfg",
-   "sha256": "2e41fc5d3e966b7974586febc3354e2715c8991cc5399a3992361e41a2b422e1",
-   "bytes": 288
+   "sha256": "2844765e9d188be43debe38cbccb537afcb272b0b56b946f5d914c328775d420",
+   "bytes": 291
   },
   {
    "ruta": "packages/models/vaca/nakru/skin.jpg",
@@ -1979,13 +1979,13 @@
   },
   {
    "ruta": "packages/models/vaca/nakru/tris.md2",
-   "sha256": "1266e70059619e9772a5b16738a108d8e406c3b1fa1ba90843670966dd994c03",
-   "bytes": 1724136
+   "sha256": "3302c390a397d3a841339b48042f66470b87475f24d3e47cd75b787067551c81",
+   "bytes": 2097816
   },
   {
    "ruta": "packages/models/vaca/naloma/esqueleto.txt",
-   "sha256": "4834ee6835a1e7e68fa23bbca5bfb9269b2b252969b330244e4d869623e8efd6",
-   "bytes": 15886
+   "sha256": "06b73aa3c40c79e01abf950d6ddaf4f0b0f0a95d97bfadb229487afb03e439b6",
+   "bytes": 21832
   },
   {
    "ruta": "packages/models/vaca/naloma/masks.png",
@@ -1994,8 +1994,8 @@
   },
   {
    "ruta": "packages/models/vaca/naloma/md2.cfg",
-   "sha256": "acc7adaab7bb8ea648885798e35eb3466999e791a5d624385d65e8912ac16cda",
-   "bytes": 288
+   "sha256": "ba8a4559f94d841bca825c8f3664d838e3ec21b27b9aefe906f6373b0c22af30",
+   "bytes": 291
   },
   {
    "ruta": "packages/models/vaca/naloma/skin.jpg",
@@ -2004,13 +2004,13 @@
   },
   {
    "ruta": "packages/models/vaca/naloma/tris.md2",
-   "sha256": "7459c1db9624f0759f573a96876c46f02343a624907989ca62a75ca3ecc01cbb",
-   "bytes": 1307072
+   "sha256": "259c8003feac36d25e7a1900efa2e7c51440584005be86226baee0d9268b50f6",
+   "bytes": 1597312
   },
   {
    "ruta": "packages/models/vaca/nara/esqueleto.txt",
-   "sha256": "443651d23c7fcf3771e7efe0efff95b3d2cda059334625878057e4d435e8e941",
-   "bytes": 19499
+   "sha256": "6528225df52dd09bc18efab86026c88eb027c94d0145391cda7b6ab8fc66a34c",
+   "bytes": 26790
   },
   {
    "ruta": "packages/models/vaca/nara/masks.png",
@@ -2019,8 +2019,8 @@
   },
   {
    "ruta": "packages/models/vaca/nara/md2.cfg",
-   "sha256": "c2b9b9d629e6ac13b39b5ce75694a4b6301c52b60c840d4582d3b1ea935d6d0c",
-   "bytes": 289
+   "sha256": "8f2fa706b536d4928298dfb1c894ad5d41a9729f635ef29515f38f9cbe05dec0",
+   "bytes": 292
   },
   {
    "ruta": "packages/models/vaca/nara/skin.jpg",
@@ -2029,13 +2029,13 @@
   },
   {
    "ruta": "packages/models/vaca/nara/tris.md2",
-   "sha256": "b61f4529cda88ab680ce0062364e292bf49a5fdda243c8792ca4fc5f5c091349",
-   "bytes": 1327088
+   "sha256": "89309e2e245f95e4f357ca46e52d85acfa95013f4bcaf35ec15ff9bde7eef4a7",
+   "bytes": 1617808
   },
   {
    "ruta": "packages/models/vaca/nica/esqueleto.txt",
-   "sha256": "37a6d3071078040e71927014498920c174463aabc7d88ceee3fe662de85c2f66",
-   "bytes": 23404
+   "sha256": "95c286ef4db689ace41b824b618ef90d98ef623de79b1c13f895ab21dcfb8272",
+   "bytes": 30972
   },
   {
    "ruta": "packages/models/vaca/nica/masks.png",
@@ -2044,8 +2044,8 @@
   },
   {
    "ruta": "packages/models/vaca/nica/md2.cfg",
-   "sha256": "eb72fb35be525f39fe90928fe72e3cc612420b09c04b7778c96d1592fa91b231",
-   "bytes": 293
+   "sha256": "491c340c5909d49a9fd2982e936272140404f23d62d5646a10b3148c760c2ae8",
+   "bytes": 295
   },
   {
    "ruta": "packages/models/vaca/nica/skin.jpg",
@@ -2054,13 +2054,13 @@
   },
   {
    "ruta": "packages/models/vaca/nica/tris.md2",
-   "sha256": "28fa0d528a6cfce88c0ece3279d85d61d5b438ab3f9a82c3d45efc9903aad4ce",
-   "bytes": 1609376
+   "sha256": "b24eaa65452b0f28b0e4f7b953902a55b5d40d7c6f9ba50a52e08abe848a46f8",
+   "bytes": 1926896
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/esqueleto.txt",
-   "sha256": "89452f887ea454243c5c58903599a178705f7c44bbcda4e37db2ca4368c15dae",
-   "bytes": 18803
+   "sha256": "3220cd197b38ce8903affe11297f87bb83fa16b730cac002988d9361976f4abf",
+   "bytes": 37215
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/masks.png",
@@ -2069,8 +2069,8 @@
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/md2.cfg",
-   "sha256": "b1fba24a053653c9b9d3fcab3cf189ab1b448ee6ec9ce54b25864a2f5fa896bf",
-   "bytes": 292
+   "sha256": "7fd1d083b715803d05eeb17d79d1e5651071d2042a767336be0e8c070cc4dcb3",
+   "bytes": 295
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/skin.jpg",
@@ -2079,13 +2079,13 @@
   },
   {
    "ruta": "packages/models/vaca/nurrucapa/tris.md2",
-   "sha256": "88a82b242aa7fbc7ad60b3f4dffe460b17efc288c465c992fe11de54e7c69897",
-   "bytes": 693040
+   "sha256": "93613035f81a93c46de718755f2a0253253dd3851a6225364d1a54eba3fb03f1",
+   "bytes": 850208
   },
   {
    "ruta": "packages/models/vaca/nuzluz/esqueleto.txt",
-   "sha256": "b933a0e052e78f234f2c9dd48556af9cb82a61688121ccfdb46ca77082b70950",
-   "bytes": 18286
+   "sha256": "6fb924c4ce341d2a53b1f904bf7a59abd0d25a661b5ff1ce04d3f3acc0e5d0ac",
+   "bytes": 25315
   },
   {
    "ruta": "packages/models/vaca/nuzluz/masks.png",
@@ -2094,8 +2094,8 @@
   },
   {
    "ruta": "packages/models/vaca/nuzluz/md2.cfg",
-   "sha256": "09654309e3bbce2f45ccfd62f04d40b2e52d8463c9a88e9b6c625b515c6c6252",
-   "bytes": 289
+   "sha256": "193a5e26ffe5c48234146b56ad13151c8d244cad6efe4b2df79876ffd1de712e",
+   "bytes": 292
   },
   {
    "ruta": "packages/models/vaca/nuzluz/skin.jpg",
@@ -2104,8 +2104,8 @@
   },
   {
    "ruta": "packages/models/vaca/nuzluz/tris.md2",
-   "sha256": "5a94a39fd346285a9720dba3a68c79de7fa34fbbdd7bdd9aedc2944b633f36d2",
-   "bytes": 1186600
+   "sha256": "afcaa8001817bacfe97c7b7d25e10cfbf226fe0e5386aa2160b5499f9b931eb4",
+   "bytes": 1455640
   },
   {
    "ruta": "packages/models/vwep/chaing/md5.cfg",
