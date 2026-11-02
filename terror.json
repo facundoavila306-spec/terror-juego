@@ -1,11 +1,11 @@
 {
- "version": "5.4",
- "notas": "Zona segura al arrancar (UTI, pasillo, estacion, jefatura sin criaturas hasta la tarjeta). Sin probar en Windows.",
+ "version": "5.5",
+ "notas": "Puertas visibles: marco amarillo y luz calida",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "919302e39cb2463888c9734d60048badc8608b5fe15702197b5b95685d15aaf9",
-   "bytes": 2249
+   "sha256": "a68a52cd6592b99f05136e34a5c0cea19728fa678488025f39ad5db39335d6b4",
+   "bytes": 2324
   },
   {
    "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
@@ -294,8 +294,8 @@
   },
   {
    "ruta": "data/tramos/complejo.cfg",
-   "sha256": "1b046093ce668a51e2fd5c2c0581b883a62f0184de2f4e064dc89b2eaa5e4f78",
-   "bytes": 36397
+   "sha256": "096f654b81b9766156b44c4e48193a46b1e330fb8fd86d0a7cba4cf14a9ccbd6",
+   "bytes": 37764
   },
   {
    "ruta": "data/tramos/hospital.cfg",

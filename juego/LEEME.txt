@@ -24,3 +24,6 @@ v5.3 - ARREGLO GRANDE: los edificios nuevos del complejo (Morgue, Maternidad, Pl
 Los objetivos (llaves, fusible, palanca, generador...) ahora tienen una luz ambar y aparecen como rombo amarillo en el mapa (M). Se agarran desde mas lejos.
 
 v5.4 - ZONA SEGURA al arrancar: Terapia Intensiva, pasillo, estacion de enfermeria y Jefatura no tienen criaturas hasta que agarres la tarjeta. Movete, investiga, agarra balas y botiquin.
+
+--- 5.5 ---
+Puertas visibles: marco amarillo y luz calida en cada puerta.
