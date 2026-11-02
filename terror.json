@@ -1,6 +1,6 @@
 {
- "version": "1.2",
- "notas": "Menu ajustado a pantalla",
+ "version": "1.3",
+ "notas": "Menu: se tacha al senalar",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "94a950aebebe90fbdc174ba1d487f6ca6ed8e4adcae083bf6991167f4b66fb5b",
+   "sha256": "129967871a72dc21da6ddbd102faa70bef294072324b24ac7298970906086eb1",
    "bytes": 2362368
   },
   {
@@ -169,8 +169,13 @@
   },
   {
    "ruta": "data/menu_creditos.png",
-   "sha256": "6a6a6b07ed30bb19f182bb9d97e5acd3670f84447bc74be2e1ba9a59384626d4",
-   "bytes": 116442
+   "sha256": "12f3d2a0471889a49eaa5774a3e1793dcc3e9bb695c5d7c9f67ab47e20d9c87e",
+   "bytes": 116480
+  },
+  {
+   "ruta": "data/menu_creditos_t.png",
+   "sha256": "3c1735a744eb2399a4b266e80cbcc3aa7747a2f28b5dcb777772120a9e781f66",
+   "bytes": 138906
   },
   {
    "ruta": "data/menu_jugar.png",
@@ -178,19 +183,39 @@
    "bytes": 76685
   },
   {
+   "ruta": "data/menu_jugar_t.png",
+   "sha256": "afe364412a21fae773013e20e596b9d1a3984d17950ad4149ab581c206b64d22",
+   "bytes": 92284
+  },
+  {
    "ruta": "data/menu_lab.png",
-   "sha256": "324690130e1df1424bf7a114a81203ec8052ec1d0ac45827a8bc9db623536131",
-   "bytes": 119732
+   "sha256": "3769e93dcd72b67644cda1085448311418134c50584a2a429bda5c8cc9c9b203",
+   "bytes": 118937
+  },
+  {
+   "ruta": "data/menu_lab_t.png",
+   "sha256": "2764a86d3a6fcd74dc4211b425fc38ab01f1339ad8824b15898779a7e151fd9c",
+   "bytes": 150284
   },
   {
    "ruta": "data/menu_opciones.png",
-   "sha256": "dec6dc5b0337704237b7219a41e57ca0fd1bddf7b45964fd5f2911eb60ea55ef",
-   "bytes": 118969
+   "sha256": "ce018758480911b7e693f7c2ab8eaf4b1a1b9d0c4055b92ec1bd8b9b1266ad40",
+   "bytes": 111068
+  },
+  {
+   "ruta": "data/menu_opciones_t.png",
+   "sha256": "845f4a1d9269907e3f0955e48a3b6a4d960c14750a2656ce54195324fb652445",
+   "bytes": 138961
   },
   {
    "ruta": "data/menu_salir.png",
-   "sha256": "b3cc309e3106489a4bdc68189676023b9b69da622174d3c2502d0520d73de971",
-   "bytes": 66059
+   "sha256": "d97f4cc34a9fa01806ea8e0f0d9bf7386fa1b642d19e2084ec5be3fdd7167988",
+   "bytes": 71063
+  },
+  {
+   "ruta": "data/menu_salir_t.png",
+   "sha256": "df9b0516fa6f7dc6834968e5d0d4c7a92a790007994ff0f23575ecf4635d6def",
+   "bytes": 87775
   },
   {
    "ruta": "data/menus.cfg",
