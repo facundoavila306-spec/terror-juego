@@ -19,3 +19,6 @@ El primer arranque puede tardar mas en cargar (calcula la luz de un mapa grande)
 v5.2 - LIMPIEZA LEGAL: se sacaron todos los archivos de Sauerbraten (modelos, sonidos, iconos, logo CUBE 2, particulas, HUD) y se reemplazaron por material propio.
 Queda: texturas de Nieb y Philip Klevestav (CC-BY 3.0, con credito arriba), texturas WRAD (CC0) y 4 archivos de configuracion del motor (font.cfg, heightmap.cfg, blendbrush.cfg, digit_font.cfg).
 Motor: base Cube 2 (licencia zlib).
+
+v5.3 - ARREGLO GRANDE: los edificios nuevos del complejo (Morgue, Maternidad, Playa, Casa de Maquinas, Garaje) salian sin texturas, luces ni muebles. Sangre redonda (ya no cuadrada).
+Los objetivos (llaves, fusible, palanca, generador...) ahora tienen una luz ambar y aparecen como rombo amarillo en el mapa (M). Se agarran desde mas lejos.
