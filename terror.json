@@ -1,6 +1,6 @@
 {
- "version": "5.0",
- "notas": "Complejo hospitalario 110x110 m en circuito: hospital, calle, Morgue, Maternidad, Playa, Casa de Maquinas y Garaje; generador, llave, bidon y fusible. Sin probar en Windows.",
+ "version": "5.1",
+ "notas": "Vidrios ahora se pueden atravesar solo si estan rotos: tienen colision; icono propio ZM en la barra. Sin probar en Windows.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -29,8 +29,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "71af1f56d4d65d92943593cc91ce08764d1eec91e9cc3ee58f9d3210431cf64f",
-   "bytes": 2404352
+   "sha256": "7c991a6bd72e1668d684761795e4f4bdacd50450a9ac6edf464cca4ccb598640",
+   "bytes": 2410496
   },
   {
    "ruta": "bin64/zlib1.dll",
