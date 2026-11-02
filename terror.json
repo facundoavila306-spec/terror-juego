@@ -1,6 +1,6 @@
 {
- "version": "1.1",
- "notas": "Pantalla completa siempre",
+ "version": "1.2",
+ "notas": "Menu ajustado a pantalla",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,7 +24,7 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "64268e70463431d2bfe3efcb8880cd6858f2a7d289fc30cb42cf40ad4ab1e4af",
+   "sha256": "94a950aebebe90fbdc174ba1d487f6ca6ed8e4adcae083bf6991167f4b66fb5b",
    "bytes": 2362368
   },
   {
@@ -224,8 +224,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "5c8629163a6c5ebaa5f4c5599a1a2da6d825319575c555e48a890613ef45f02a",
-   "bytes": 4845
+   "sha256": "84d624a191890b107f0f7d3b4f72c4af7781aeeb1e44c05ce7217943d2d80cbc",
+   "bytes": 4859
   },
   {
    "ruta": "data/terror_mapa.cfg",
