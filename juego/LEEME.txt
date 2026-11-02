@@ -1,4 +1,4 @@
-VACA MUERTA - v0.7 (menu principal nuevo)
+ZONA MUERTA - v0.7 (menu principal nuevo)
 (c) 2026 Facundo - El Gallo McFlay. Todos los derechos reservados.
 Motor: MEV 3D (base Cube 2 / Sauerbraten, licencia zlib).
 
