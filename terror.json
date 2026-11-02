@@ -1,6 +1,6 @@
 {
- "version": "1.0",
- "notas": "Menu 6: letras de aerosol rojo a la izquierda",
+ "version": "1.1",
+ "notas": "Pantalla completa siempre",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -224,8 +224,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "8a90b7bde8d047416a75447a488736483e5611b976d31d8c04f3bcad17e2ce22",
-   "bytes": 4832
+   "sha256": "5c8629163a6c5ebaa5f4c5599a1a2da6d825319575c555e48a890613ef45f02a",
+   "bytes": 4845
   },
   {
    "ruta": "data/terror_mapa.cfg",
