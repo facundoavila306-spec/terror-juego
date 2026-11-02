@@ -1,11 +1,11 @@
 {
- "version": "0.6",
- "notas": "Primera version con actualizador.",
+ "version": "0.7",
+ "notas": "Menu principal nuevo: el juego abre en el menu.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "0accf722f71137c2d84421f9fb5f48b4221d3d0c900db5c7aafb50ace7d61b9f",
-   "bytes": 418
+   "sha256": "212ecb1e839154acaab8886a0de60f1015d5059589bc5783bc4eb82c84ff3b95",
+   "bytes": 464
   },
   {
    "ruta": "bin64/SDL2.dll",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "905eecebce1fef6847a7cdc7be5b53b93368e7b4e5f366878dbe849edacf5cb3",
-   "bytes": 2364416
+   "sha256": "b4a96a7d5d98aebb7963365aa02454c6d35a810652bd99ada14234b224243087",
+   "bytes": 2360320
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -114,8 +114,8 @@
   },
   {
    "ruta": "data/guiskin.png",
-   "sha256": "d2fcbe0a9211a4096da2959bf3771084efba51850a68a747124b6c06fba80481",
-   "bytes": 193187
+   "sha256": "bd27a20fc2bdda12e719d7b504abe31284eace5bc2bcb511e21fc1aea07f46b5",
+   "bytes": 151046
   },
   {
    "ruta": "data/guislider.png",
@@ -173,6 +173,11 @@
    "bytes": 73231
   },
   {
+   "ruta": "data/portada.png",
+   "sha256": "b37bfa9cddf103cbcae8b532b71183e2afe47bbab4745a80fbf63924f0d80487",
+   "bytes": 2775358
+  },
+  {
    "ruta": "data/sounds.cfg",
    "sha256": "417a9847e24755f3bbecb11f064a06057108ce9ee63f978585e4815c5e407876",
    "bytes": 2990
@@ -194,8 +199,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "be7f3a8aa3b93415862a67fcf3b376992b3232938c0a219f0fce6458ebf6c3c0",
-   "bytes": 3130
+   "sha256": "2ce15a5907549c09e7766704751ced4bb9c73b1d91e5d0b0f9ba4f08e69049ed",
+   "bytes": 4813
   },
   {
    "ruta": "data/terror_mapa.cfg",
