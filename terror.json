@@ -1,6 +1,6 @@
 {
- "version": "2.0",
- "notas": "Golpes que se sienten: sacudida de camara; Nica zarpazo y pisoton esquivable; Nuzluz manotazo y agarre; todas las armas al arrancar",
+ "version": "2.1",
+ "notas": "Balas desde la punta del canon; Nurrucapa en la cara se ve y se saca con E o saltando",
  "archivos": [
   {
    "ruta": "LEEME.txt",
@@ -24,8 +24,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "29dddf7a01954252d8ff53dcabb803fef5a00dd7e0c7188d0a981f94bc7d5136",
-   "bytes": 2372608
+   "sha256": "e273b3f096928de631487ef115975200115e595440238c07de9c967065f9c014",
+   "bytes": 2373632
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -1224,8 +1224,8 @@
   },
   {
    "ruta": "packages/models/armas/bataan/md2.cfg",
-   "sha256": "e4372e028a76bc7ce1e03893f60e988a29732b9ebcdfe9767f70433fecfe61c4",
-   "bytes": 134
+   "sha256": "03c8ba32a192181055f1a2b4ccb2e5001a1685ba4b3cb3587fae00fe75dea425",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/bataan/skin.jpg",
@@ -1244,8 +1244,8 @@
   },
   {
    "ruta": "packages/models/armas/bersa/md2.cfg",
-   "sha256": "b78aeaab4fdb5203dc8b7d3ead90c34c734262a37b36b74c2481838b3bb03454",
-   "bytes": 134
+   "sha256": "5854367854028efe3e881747070099cfe33170d6c7be2f0f47f56e89ac6912d2",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/bersa/skin.jpg",
@@ -1264,8 +1264,8 @@
   },
   {
    "ruta": "packages/models/armas/facon/md2.cfg",
-   "sha256": "9b24c221019b3bf1fa17b485e8168875cb6b47a935041ab734f9aa6a1fe83df0",
-   "bytes": 134
+   "sha256": "8df9d1f19b9ea0df1d0267d3ce22ed45241d51276506f78e258da55a4640e937",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/facon/skin.jpg",
@@ -1284,8 +1284,8 @@
   },
   {
    "ruta": "packages/models/armas/fal/md2.cfg",
-   "sha256": "47be513d1104290cc028bc7efbbe399772225543bb7eac1f5c10d95fb6494375",
-   "bytes": 134
+   "sha256": "474851efed271d78e4fd442c3670c3e075eb9251d4d9de93befa370152a7767c",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/fal/skin.jpg",
@@ -1304,8 +1304,8 @@
   },
   {
    "ruta": "packages/models/armas/fmk2/md2.cfg",
-   "sha256": "0eb59b0e6b3f711b146a4af771b4b31e90fa1a5c7e28abcd68883bc0b582e421",
-   "bytes": 134
+   "sha256": "6a6dc99cab0624ee280f552992176d62b8fc5a177da3514e193723675a48e647",
+   "bytes": 157
   },
   {
    "ruta": "packages/models/armas/fmk2/skin.jpg",
@@ -1324,8 +1324,8 @@
   },
   {
    "ruta": "packages/models/armas/fmk3/md2.cfg",
-   "sha256": "8bcc551b2647d868e26e0b7d048b76f9dacd610deb7f20888b3c950e5ef8c372",
-   "bytes": 134
+   "sha256": "68e0d945a11102ebf8e4be941209719f3a2be3a97f93e72ecf8977698bf4078c",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/fmk3/skin.jpg",
@@ -1344,8 +1344,8 @@
   },
   {
    "ruta": "packages/models/armas/mauser/md2.cfg",
-   "sha256": "75053750f78a951c013cc5dbfa27cb88f77393aa86642d699b77cfb29f8c6715",
-   "bytes": 134
+   "sha256": "043210482f50fb5f6376e064c0c2183e1b7f34ffa8ccfaea88823354b1e8a7c0",
+   "bytes": 158
   },
   {
    "ruta": "packages/models/armas/mauser/skin.jpg",
