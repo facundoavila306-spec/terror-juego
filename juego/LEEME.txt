@@ -1,4 +1,4 @@
-ZONA MUERTA - v0.7 (menu principal nuevo)
+ZONA MUERTA - v5.8 (mapa DEPOSITO, criaturas con modelos reales)
 (c) 2026 Facundo - El Gallo McFlay. Todos los derechos reservados.
 Motor: MEV 3D (base Cube 2 / Sauerbraten, licencia zlib).
 
@@ -37,3 +37,11 @@ con criaturas, 3 fusibles y generador propios. Objetivo: buscar los 3 fusibles (
 
 --- 5.7 ---
 Central Electrica: texturas limpias y coherentes (concreto, metal, ladrillo, pasto) en vez de mezcla.
+
+--- 5.8 ---
+JUGAR abre el DEPOSITO: mapa grande de disparos, sin puertas ni llaves. Objetivo: limpiarlo (40 criaturas, dormidas y repartidas; se despiertan con ruido o al verte).
+Arrancas con todas las armas y municion. Hay cajas de balas y botiquines (E para agarrar).
+Mapa: version MODIFICADA de "ogrosupply" (Cube 2: Sauerbraten) de David "Drakker" Pelletier, con su permiso de licencia (modificable y redistribuible con otro nombre y credito). Se sacaron items, teleports y sonidos del original.
+Criaturas con modelos reales: Nuzluz = Mr. Fixit (CC-BY-NC), Nara = Hellpig (Psionic), Nurrucapa = Rat y Nica = Bauul (Brian "EvilBastard" Collins; uso no comercial con credito).
+Texturas del mapa: paquetes de Sauerbraten (aard, dg, tech1soc, ik2k, ikbase, payne, than_ind, jf1, egyptsoc, rorschach, subverse, g_pack, lunaran, gibbie, philipk, gor, aftas, mitaman, noctua, loopix, drakker, golgotha, schwenz; skybox de penguins). Uso no comercial: el juego es gratuito.
+Sin probar en Windows. Pendiente: el conteo de criaturas baja solo un poco al principio (algunas aparecen trabadas); las criaturas voladoras y el gusano siguen con los modelos viejos.

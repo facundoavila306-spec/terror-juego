@@ -1,11 +1,11 @@
 {
- "version": "5.7",
- "notas": "Central: texturas limpias y coherentes",
+ "version": "5.8",
+ "notas": "Mapa Deposito (grande, sin puertas ni llaves, 40 criaturas con modelos reales). JUGAR abre el Deposito.",
  "archivos": [
   {
    "ruta": "LEEME.txt",
-   "sha256": "094c9b897b4a87d879aa477c13bfaf807cb702016e90e9b1bbde255e05287c4f",
-   "bytes": 3001
+   "sha256": "3525d2c430b01e92d33644c6276d5238b254bbc702c81b8f32a93007a166e035",
+   "bytes": 4179
   },
   {
    "ruta": "LICENCIA-texturas-WRAD-CC0.txt",
@@ -29,8 +29,8 @@
   },
   {
    "ruta": "bin64/terror.exe",
-   "sha256": "1a36c7a817afe109c2fe8e8efa3e00514a190802cb5eaddc3cd02402d02497c6",
-   "bytes": 2411008
+   "sha256": "61568084b8d357579957bacfd56d7ecf3660c568c7a8c8cd1a61bbe9fff0a4cf",
+   "bytes": 2412032
   },
   {
    "ruta": "bin64/zlib1.dll",
@@ -279,8 +279,8 @@
   },
   {
    "ruta": "data/terror.cfg",
-   "sha256": "ab718d888cca6885b148da3b472ab2e12f3995fe8aaa9943005f0a941e31fc58",
-   "bytes": 7594
+   "sha256": "c41df26a0a8ee1e981ed50403ac319152929b89eadbf06e03b72ead71cbcf1ab",
+   "bytes": 8266
   },
   {
    "ruta": "data/terror_mapa.cfg",
@@ -303,9 +303,29 @@
    "bytes": 37764
   },
   {
+   "ruta": "data/tramos/deposito.cfg",
+   "sha256": "90b1030f9c9e108fc5421283356efa5541de9a510f466e402e0f9c5fed71832f",
+   "bytes": 2501
+  },
+  {
    "ruta": "data/tramos/hospital.cfg",
    "sha256": "1ccd2e8449be075505e1bf702cb7edc2ed7bc97235d3add02f1b51f8c4d37259",
    "bytes": 18813
+  },
+  {
+   "ruta": "packages/aard/aardmbr16_2.jpg",
+   "sha256": "f56a5210cb3c1d88759b746f9cd9cbde6fc720bd6576f0bee198b05a9f733cf1",
+   "bytes": 12063
+  },
+  {
+   "ruta": "packages/aard/aardograss_1.jpg",
+   "sha256": "58758c9b0c11ab4df0801bbf0afb88c71422f4a55f413fdb70a287fd87d0908d",
+   "bytes": 15079
+  },
+  {
+   "ruta": "packages/aftas/package.cfg",
+   "sha256": "34b885779e1414e70a44c687ac26907ddd362a67072a102072aa926f13510ad1",
+   "bytes": 1734
   },
   {
    "ruta": "packages/base/central_electrica.cfg",
@@ -321,6 +341,16 @@
    "ruta": "packages/base/comisaria.cfg",
    "sha256": "5aef6bd225fd2cc99cdcd21ae3060722e154a5b207b84787cb09d6a3cdaf0af6",
    "bytes": 2268
+  },
+  {
+   "ruta": "packages/base/deposito.cfg",
+   "sha256": "cecea219dc2f8994f643cbed579f86746a70deb29378acf45d330fa1180be01e",
+   "bytes": 3555
+  },
+  {
+   "ruta": "packages/base/deposito.ogz",
+   "sha256": "67a9686ac43b8da826f6eababfde0b6309102a0afa58524e38a160f7cfc6dc46",
+   "bytes": 1418560
   },
   {
    "ruta": "packages/base/hospital.cfg",
@@ -798,6 +828,121 @@
    "bytes": 11051
   },
   {
+   "ruta": "packages/dg/floor_grass1.jpg",
+   "sha256": "1ff1d2c568818eb43d0ecee866d7158d7437ff3ef3d142e1eeb5912d93eefb64",
+   "bytes": 21638
+  },
+  {
+   "ruta": "packages/dg/floor_grass3&soil.jpg",
+   "sha256": "7ab15fcab0c0fbaf186087403307676e3e8e19cefb89d8e63f8521d7085e0094",
+   "bytes": 77234
+  },
+  {
+   "ruta": "packages/dg/floor_pavement_stone4_4moss.jpg",
+   "sha256": "d2578779b5066350fe6b948f8b8bdc41ddc279b12cf8d231a9b5c0a01b4983ca",
+   "bytes": 28423
+  },
+  {
+   "ruta": "packages/dg/floor_pavingStone.jpg",
+   "sha256": "c25bd4ebe9a0a22363a29bee3465246cd2a9654ea4477cefaf60042af04c2678",
+   "bytes": 21513
+  },
+  {
+   "ruta": "packages/dg/floor_paving_littleStones3.jpg",
+   "sha256": "e9b2a8525e67380bc584de66fdeea9f6c8b8f8bca9f3bcd95823812535eefbdd",
+   "bytes": 23204
+  },
+  {
+   "ruta": "packages/dg/mad063.jpg",
+   "sha256": "618c34f7e6e791e039aa6ac98ee4996d70c09fad65a96b5592721664ce7d9316",
+   "bytes": 15558
+  },
+  {
+   "ruta": "packages/dg/mad065.jpg",
+   "sha256": "7c5ee16d4214ea8b7c0907242c05fbd4980b6d9b5e932af7ec401e006c10bc82",
+   "bytes": 13861
+  },
+  {
+   "ruta": "packages/dg/mur049.jpg",
+   "sha256": "31d2b5e9d30e1f5b53152f7196b54aa8a9a00cf7ae03866b9e48501ddff22a17",
+   "bytes": 19919
+  },
+  {
+   "ruta": "packages/dg/mur142.jpg",
+   "sha256": "e208164b75fca10e9778459ba8d7ff352be9905a5f063776e7f9e806dc6c8902",
+   "bytes": 19554
+  },
+  {
+   "ruta": "packages/dg/muv185.jpg",
+   "sha256": "bd898c451d45cc2121df8d4c2508b0611f5afdbbd7cd1968b6d23e257ef9de3c",
+   "bytes": 26779
+  },
+  {
+   "ruta": "packages/dg/muv204.jpg",
+   "sha256": "1a6069b877de3c2e888a53839e02c1a51ec3a7687dc782367adabbe6850d2ee3",
+   "bytes": 21350
+  },
+  {
+   "ruta": "packages/dg/package.cfg",
+   "sha256": "4a07c17c81f8f2a69cfb1380e359adee26ce81a9755a93b58db679e1cec55e00",
+   "bytes": 986
+  },
+  {
+   "ruta": "packages/dg/sue011.jpg",
+   "sha256": "0fce587ac50e1e1b55800862d68bb6d839866e3132fdf930150155e2799baf0c",
+   "bytes": 18453
+  },
+  {
+   "ruta": "packages/drakker/no_diving.jpg",
+   "sha256": "766295787e6c25457c778a14f6e43efb5dc82a591e24d326ecb069972a5617c3",
+   "bytes": 22960
+  },
+  {
+   "ruta": "packages/egyptsoc/128-01pc.jpg",
+   "sha256": "deeb68f0d0a003b72b08b13f0a517aa2c46e36788b802360c67cca63c65733e7",
+   "bytes": 29855
+  },
+  {
+   "ruta": "packages/egyptsoc/128-04a.jpg",
+   "sha256": "960deba0f9aa1f48e246ea24b38d83887f641409c63df4363327abbb2bff6931",
+   "bytes": 33980
+  },
+  {
+   "ruta": "packages/egyptsoc/128-04d.jpg",
+   "sha256": "c1ede163f0e060dd0b057d3e01c8f048f8fa5b7c56c2a23de78bb1ff339c5e1c",
+   "bytes": 35397
+  },
+  {
+   "ruta": "packages/egyptsoc/block01d.jpg",
+   "sha256": "c412ac95763c8141a8f9e590cd6c608280412679f8f46570cc9cde9145b7c2f7",
+   "bytes": 61590
+  },
+  {
+   "ruta": "packages/egyptsoc/package.cfg",
+   "sha256": "929582c81c7e039a056f2be0b407429dfb0e4d665d75a4f95e2f673ff0c6e9f5",
+   "bytes": 2330
+  },
+  {
+   "ruta": "packages/egyptsoc/s064-01b.jpg",
+   "sha256": "5c99dbbd6774b7a1bf1b93a32e60b27489cd4f43c93e26603a4e560a3acf4c76",
+   "bytes": 4963
+  },
+  {
+   "ruta": "packages/egyptsoc/solidgrate1b.jpg",
+   "sha256": "43593c65f5d78ae7751f7e79a5b6880a7ad9c6e9215e445343df0beab7c6030f",
+   "bytes": 14664
+  },
+  {
+   "ruta": "packages/egyptsoc/v064-01b.jpg",
+   "sha256": "79d4a9eaea138db796fedc0a97c51aca2199938d67092c454a86489081e578e6",
+   "bytes": 16141
+  },
+  {
+   "ruta": "packages/egyptsoc/v064-03c.jpg",
+   "sha256": "04fa51de497899a4f6034c8b43da3c913f9b714e4d9bed236d4b0db4d4300cfa",
+   "bytes": 16915
+  },
+  {
    "ruta": "packages/fonts/default.cfg",
    "sha256": "352dfc833aba205bc93e4b279869c170c01a4ce5d1e2f95e2df6ffb0bf3ce395",
    "bytes": 12952
@@ -826,6 +971,211 @@
    "ruta": "packages/fonts/default2.png",
    "sha256": "87f7fc1f575a379dd064fade6420d4baffd32f1fdcf7ebf980bda994dda356e5",
    "bytes": 39994
+  },
+  {
+   "ruta": "packages/g_pack/g-crate01.jpg",
+   "sha256": "83ebb07c89db0783456e139651ab73e5c64ddb86f1f3f93c76002ab7587000b1",
+   "bytes": 4886
+  },
+  {
+   "ruta": "packages/g_pack/g-metfloor3b.jpg",
+   "sha256": "02a0e4aecffb2c63acdffbbed8671d2ef40baf079c6d03558f75c37a7ef90ea2",
+   "bytes": 23924
+  },
+  {
+   "ruta": "packages/g_pack/package.cfg",
+   "sha256": "03bddc8703714102276ba05e2cecc8d763335611635c01adffe2f12b4ab39c9a",
+   "bytes": 809
+  },
+  {
+   "ruta": "packages/g_pack/package2.cfg",
+   "sha256": "c4725f9151410e82b70fa9abc9f6229a50b77cd636a8207c7168cce03ea32c6d",
+   "bytes": 780
+  },
+  {
+   "ruta": "packages/gibbie/base30_d.jpg",
+   "sha256": "2c161ab06b15753dc5c0b90bed978ead5a9cfa2e5c9b7ed827b1902c3259f27d",
+   "bytes": 9549
+  },
+  {
+   "ruta": "packages/gibbie/base30_h.jpg",
+   "sha256": "71d621963332ee5d247109c6d2a9c74b8c7cbaf07fb4eb866e4313ced8c1c9b4",
+   "bytes": 8126
+  },
+  {
+   "ruta": "packages/gibbie/base30_local.jpg",
+   "sha256": "8703f6c2edc9d2f2daa3323c116a4291a4c7e3f33807a910ec650b878de178d0",
+   "bytes": 12442
+  },
+  {
+   "ruta": "packages/gibbie/base30_s.jpg",
+   "sha256": "12734645c0112f8caa0ba6c830411441c0ca247650ea157e23f72be7b3d738eb",
+   "bytes": 9706
+  },
+  {
+   "ruta": "packages/gibbie/base35_d.jpg",
+   "sha256": "afe90c550f3261fe9bea52e30859ddbd73b71b3ba441ea47859b3ee905ef6e0c",
+   "bytes": 17549
+  },
+  {
+   "ruta": "packages/gibbie/base35_h.jpg",
+   "sha256": "3e12a91386569f98f36ec89dffe3715daa84f58111e1e0a4faab147d1d049545",
+   "bytes": 7842
+  },
+  {
+   "ruta": "packages/gibbie/base35_local.jpg",
+   "sha256": "392e3646279a4421020ce751ba5b5a74f30d699ea222aa982e9be3e010f714ad",
+   "bytes": 17043
+  },
+  {
+   "ruta": "packages/gibbie/base35_s.jpg",
+   "sha256": "f3b1c836df23cc84d5ce06e6409022784feba779d7e7c7381e6f14777e8ee258",
+   "bytes": 13809
+  },
+  {
+   "ruta": "packages/gibbie/base39_d.jpg",
+   "sha256": "f74eb6c2bed5e7ccbf07c8ca00f9125dfc3e693a64d5d964c24d1e5b68dfe63f",
+   "bytes": 5773
+  },
+  {
+   "ruta": "packages/gibbie/base39_h.jpg",
+   "sha256": "36dcd894e96389ed5ee1fca317aa293917dea84753f7e250061d749ca8a2af43",
+   "bytes": 5401
+  },
+  {
+   "ruta": "packages/gibbie/base39_local.jpg",
+   "sha256": "9559ce20d9e2c94e2be954fca66b6668d00e408967b90c81d4bde6f4f15cfc57",
+   "bytes": 6339
+  },
+  {
+   "ruta": "packages/gibbie/base39_s.jpg",
+   "sha256": "00815484f3dc63200b93732975c25d675e717eb8afd27025596995a7133070b6",
+   "bytes": 4493
+  },
+  {
+   "ruta": "packages/gibbie/base42_d.jpg",
+   "sha256": "193c87e74c457daa5ab4ad4a0585407b48780446bdab4628a9debf573956a589",
+   "bytes": 3428
+  },
+  {
+   "ruta": "packages/gibbie/base42_h.jpg",
+   "sha256": "2d3a4a6575c3f45e6420665e573825b287044ea6780b0f9ed3c91082bfe17c3b",
+   "bytes": 4498
+  },
+  {
+   "ruta": "packages/gibbie/base42_local.jpg",
+   "sha256": "c812e2a3557b6a692c947f31ca2a09ee7bb2b6cdb5a4a7094445512126b16bbf",
+   "bytes": 3733
+  },
+  {
+   "ruta": "packages/gibbie/base42_s.jpg",
+   "sha256": "905ecdc481343396666da12c357ff2cd69da4fd58433d556abc87299c8400f34",
+   "bytes": 2700
+  },
+  {
+   "ruta": "packages/gibbie/baselight04_add.jpg",
+   "sha256": "c88fad7c7990c753bc4a9553466f1d3e339e31e2f8219c5c2e73ad84eea7abfb",
+   "bytes": 2005
+  },
+  {
+   "ruta": "packages/gibbie/baselight04_d.jpg",
+   "sha256": "7a7e59c8acef2aa44c64b6e77c93846adf1953f9986fedd4fb55f8f0b4117202",
+   "bytes": 2927
+  },
+  {
+   "ruta": "packages/gibbie/baselight04_h.jpg",
+   "sha256": "62423f71b1001ccee31bc1a1782da882bda37bed966a1fe863306fda8a1116b5",
+   "bytes": 4145
+  },
+  {
+   "ruta": "packages/gibbie/baselight04_local.jpg",
+   "sha256": "5a794415d651871d8bca45765630b47d3746ab2198666b551ca55c3d745a743e",
+   "bytes": 2215
+  },
+  {
+   "ruta": "packages/gibbie/baselight04_s.jpg",
+   "sha256": "9afbbe42e36bb0d2318eae1c11f37794177ef2d9e2d1086182dac3d2f207e9b2",
+   "bytes": 2260
+  },
+  {
+   "ruta": "packages/gibbie/package.cfg",
+   "sha256": "df52b63118b44aeaaa09f6ff247047fc0e5de4b425037ced250b49d15861fd63",
+   "bytes": 10243
+  },
+  {
+   "ruta": "packages/gibbie/teletop_add.jpg",
+   "sha256": "72a9fe0314dedb674106a4b6ef8396d287ef5c1f7a26d9a427944039426f164c",
+   "bytes": 4849
+  },
+  {
+   "ruta": "packages/gibbie/teletop_d.jpg",
+   "sha256": "cf825db7d495ca5d7fa6468ec8948d7ad9facf5bbfc576868a60951b7cdf5c46",
+   "bytes": 9375
+  },
+  {
+   "ruta": "packages/gibbie/teletop_h.jpg",
+   "sha256": "6900360f98c811736aa06df7bd6300722516d24acafa407273edc5ee136169ce",
+   "bytes": 6651
+  },
+  {
+   "ruta": "packages/gibbie/teletop_local.jpg",
+   "sha256": "46b2068526ab4e7e1f8c4e41a4556feb9c7f4643732118cbb6aed7d261080d86",
+   "bytes": 7600
+  },
+  {
+   "ruta": "packages/gibbie/teletop_s.jpg",
+   "sha256": "37cd4731ab609cb7e5067cb2350d783e2967937ed4ea218e24a051dc2219a8a7",
+   "bytes": 7060
+  },
+  {
+   "ruta": "packages/golgotha/water2.jpg",
+   "sha256": "e9442c160662b6a6db879b3471fdab637c63cf4fb9c258aee943a47bbd68b52f",
+   "bytes": 54082
+  },
+  {
+   "ruta": "packages/gor/GR_GK_009_cc.jpg",
+   "sha256": "8d02c909d3152b797f7171a0a11e71c25601d37073c8d5ee46653ad6c022237c",
+   "bytes": 140711
+  },
+  {
+   "ruta": "packages/gor/GR_GK_009_hm.jpg",
+   "sha256": "31777c366181f0ad77307ed3633a3e28ef410c9f2d7e69e881ad2083663fb497",
+   "bytes": 73607
+  },
+  {
+   "ruta": "packages/gor/GR_GK_009_nm.jpg",
+   "sha256": "24f73a0b654ed1db68a30dd1c5a59e42abda4155c4218b43e0e032db24a2463a",
+   "bytes": 50291
+  },
+  {
+   "ruta": "packages/gor/GR_GK_009_sc.jpg",
+   "sha256": "4f91b61879505d4828913e9d2ee834f8c8f26a9a36435de263fa575fd484eafa",
+   "bytes": 40694
+  },
+  {
+   "ruta": "packages/gor/ST_GK_004_cc.jpg",
+   "sha256": "dd6755c6f4d06370a9a1b7a4aaa9b54f18b69250485e770f7632d381caad863f",
+   "bytes": 117090
+  },
+  {
+   "ruta": "packages/gor/ST_GK_004_hm.jpg",
+   "sha256": "53f633b083806b8ef1d255be1b0dc9720b4859f8709c89809e5530e30317d4fb",
+   "bytes": 123343
+  },
+  {
+   "ruta": "packages/gor/ST_GK_004_nm.jpg",
+   "sha256": "d36da42b62c1ce9d802c6a767b038eb49fd552028a0bcf6c6b27a356fed56930",
+   "bytes": 40818
+  },
+  {
+   "ruta": "packages/gor/ST_GK_004_sc.jpg",
+   "sha256": "bf58b5761eb1d745dcd80b361753c51d1a0159c44dd66ffb2a8f9272b2a63330",
+   "bytes": 39234
+  },
+  {
+   "ruta": "packages/gor/package.cfg",
+   "sha256": "1129a05d1d2fd77ea2760edfae8b1b0ff62981d6a13bf7841854a652128093fd",
+   "bytes": 8295
   },
   {
    "ruta": "packages/hud/blip_blue.png",
@@ -961,6 +1311,466 @@
    "ruta": "packages/hud/radar.png",
    "sha256": "3df63f4661825e58133a90b065310cf8c6a67555eff07970faf99df7fc1911d0",
    "bytes": 3496
+  },
+  {
+   "ruta": "packages/icons/mrfixit.jpg",
+   "sha256": "f378d0aca2167c09719c1e3f53e9ce63038af450b2bb824b1729afd012a7f642",
+   "bytes": 1430
+  },
+  {
+   "ruta": "packages/ik2k/ik_brick_3216d.jpg",
+   "sha256": "48ad2867aebe5ca097fa3e24f35832527de66fb440be2a917b6e1562b8d90484",
+   "bytes": 6859
+  },
+  {
+   "ruta": "packages/ik2k/ik_floor_brick128a.jpg",
+   "sha256": "f997ff4bbc55641622f13f8cb5bd9f07943cd0f4822f0532eefe6fdb2ac37da6",
+   "bytes": 7158
+  },
+  {
+   "ruta": "packages/ik2k/ik_floor_wood128b.jpg",
+   "sha256": "b1a311fc9354d19cf6bf303a1987a2c666a0a7777993d72c33772bed6d64926b",
+   "bytes": 5213
+  },
+  {
+   "ruta": "packages/ik2k/ik_ground_cobbles128.jpg",
+   "sha256": "d62fb98dc1d5bf5c7da10e18e9f0a859c9f7561a1bffa297ca3e9d58136ceb68",
+   "bytes": 7850
+  },
+  {
+   "ruta": "packages/ik2k/ik_sky_day_back.jpg",
+   "sha256": "60fb99057c932cd7915405d6545184eef8fa7648ffc74c66bf45f8637d23585d",
+   "bytes": 1319
+  },
+  {
+   "ruta": "packages/ik2k/package.cfg",
+   "sha256": "0d08cad1ddfd706fb9ec842e154d91505261621bd60e4a55cfc189db7b0e16a1",
+   "bytes": 1097
+  },
+  {
+   "ruta": "packages/ikbase/ik_cwall03a2.jpg",
+   "sha256": "38aba1a9af4113ef9b61154c469a0583a6b95666a60eb439c6b81b9fcc185c05",
+   "bytes": 22165
+  },
+  {
+   "ruta": "packages/ikbase/ik_floor_met128e.jpg",
+   "sha256": "9ded7c1a9104b808ed1fd35f318dca3b98267700e27fa7b30b129fa08427f114",
+   "bytes": 8093
+  },
+  {
+   "ruta": "packages/ikbase/ik_floor_met64d.jpg",
+   "sha256": "c4968057a4d7ab938b0804760c88d9e41ef8b0cf84541359a31d6fc6db8ed929",
+   "bytes": 8659
+  },
+  {
+   "ruta": "packages/ikbase/ik_floor_met64e.jpg",
+   "sha256": "00a71c47c951ae51a40cfb1b7ad543648a64be738994279e08cc3bcc269d0dfb",
+   "bytes": 8391
+  },
+  {
+   "ruta": "packages/ikbase/ik_floor_met64f.jpg",
+   "sha256": "fe9fe3470840f02d6b36b7c488d165252d57f8b507dfd87435a7dca16375e512",
+   "bytes": 9454
+  },
+  {
+   "ruta": "packages/ikbase/ik_gtrimh_64b.jpg",
+   "sha256": "0eade09808b115de284d251419aa03865e3ef8a2864b8b1cd4512f39c4060ae0",
+   "bytes": 3659
+  },
+  {
+   "ruta": "packages/ikbase/ik_gtrimh_lit1a.jpg",
+   "sha256": "c0f475056bd9692e699bd1eaa3fab515d1adefef43609c185df7fdb3172509e8",
+   "bytes": 9763
+  },
+  {
+   "ruta": "packages/ikbase/ik_gtrimv_64b.jpg",
+   "sha256": "3132a4f731de5910009cee12f6c6abfa13af82cb1040f3421927d4a31500a8bb",
+   "bytes": 3785
+  },
+  {
+   "ruta": "packages/ikbase/ik_gtrimv_lit1a.jpg",
+   "sha256": "595430481269938e55746f65190d9a6d74ba668c3a881604627734ee15af1b2e",
+   "bytes": 10149
+  },
+  {
+   "ruta": "packages/ikbase/ik_gtrimv_lit2b.jpg",
+   "sha256": "8d6c61a470ca9e8e57cd90f29075346fadb859dc3d134dd4b05f30336181e2e8",
+   "bytes": 9570
+  },
+  {
+   "ruta": "packages/ikbase/ik_htrimh_64b.jpg",
+   "sha256": "12fbad49136fced5cd818bdab2e03c0cc63907878a7b01f343fb42d8491b2743",
+   "bytes": 3662
+  },
+  {
+   "ruta": "packages/ikbase/ik_htrimv_64b.jpg",
+   "sha256": "df71fca4c66ec37fe3a4caa82dd55207f45329d5be634ba663d19a3ce4efef0a",
+   "bytes": 3700
+  },
+  {
+   "ruta": "packages/ikbase/ik_itrimv_128b.jpg",
+   "sha256": "370fcaa1507e729aa270182145317e15d5a7e3d13f1556ce7f43523ac791ea61",
+   "bytes": 5833
+  },
+  {
+   "ruta": "packages/ikbase/ik_metplatef_6464b.jpg",
+   "sha256": "fab80e687679eaf75cf0c4c439d1802506681e4fe8adcdf13e3f502fb53fd613",
+   "bytes": 6490
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimh_32a.jpg",
+   "sha256": "c2562c227ecfc1062fa4d48b90b833cfabf60ef588e510a2b1f9afcf88c0ca5e",
+   "bytes": 2277
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimh_32b.jpg",
+   "sha256": "a7575e027987ac10b33a948814af59959000fe7dd9a24fea3a4b2371ea19abda",
+   "bytes": 2425
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimh_32c.jpg",
+   "sha256": "3b8a3e36b06ee2aa88e3265d3c0bf2f52a477ed1a9f88c1431a63f16b7539ae5",
+   "bytes": 2410
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimh_32d.jpg",
+   "sha256": "a642e7ea21a1c10c1c1bedc98df1469ec3ef3c54296c127503e94ad7b19824d4",
+   "bytes": 2280
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimv_32a.jpg",
+   "sha256": "cd5f3f8a24214d3dd48e87edf1f3e41c4fc3edfac32e7ed163afc7b9e4a4a5d1",
+   "bytes": 2185
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimv_32d.jpg",
+   "sha256": "d4e650630521a09e1789f17d478e9e5ba0f15b752fbeb41c047c3e369e855d2f",
+   "bytes": 2248
+  },
+  {
+   "ruta": "packages/ikbase/ik_wtrimv_64a.jpg",
+   "sha256": "5b1f0bfc4d383f7ce80f8de5614c83309263922e3c76240602f5d7d525bf480d",
+   "bytes": 3584
+  },
+  {
+   "ruta": "packages/ikbase/package.cfg",
+   "sha256": "d6152080d52a09e4b4bdb96bbcf4d795929a3c0466d60adcff4cf128742d0e07",
+   "bytes": 1526
+  },
+  {
+   "ruta": "packages/jf1/jf128.jpg",
+   "sha256": "0bfb44501604bfbfb65d8d721f4f2cd87969fd57354604726a4faee674eef04e",
+   "bytes": 17796
+  },
+  {
+   "ruta": "packages/jf1/jf64.jpg",
+   "sha256": "fdf848bc0673a0e774eb690aad3017dcc0dcdb6b3dec625f4dc7ae4a6fb97856",
+   "bytes": 18302
+  },
+  {
+   "ruta": "packages/jf1/jfbutn.jpg",
+   "sha256": "45c1ae15ac1ea59749d23584883d6b7b0286d6badd748cbcb856222b7369cf29",
+   "bytes": 8843
+  },
+  {
+   "ruta": "packages/jf1/jfhatch.jpg",
+   "sha256": "c3bd2cecbab9377025bc99eb9f8f40771178107a726d7608eecc42060dbcd9fe",
+   "bytes": 8883
+  },
+  {
+   "ruta": "packages/jf1/jflite.jpg",
+   "sha256": "690301c5a053c84eae480d7ff34dee4dc919ec6259a846b7c77b2cd15ce7d867",
+   "bytes": 7989
+  },
+  {
+   "ruta": "packages/jf1/jfwall.jpg",
+   "sha256": "b815e7d3c9be3769604752ac8a16024730661b649ad025d462ab90221be4eb60",
+   "bytes": 26930
+  },
+  {
+   "ruta": "packages/jf1/jfyellow.jpg",
+   "sha256": "d492e525f6852b2b533d81e33df8d305be4c0dfef8c86f91dad55e37f715bd6f",
+   "bytes": 4529
+  },
+  {
+   "ruta": "packages/jf1/package.cfg",
+   "sha256": "8b6b12de49ce6e17f6e54cf15372c4f53b3de95ccae1077abfdb129baf8471e8",
+   "bytes": 413
+  },
+  {
+   "ruta": "packages/loopix/package.cfg",
+   "sha256": "5de9769446a03ceff0ecae52bdacb3d2cc3a2cd92b7e8a5d518f2a1d5f8158cc",
+   "bytes": 482
+  },
+  {
+   "ruta": "packages/lunaran/glue1_d.jpg",
+   "sha256": "c5db0674a35d702c7dca8233dfd90c8c9a3711a0812fea9e56d67540f0421859",
+   "bytes": 6789
+  },
+  {
+   "ruta": "packages/lunaran/glue1_h.jpg",
+   "sha256": "5a7a2602abe335da1bfaec7c586f2434a0325500af00e2a4197e92cdb1d94358",
+   "bytes": 7437
+  },
+  {
+   "ruta": "packages/lunaran/glue1_local.jpg",
+   "sha256": "1c15b1b77b108425083dfeced4ba10e45e13f648ed12ea6b07e602e86ddb08fe",
+   "bytes": 8233
+  },
+  {
+   "ruta": "packages/lunaran/glue1_s.jpg",
+   "sha256": "eaf41b2679a988def4cb92aeb074979a60ab565683d879cb83d00dfd292c5611",
+   "bytes": 6538
+  },
+  {
+   "ruta": "packages/lunaran/grate1_d.jpg",
+   "sha256": "e6c4b78d2a1d6128475e2cd5766df1390c799ffde9f06bb29a61ce7b3bee9d4c",
+   "bytes": 30924
+  },
+  {
+   "ruta": "packages/lunaran/grate1_h.jpg",
+   "sha256": "11c2b743ecc3d127f2fc04d082ef9072a379a22e94f8e2906bfc71761f971add",
+   "bytes": 8164
+  },
+  {
+   "ruta": "packages/lunaran/grate1_local.jpg",
+   "sha256": "d9e901e8b5eeb5ebb4b678c2054889da16240dc5f9958719564cf2b44b13b224",
+   "bytes": 12574
+  },
+  {
+   "ruta": "packages/lunaran/grate1_s.jpg",
+   "sha256": "923c2323199facd5957d3b29aa7ebca7f8dd9b7c498cbd4c9b92b12517bc0195",
+   "bytes": 5845
+  },
+  {
+   "ruta": "packages/lunaran/hexflr1_d.jpg",
+   "sha256": "cf8e740fa77fd1377f99ba51e3f590557588b2618f37a938f08b3aae223932f0",
+   "bytes": 23136
+  },
+  {
+   "ruta": "packages/lunaran/hexflr1_h.jpg",
+   "sha256": "8aeab41fbcbd696bd625c42c9532fa34391ea773f0d97a30850af650602466a9",
+   "bytes": 10048
+  },
+  {
+   "ruta": "packages/lunaran/hexflr1_local.jpg",
+   "sha256": "387eefd15072cb5deae5c24925b7dbf969d8c4bb7f1071c1bcfcdb87e4fc145c",
+   "bytes": 25876
+  },
+  {
+   "ruta": "packages/lunaran/hexflr1_s.jpg",
+   "sha256": "18f779ca2c78a1cfac3ef246075b3ef7fcff06e31d1bd5095cc7b93a94a54e2b",
+   "bytes": 24552
+  },
+  {
+   "ruta": "packages/lunaran/light_ceil1_d.jpg",
+   "sha256": "ab0da9f32b384870a5579b2263f655d3c15012e70354f36fb9992aa5fe531b60",
+   "bytes": 1102
+  },
+  {
+   "ruta": "packages/lunaran/light_ceil1_g.jpg",
+   "sha256": "5e4e437879f3f4de2859e9334de574f526ba9e3a6ce475a2718d745be49edc4c",
+   "bytes": 1378
+  },
+  {
+   "ruta": "packages/lunaran/light_ceil1_h.jpg",
+   "sha256": "a0b9a8e0993dd3a73607c0777eb6098a77f02eb0ff8a401bdec23ed240d3c508",
+   "bytes": 671
+  },
+  {
+   "ruta": "packages/lunaran/light_ceil1_local.jpg",
+   "sha256": "21c07c32acfa436b3386e3dc3df7f75fe0e6214dd22c0c92042f89ec630b0b6b",
+   "bytes": 1135
+  },
+  {
+   "ruta": "packages/lunaran/light_fifty_d.jpg",
+   "sha256": "1ad7f74db3bf63d1ce9c8fbba64caa6d684a9e87dfdb6863696695cb15ab5093",
+   "bytes": 23306
+  },
+  {
+   "ruta": "packages/lunaran/light_fifty_g.jpg",
+   "sha256": "e733189e9cd4f6bf82aeac35717e5195161b402e3ff4b1984b5a02fccaa3f3b4",
+   "bytes": 1530
+  },
+  {
+   "ruta": "packages/lunaran/light_fifty_h.jpg",
+   "sha256": "892e34587daf6bbf1b11970191570941d2ead264720f424b8ff583ff8bf17d1c",
+   "bytes": 2154
+  },
+  {
+   "ruta": "packages/lunaran/light_fifty_local.jpg",
+   "sha256": "083218252ab1f63f6068dc2799eacd077f3b7c16fc6640a9ca5fb799b1077d8f",
+   "bytes": 23101
+  },
+  {
+   "ruta": "packages/lunaran/light_fifty_s.jpg",
+   "sha256": "3929a270272e110f3d94a9cd353234f2690ed389836147ccd312f012f92fa048",
+   "bytes": 24604
+  },
+  {
+   "ruta": "packages/lunaran/package.cfg",
+   "sha256": "e8b2b5b7b108cc04b32fff44091ae404cd4c6689849ec60a20253a9eb5e42f6f",
+   "bytes": 8979
+  },
+  {
+   "ruta": "packages/lunaran/panel64_4_d.jpg",
+   "sha256": "0ddbc6cdf117664c7a800fc6ee0e67427a69516aadb5b908091bacaa548e3c0b",
+   "bytes": 15372
+  },
+  {
+   "ruta": "packages/lunaran/panel64_4_h.jpg",
+   "sha256": "6502260429c8c3ed4d921ae0f9855ef354c903a6785250987039b11e4632b00a",
+   "bytes": 11171
+  },
+  {
+   "ruta": "packages/lunaran/panel64_4_local.jpg",
+   "sha256": "b595338e7297caead692a066112c357e07a963c6970847da9f544b6fb4392eab",
+   "bytes": 19835
+  },
+  {
+   "ruta": "packages/lunaran/panel64_4_s.jpg",
+   "sha256": "81fe7dcb23de7e4dd02138ffd508ac813c94e1b5460aea90fb93b276971c422b",
+   "bytes": 13784
+  },
+  {
+   "ruta": "packages/lunaran/qcomp4_d.jpg",
+   "sha256": "43f8352b262b68034d0fba0a0c74daa3e5e44811df163ef280163c866b64d44c",
+   "bytes": 9867
+  },
+  {
+   "ruta": "packages/lunaran/qcomp4_glow.jpg",
+   "sha256": "0d92e5802e62973be8d9d5c80159c6e2c7cb85ee53e3e2a4386dc79d21924706",
+   "bytes": 23920
+  },
+  {
+   "ruta": "packages/lunaran/qcomp4_h.jpg",
+   "sha256": "5e82ff9ad46e806a8ca8262c37bdf232cd930802b57999e5e46396274b6645b3",
+   "bytes": 8192
+  },
+  {
+   "ruta": "packages/lunaran/qcomp4_local.jpg",
+   "sha256": "b8af63fa58499469539001ec5c1a81bc4a00067361bff501c64fd0b70a5825bd",
+   "bytes": 12368
+  },
+  {
+   "ruta": "packages/lunaran/qcomp4_s.jpg",
+   "sha256": "8ef5c05066f7ebca030a56fca242c1052de10e4f5951e96c3c87bd7badfcd0f8",
+   "bytes": 7401
+  },
+  {
+   "ruta": "packages/lunaran/qcomp5_d.jpg",
+   "sha256": "9c66389683c234a376685af07f0bddf1db0dbc993a92abd3d4c73cb8b75ddd14",
+   "bytes": 7811
+  },
+  {
+   "ruta": "packages/lunaran/qcomp5_glow2.jpg",
+   "sha256": "6c352974d840d1846246e2e5d3b22bd91acd531ad132216fbf3261e146ee5e5b",
+   "bytes": 5433
+  },
+  {
+   "ruta": "packages/lunaran/qcomp5_h.jpg",
+   "sha256": "a5900519d4e9d6637cc6541253b3c087619982594b899d102c9bb33f578ddabf",
+   "bytes": 7179
+  },
+  {
+   "ruta": "packages/lunaran/qcomp5_local.jpg",
+   "sha256": "2d3eb1019b13439b7b7a2a73e270b39cf91746a5fe429f36e1eff8977c39d711",
+   "bytes": 10418
+  },
+  {
+   "ruta": "packages/lunaran/qcomp5_s.jpg",
+   "sha256": "b0c114613076667a102b04ab9772c13c230071fd005a6a01354d242c14da86e7",
+   "bytes": 6515
+  },
+  {
+   "ruta": "packages/lunaran/support1_d.jpg",
+   "sha256": "413dbed171914fe65b2e2bce44e7c8b34f725e0f447ae866390d4257411313e7",
+   "bytes": 30079
+  },
+  {
+   "ruta": "packages/lunaran/support1_h.jpg",
+   "sha256": "3419dad752c6ed3fd48e4eb818edd7af9ff90b145b1898c4bcc71b44da5850a7",
+   "bytes": 6513
+  },
+  {
+   "ruta": "packages/lunaran/support1_local.jpg",
+   "sha256": "29d6fd7301d773afc7a87137e3c082706f9606ba3d091091af199335f173b3a6",
+   "bytes": 20552
+  },
+  {
+   "ruta": "packages/lunaran/support1_s.jpg",
+   "sha256": "3885820e082cd7a7f61550b5ce3d795a8a0b0aaefe686ee8726ab85d334aa5db",
+   "bytes": 7569
+  },
+  {
+   "ruta": "packages/lunaran/wires1_d.jpg",
+   "sha256": "698082ab4ef56bc4b226f2f7e2bb2417e22e71e58e6a8df2683f41da51d3bb3c",
+   "bytes": 41858
+  },
+  {
+   "ruta": "packages/lunaran/wires1_h.jpg",
+   "sha256": "22a67c2899d1d3226d50f6139466ec947bf51dabbcef498829c62a875ebc56bf",
+   "bytes": 29212
+  },
+  {
+   "ruta": "packages/lunaran/wires1_local.jpg",
+   "sha256": "32427290b1d69a388b10880702c11d6c947bfb8248ea2f25fc38d36700ae773d",
+   "bytes": 125157
+  },
+  {
+   "ruta": "packages/lunaran/wires1_s.jpg",
+   "sha256": "d4e91ea3d20c9b15279bd88beb76df69f42002e9bfb77a4746ba253a4456462a",
+   "bytes": 28653
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalbase2.jpg",
+   "sha256": "8f72d0ac29f8fe21aa4488ffb6f49a2021df7e25e30e8278da3eb70ff4794838",
+   "bytes": 44238
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalbase2_normal.jpg",
+   "sha256": "71f561230977191fa50aa40b8986e21c9715c4b6e4a6c631686f90090a82b020",
+   "bytes": 103045
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalbase2_spec.jpg",
+   "sha256": "ab17cd8ca413a080d5eb41b397ab517a37f10deb1c0e2477ed30d16cfb46d4d3",
+   "bytes": 21892
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalplate173_1.jpg",
+   "sha256": "50d6cc4d19b8135c0dd5db1a5ca7c221d18c4df48ba60602e005b2a3d3010a13",
+   "bytes": 62890
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalplate173_1_normal.jpg",
+   "sha256": "adf1aacd75913985098748ac8ecdce0a379128febe995681bf7e2c6ae1e991a3",
+   "bytes": 118154
+  },
+  {
+   "ruta": "packages/mitaman/mm-metalplate173_1_spec.jpg",
+   "sha256": "510d9725687ea6f3992f82f2966131b991567510b07d00d77a5e8ab6fb8da404",
+   "bytes": 62050
+  },
+  {
+   "ruta": "packages/mitaman/mm-metaltrim02.jpg",
+   "sha256": "491f5cbdd7ffc19a473a27f26b7907da70b6e9ab8e0998f49c673dec95092284",
+   "bytes": 14732
+  },
+  {
+   "ruta": "packages/mitaman/mm-metaltrim02_normal.jpg",
+   "sha256": "a4dc7784926960d94470af91795b6dd51fd2acf23bd5af20453963cb9e244710",
+   "bytes": 22755
+  },
+  {
+   "ruta": "packages/mitaman/mm-metaltrim02_spec.jpg",
+   "sha256": "a0c4c223a26471bc644d6ea32ae158ec26a770475b5e75042823624b2d84acba",
+   "bytes": 12606
+  },
+  {
+   "ruta": "packages/mitaman/package.cfg",
+   "sha256": "e0aaa1cdb44612812e5d3beb3a5e913bb16ae9a89ee05db3bebe8683298af5ba",
+   "bytes": 12081
   },
   {
    "ruta": "packages/models/armas/bataan/masks.png",
@@ -2158,6 +2968,311 @@
    "bytes": 32864
   },
   {
+   "ruta": "packages/models/monster/bauul/bauul.txt",
+   "sha256": "47c783f0f8344e26fae52ea7152dfa09c2696558d5906f5e597c475ad77eacf0",
+   "bytes": 2168
+  },
+  {
+   "ruta": "packages/models/monster/bauul/md2.cfg",
+   "sha256": "e7c168898eb0a419d76ff5a4e2eb3fdbe8cc72418dfa13d41ce8b1dd647ca976",
+   "bytes": 53
+  },
+  {
+   "ruta": "packages/models/monster/bauul/skin.jpg",
+   "sha256": "f42213840fbb377d975a7f45a06d6a114254578d8482fd71ba2f00d85b83ddfd",
+   "bytes": 25801
+  },
+  {
+   "ruta": "packages/models/monster/bauul/tris.md2",
+   "sha256": "ff3918477e141457a3beadf723af47d5f3393637b0ab507ea2d0287f20418a08",
+   "bytes": 261308
+  },
+  {
+   "ruta": "packages/models/monster/hellpig/md2.cfg",
+   "sha256": "3ded01948819ce7afa841653fce926120907013100d773b993bb550a3df8f65c",
+   "bytes": 234
+  },
+  {
+   "ruta": "packages/models/monster/hellpig/readme.txt",
+   "sha256": "ec802134ff7de2ce6d8b539874b8803af7ba66812302b62ab2d8ac53d8ab13f9",
+   "bytes": 808
+  },
+  {
+   "ruta": "packages/models/monster/hellpig/skin.jpg",
+   "sha256": "d5afa4bb838565d204a852b15ad40ade588e1d53fa7bc2faff5db8583706baed",
+   "bytes": 18995
+  },
+  {
+   "ruta": "packages/models/monster/hellpig/tris.md2",
+   "sha256": "69314bbb6e46cd9ba02e605985398a7020d31c7f5b90a57e8a9703b0acf580ff",
+   "bytes": 113572
+  },
+  {
+   "ruta": "packages/models/monster/md2.cfg",
+   "sha256": "bed0ea6644d622627d00d20fd6ef384eed37892b7e8d5f279ecf7464e418c04c",
+   "bytes": 40
+  },
+  {
+   "ruta": "packages/models/monster/rat/Ratamahatta.txt",
+   "sha256": "db3b8ce4b070a03bbd5754695d1bd23cee72c3c01acc6676f8750fba561da856",
+   "bytes": 1940
+  },
+  {
+   "ruta": "packages/models/monster/rat/md2.cfg",
+   "sha256": "174c0241d75455d098625246cc16e8506fc719e31b3d7b6c8de99b7d8eef5be3",
+   "bytes": 53
+  },
+  {
+   "ruta": "packages/models/monster/rat/skin.jpg",
+   "sha256": "ca0c825e7bde87f1e69b4dd169a14bf1f767c85e6b84d055f64432b5ad2666cc",
+   "bytes": 22384
+  },
+  {
+   "ruta": "packages/models/monster/rat/tris.md2",
+   "sha256": "a23640ddbade6be3337bb1735db9826d2ef5e389186efb33752a697f28f2329c",
+   "bytes": 303388
+  },
+  {
+   "ruta": "packages/models/mrfixit/Body.png",
+   "sha256": "7031f874850d8939c07c423cf2ec78c75b0a72a19582c9a2de72f5d15e1a9f1b",
+   "bytes": 1293039
+  },
+  {
+   "ruta": "packages/models/mrfixit/Bodyblue.png",
+   "sha256": "aa1c34b41e11c285d1470f0dcafb58ea2187c73ee8123c95b2a7e77b67e2b4e5",
+   "bytes": 1662091
+  },
+  {
+   "ruta": "packages/models/mrfixit/Bodyred.png",
+   "sha256": "8d00f54870158bdd3b452d175a38a7c9ae37029ec2ce9fdfce0a55caa219ccd8",
+   "bytes": 1672292
+  },
+  {
+   "ruta": "packages/models/mrfixit/Head.png",
+   "sha256": "39d912f6fcf283757af37d8f581c15ae178ca379fb43beff48fc06fab615f3e1",
+   "bytes": 310324
+  },
+  {
+   "ruta": "packages/models/mrfixit/Headblue.png",
+   "sha256": "cef856d4e71b8a3ab259bd6febf4dea5d10d4f23a5b7bc93167ad9aab4932ffc",
+   "bytes": 376373
+  },
+  {
+   "ruta": "packages/models/mrfixit/Headred.png",
+   "sha256": "ed189e5536776e1bf5cd435712e14d8f4c872aa59f71ff56b6667658ffed2a3a",
+   "bytes": 380618
+  },
+  {
+   "ruta": "packages/models/mrfixit/anims.cfg",
+   "sha256": "81e89d246d2f2c501cb340a3171457d1448e256e510e25d83a79141aa9f3aca6",
+   "bytes": 2755
+  },
+  {
+   "ruta": "packages/models/mrfixit/backward.md5anim",
+   "sha256": "5ea1ed2f82d9e2adaa59aa005e49ab4bf2026e32f05ec5ff27210755fc47282b",
+   "bytes": 349453
+  },
+  {
+   "ruta": "packages/models/mrfixit/bodymasks.png",
+   "sha256": "a3fac0c256a2860dc9caafa589f558151ec670912359f469cfe7cf04267cf05d",
+   "bytes": 1056601
+  },
+  {
+   "ruta": "packages/models/mrfixit/bodynorm.png",
+   "sha256": "6e2504cb1f37d8fb0868a75758d0bee12c70d92fc05e2391a3ded2a6ce9a1e46",
+   "bytes": 1989355
+  },
+  {
+   "ruta": "packages/models/mrfixit/chainsaw_attack.md5anim",
+   "sha256": "b8fdbc08590307740480b1ba1718274996507b96556501e2ceb5f9f78c255351",
+   "bytes": 55827
+  },
+  {
+   "ruta": "packages/models/mrfixit/chainsaw_idle.md5anim",
+   "sha256": "f03e88c3886518b515d82acfe1953cb74bb306e31391a831d68959875a56d08b",
+   "bytes": 12138
+  },
+  {
+   "ruta": "packages/models/mrfixit/dead.md5anim",
+   "sha256": "cc546b9db098d17ec4a737806b47b0b80db64f8c002cbe25835a7f3bf0f7aca5",
+   "bytes": 12155
+  },
+  {
+   "ruta": "packages/models/mrfixit/dead2.md5anim",
+   "sha256": "18a253bd89dc9d19cb51e3ac110707f0b0b7b71882db947346823425120fdc3b",
+   "bytes": 12155
+  },
+  {
+   "ruta": "packages/models/mrfixit/dying.md5anim",
+   "sha256": "175fd34ceb0d2da24ee1415196e556d14aea925f4705f35b1509d2589185fa42",
+   "bytes": 121626
+  },
+  {
+   "ruta": "packages/models/mrfixit/dying2.md5anim",
+   "sha256": "4a18610380962526564cc7853631635ce8b21162670c1192205d015d09959cd6",
+   "bytes": 134680
+  },
+  {
+   "ruta": "packages/models/mrfixit/edit.md5anim",
+   "sha256": "f7e7739e062e29bbfabbf696c6c820f3f0808e1e08e195691b82058ff4383be9",
+   "bytes": 12152
+  },
+  {
+   "ruta": "packages/models/mrfixit/forward.md5anim",
+   "sha256": "05124da63b0aade050adff3d248e3260d67109794dc1bb5d0ebeb4a04cdd2538",
+   "bytes": 349619
+  },
+  {
+   "ruta": "packages/models/mrfixit/gl_idle.md5anim",
+   "sha256": "004ceca5815aeb9a181febd86c4ddbc4b44395f42c53c7a2ff4a486a0e059daa",
+   "bytes": 12138
+  },
+  {
+   "ruta": "packages/models/mrfixit/gl_shoot.md5anim",
+   "sha256": "f2c1883b02b9f0d85ee4da581d5271a09a9557dc5a4e77f2ca5aa08048d57d99",
+   "bytes": 55798
+  },
+  {
+   "ruta": "packages/models/mrfixit/headmasks.png",
+   "sha256": "7589aff6edc7f8dc0775ac2d83bb349e5181ffb39c26df290a8913962694e6ff",
+   "bytes": 219040
+  },
+  {
+   "ruta": "packages/models/mrfixit/headnorm.png",
+   "sha256": "df63c87d123e0abdcfb25c95cd927fb520ef6c31b20acba820c8d17e0ed486bd",
+   "bytes": 441445
+  },
+  {
+   "ruta": "packages/models/mrfixit/idle.md5anim",
+   "sha256": "8fe9bbffb4df0246f20abe40196ab6e0cd54762bab0a26ff8aa1f308efcd2a11",
+   "bytes": 450252
+  },
+  {
+   "ruta": "packages/models/mrfixit/jump.md5anim",
+   "sha256": "b9c4f93a63769cc89ee577ed36b06f0fb38077fad6a65d79d5789f797503f5f2",
+   "bytes": 12133
+  },
+  {
+   "ruta": "packages/models/mrfixit/lag.md5anim",
+   "sha256": "7af9f26afeee67abf8d729e890e8a8a5e3b44f8686de886d4d00ff69ff60d551",
+   "bytes": 12144
+  },
+  {
+   "ruta": "packages/models/mrfixit/left.md5anim",
+   "sha256": "6af2bc979431d6679ddde3f1079bf441f14ab964203b4fd29e9e87d58610e744",
+   "bytes": 349197
+  },
+  {
+   "ruta": "packages/models/mrfixit/license.txt",
+   "sha256": "64e1b6d1154c96629ccb2dd456e016b9188bf4357127d1270494cc50194e6f30",
+   "bytes": 698
+  },
+  {
+   "ruta": "packages/models/mrfixit/lose.md5anim",
+   "sha256": "46f5b41e78a4dd002616c76f7368e101ea82907e1474ecbb0889bae5ccfde044",
+   "bytes": 95245
+  },
+  {
+   "ruta": "packages/models/mrfixit/md5.cfg",
+   "sha256": "5cb713912005902461dab3c17a5f81f49916f1caf24d45b3a4d04037c29c50bd",
+   "bytes": 336
+  },
+  {
+   "ruta": "packages/models/mrfixit/minigun_idle.md5anim",
+   "sha256": "e65a67b555b1781c2df562aa6cd9ef5756536dce222e80c0c5bb19a163f0bf19",
+   "bytes": 12144
+  },
+  {
+   "ruta": "packages/models/mrfixit/minigun_shoot.md5anim",
+   "sha256": "7a8e2086bee231607e42fa400ef6723570795414b852923d39a10289f7c5a775",
+   "bytes": 55853
+  },
+  {
+   "ruta": "packages/models/mrfixit/mrfixit.md5mesh",
+   "sha256": "602984e0272e287536decd47f06451e37639fe55db4fbc16177cd25bfc168705",
+   "bytes": 289505
+  },
+  {
+   "ruta": "packages/models/mrfixit/pain.md5anim",
+   "sha256": "dd0f6ea5b2543b262dfc799e16a96a72ee62d54024ed6810188effd56e278820",
+   "bytes": 95269
+  },
+  {
+   "ruta": "packages/models/mrfixit/pain2.md5anim",
+   "sha256": "6a12bfb2a2bc92a7bbad44130fa7373eb76c528156a0ab49853be4838c1328a1",
+   "bytes": 95340
+  },
+  {
+   "ruta": "packages/models/mrfixit/punch.md5anim",
+   "sha256": "763ebdfcf91e96d7555feccbf8e66f06280c85b7c7d4b7c20be662285e732db1",
+   "bytes": 121581
+  },
+  {
+   "ruta": "packages/models/mrfixit/ragdoll.cfg",
+   "sha256": "414e4255a2fe46b1225c255553a3d0b18e79d5aa484294b0ba5b9715c4ed3050",
+   "bytes": 3644
+  },
+  {
+   "ruta": "packages/models/mrfixit/right.md5anim",
+   "sha256": "c057d8b33859da6eb73c1364bd084d8ba0ca0a540b26bbb57a6afd2536a9bf8b",
+   "bytes": 348963
+  },
+  {
+   "ruta": "packages/models/mrfixit/rl_idle.md5anim",
+   "sha256": "02a3393886133099fead2ab345974c3e612d5d48686b4f524957e4438813f839",
+   "bytes": 12134
+  },
+  {
+   "ruta": "packages/models/mrfixit/rl_shoot.md5anim",
+   "sha256": "d4b6618f996d13c6d94fdc16412e00d7a3c341d7725f65f8dfb1bdfe7377cd0d",
+   "bytes": 55892
+  },
+  {
+   "ruta": "packages/models/mrfixit/shoot.md5anim",
+   "sha256": "e08e10de0596a65d0a80bf7eeb1a579e685f088b1166f121bc39f91a4d5ec6e8",
+   "bytes": 51541
+  },
+  {
+   "ruta": "packages/models/mrfixit/shotgun_idle.md5anim",
+   "sha256": "c12de3de5f4517a5f44f963a365f99d8c82f4f2fb5b8e60dae488ec950e4ce10",
+   "bytes": 12136
+  },
+  {
+   "ruta": "packages/models/mrfixit/shotgun_shoot.md5anim",
+   "sha256": "50b56a629fbc947855ce9d6278b20d9cfb2055d44dd0ecdfe76d7559e0bc42a6",
+   "bytes": 55797
+  },
+  {
+   "ruta": "packages/models/mrfixit/sink.md5anim",
+   "sha256": "e9527d7c512f6dd7300d063f5d54b271c558f7bc7862546faa319b3f82cd04d0",
+   "bytes": 95269
+  },
+  {
+   "ruta": "packages/models/mrfixit/sniper_idle.md5anim",
+   "sha256": "ceb185dcc2d7bd3af7ed25d6d77f3b16b8f2657e46951902804df24c2ba34ebc",
+   "bytes": 12142
+  },
+  {
+   "ruta": "packages/models/mrfixit/sniper_shoot.md5anim",
+   "sha256": "99880295f60afa7c2bd753b5330842dd809d43847ab55fc5f2a79d0905874f14",
+   "bytes": 55762
+  },
+  {
+   "ruta": "packages/models/mrfixit/swim.md5anim",
+   "sha256": "69510b4dac4290c83c2bee181d08a1612e4abe3ae65e8fa97bc919a3577ba6ed",
+   "bytes": 95347
+  },
+  {
+   "ruta": "packages/models/mrfixit/taunt.md5anim",
+   "sha256": "84f7eb4898a4843221cc384ffd0df6e40c6061c54ed7b676d5217899c66444e5",
+   "bytes": 182724
+  },
+  {
+   "ruta": "packages/models/mrfixit/win.md5anim",
+   "sha256": "1e26245d5c7b1bc2910e83f0a72ade047100cf932540805376402b6538a25874",
+   "bytes": 95322
+  },
+  {
    "ruta": "packages/models/objetos/barricada/masks.png",
    "sha256": "9168c9e338dada2921c06db7bc38a11af19d9439d25d49a212fb6ec1ab573632",
    "bytes": 47520
@@ -2448,6 +3563,11 @@
    "bytes": 1455640
   },
   {
+   "ruta": "packages/noctua/package.cfg",
+   "sha256": "3992532c7760e884a2f36ee31f5f6754525ee0941026200a3161bb07e0fcd3c0",
+   "bytes": 1414
+  },
+  {
    "ruta": "packages/particles/ball1.png",
    "sha256": "6c2ecdb4b84a2998b1602d944d8bb05b25d090dfb023738bdf2392b51af32177",
    "bytes": 10015
@@ -2551,6 +3671,331 @@
    "ruta": "packages/particles/steam.png",
    "sha256": "648010e85d6206a577d7241be72f2f614378cff885b3b0e28b3eb4eeea444b5a",
    "bytes": 3587
+  },
+  {
+   "ruta": "packages/payne/Box12b.jpg",
+   "sha256": "3f09cfa04cd15beb21bab44df4156d6aa1c4c6b90477d6bf4a5ab0eaf145ea2b",
+   "bytes": 6489
+  },
+  {
+   "ruta": "packages/payne/Grate09b.jpg",
+   "sha256": "fa734974322d5aeea0b233476b44056fb51ca3953429741b3f81dc78d6067396",
+   "bytes": 5200
+  },
+  {
+   "ruta": "packages/payne/package.cfg",
+   "sha256": "eb56b4be2ad3050c9ba5e76c6c50ad30be8ec5b6b42467c191e0dccfd1a9ea38",
+   "bytes": 270
+  },
+  {
+   "ruta": "packages/penguins/arid_bk.jpg",
+   "sha256": "5f821a139db8040d1781a547950e72a58939966e744c0777893762eac22d1c73",
+   "bytes": 133041
+  },
+  {
+   "ruta": "packages/penguins/arid_dn.jpg",
+   "sha256": "c3de02fcc9a93070be6405156952919c95c18aaf821359cbb2a46fb8c00f5601",
+   "bytes": 219529
+  },
+  {
+   "ruta": "packages/penguins/arid_ft.jpg",
+   "sha256": "df9477abe40cc9c6e89b6bf8ce96dfcfdafa18fb5322923a50bca1701599537c",
+   "bytes": 131484
+  },
+  {
+   "ruta": "packages/penguins/arid_lf.jpg",
+   "sha256": "1eeb21ff74df4428e490f00d45781fdba7fb0b70e6f8592aa1431047fbe7ccc4",
+   "bytes": 133279
+  },
+  {
+   "ruta": "packages/penguins/arid_rt.jpg",
+   "sha256": "7f931826636a976bcf6329c701d3f117e45e06d33cf74dd382dafaee0088f02f",
+   "bytes": 113128
+  },
+  {
+   "ruta": "packages/penguins/arid_up.jpg",
+   "sha256": "aa0b6b4069c5bd8a477067e381e04afa9291d55493e8e18db36763c7c23b22eb",
+   "bytes": 14170
+  },
+  {
+   "ruta": "packages/philipk/package.cfg",
+   "sha256": "f7ed5c35ee4418bc18930c9d84323d828061510afcdd771c22c30fb1de34e9aa",
+   "bytes": 6682
+  },
+  {
+   "ruta": "packages/philipk/pk01_gra_floor02_d.jpg",
+   "sha256": "d2aca203e1f3cb11473dc01b532c58ae53f5ac650863350675d2c60038c22f6a",
+   "bytes": 42332
+  },
+  {
+   "ruta": "packages/philipk/pk01_gra_floor02_local.jpg",
+   "sha256": "8b75ebe84ffaa976cf7853c44454633f94c196eb4756ec6c9b1e53e3e012b3d7",
+   "bytes": 57570
+  },
+  {
+   "ruta": "packages/philipk/pk01_gra_floor02_s.jpg",
+   "sha256": "b52ea26af325cd3b63fff3aac89d7ecb71acecd391b384ff7bb2d5d49707ebcc",
+   "bytes": 38744
+  },
+  {
+   "ruta": "packages/philipk/pk01_pan_floor02_local.jpg",
+   "sha256": "9618901dee63393904ef016e777789c27958d9ed3ad6a4ff71d8d5cfdda3983c",
+   "bytes": 63091
+  },
+  {
+   "ruta": "packages/philipk/pk01_pan_floor02_s.jpg",
+   "sha256": "911b01f74940b64047058cc488e866fb2d871f508d000e74a01be6f694a2a561",
+   "bytes": 44526
+  },
+  {
+   "ruta": "packages/philipk/pk01_pan_floor02a_d.jpg",
+   "sha256": "eca1915eadb32e70fbadb7a7f2f80b162d2dc99207dc7eb0824c81a8a2f75004",
+   "bytes": 43580
+  },
+  {
+   "ruta": "packages/philipk/pk01_pan_floor02b_d.jpg",
+   "sha256": "aa3fd61a3763634a3de7334fdc75d3a244ffbf8c655c0d538fbbf703536a02aa",
+   "bytes": 35768
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01_local.jpg",
+   "sha256": "72326636b692d0783bec6dea8a4afcebf6b5a39698de6369261e8eab92f1c07b",
+   "bytes": 59842
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01_s.jpg",
+   "sha256": "fc05b2787f35c38d99c1f5d459c1c0ab67e2196cae5bade4ed8764376e0dee39",
+   "bytes": 48602
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01a_add.jpg",
+   "sha256": "956c90aa2642a3f2db11cc75b0e9eae69f132ab3d8b9a4b579978d99e634c170",
+   "bytes": 31498
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01a_d.jpg",
+   "sha256": "103b2ea6410fd848b440585619cbf9f2379c4dd97d188006ee11539c2f7c90f0",
+   "bytes": 58745
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01b_add.jpg",
+   "sha256": "b5d307281fa7cb3c877fcba1edd994274ccda7cac0b7d653ee70ec886157b745",
+   "bytes": 32034
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel01b_d.jpg",
+   "sha256": "4fef39e214700734143374322e6e3e5ef2a04e7b49c6d026e21815e01914a999",
+   "bytes": 63999
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel02_add.jpg",
+   "sha256": "bb2cfcb3254b618a4deea78eb3844dd9f42d2184ece9034c579010ee5bcb84ae",
+   "bytes": 37080
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel02_d.jpg",
+   "sha256": "32333d738cdadf2edc76ee6a10582dd84b3359c9d44b5d4ede0ed1cdf9a60f94",
+   "bytes": 59636
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel02_local.jpg",
+   "sha256": "cbf0b34ac712bb6e68d3668ec9a70c459eea1d447c44fccef1189e4d4e769390",
+   "bytes": 59217
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel02_s.jpg",
+   "sha256": "03d81a3bf2a1aeb853ba56877e66a8a1c85bdce0fc2a915384648febfbe4bbf5",
+   "bytes": 50682
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel02a_add.jpg",
+   "sha256": "af15e49ea6d6b3f197e66e234db0059820baefe07ab31a059d5cbc59d78ca773",
+   "bytes": 36749
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03_local.jpg",
+   "sha256": "795bd497e2bbd532461a43cd8d0c27f6bd809829023e293e72c5266927cd062b",
+   "bytes": 57566
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03_s.jpg",
+   "sha256": "22786f0f0fe057afba74232045961221ceb345056f0554ce45d945d19335a23b",
+   "bytes": 51112
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03a_add.jpg",
+   "sha256": "16f4c9eb8954695237464d4195e0cfbd7eb332c6132ad1a0299f6ec16126e078",
+   "bytes": 38738
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03a_d.jpg",
+   "sha256": "cc1e359bc6020ab53a700064e411fd0503541dc1a027ab081225c41229af3319",
+   "bytes": 62000
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03b_add.jpg",
+   "sha256": "ed1b371015ea88f7c4e7b509a17723cee4f6823c8ffed322d0384f9a8a7233c0",
+   "bytes": 40982
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel03b_d.jpg",
+   "sha256": "9a8bbda1ba3db800ffc6a4692471a052eea01e220000ffcbdc58a95c210d7835",
+   "bytes": 60928
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel_small01_add.jpg",
+   "sha256": "53aa0f0fcee577dff85810eeb38636b070fd316d121d7f461656f3fd018ecb7f",
+   "bytes": 10415
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel_small01_d.jpg",
+   "sha256": "888dbba3115b7aa82c90a0c60caadd5d177f3b374899b2e19f65dc36af091bb0",
+   "bytes": 21635
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel_small01_local.jpg",
+   "sha256": "f75a4eeee08f15ed160b92ce7319340d80527c1f27bb6fce44284f010622c212",
+   "bytes": 68627
+  },
+  {
+   "ruta": "packages/philipk/pk01_panel_small01_s.jpg",
+   "sha256": "de13cc588c563925200c1e8b525ba4190bd016feb7bc854ce9a1e2576926c67d",
+   "bytes": 19975
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall01_local.jpg",
+   "sha256": "20f7d9b4e783b4c7ba135bd43a042fd160bc5e6e24ca40565ea850916a8dadad",
+   "bytes": 48734
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall01_s.jpg",
+   "sha256": "01c9c341c7dd25ace029e61ebd93761f5412b22439391795cbeb4eeecf3d6470",
+   "bytes": 37926
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall01a_d.jpg",
+   "sha256": "d00035e004c99d504ee4486e6594edc57ed829e49c24453ac018ee04c409703d",
+   "bytes": 45232
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall02_local.jpg",
+   "sha256": "6a4288a5cbb5d41f73a875aa42ac1c07a2aa6199092f28842864187ee654e212",
+   "bytes": 34570
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall02_s.jpg",
+   "sha256": "4edaeeeb6fcbc1aa2bc298d17d567fd77be8e73ba6ed21134690eccff6036662",
+   "bytes": 36005
+  },
+  {
+   "ruta": "packages/philipk/pk01_thin_wall02a_d.jpg",
+   "sha256": "4578286470d4cc5040b8fe83fa84b3605bcba30b16e7cccdd55c9be0132941bc",
+   "bytes": 38383
+  },
+  {
+   "ruta": "packages/philipk/pk01_tile_floor01_local.jpg",
+   "sha256": "ab01f7ff6b82693e7a9a7bda39c7f3a4f67c5d0e88b871f07b03b86b39a9ef1d",
+   "bytes": 36605
+  },
+  {
+   "ruta": "packages/philipk/pk01_tile_floor01_s.jpg",
+   "sha256": "c37b4eb17aa6fb08d80080e490abcd7255bba1acbb594bf907494cba11147060",
+   "bytes": 49186
+  },
+  {
+   "ruta": "packages/philipk/pk01_tile_floor01a_d.jpg",
+   "sha256": "d27f4904547ce9e718f823e4241efce9ac8b7da235fb12e79691ddde5ceb184b",
+   "bytes": 43458
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim01_local.jpg",
+   "sha256": "60f715b45324b4ebfd545e7000cf72949f8b8b9c661a9e335fcd8db98b657a9b",
+   "bytes": 29429
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim01_s.jpg",
+   "sha256": "0e113622201886497b00a3d6bda85240bc1754659f8e07dee602896b55a2ecc1",
+   "bytes": 27492
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim01b_d.jpg",
+   "sha256": "4ef3a1c833a27e7a733b239db7129a2defaaf25cd5acd7e754036e3895d3afff",
+   "bytes": 26763
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim02_local.jpg",
+   "sha256": "5b3077cf41c514b3673a75a8277400bb99f3f30f853d44837b4c351860a9f064",
+   "bytes": 31373
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim02_s.jpg",
+   "sha256": "55a49bc6f7e694aa4109549e4fe29343eb36710606c27a5d0e1380d72c051b94",
+   "bytes": 27065
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim02b_add.jpg",
+   "sha256": "2e67951f4357c5ed1121c60e2588878e1154cfa236dd76d35bc110c5e9c5f100",
+   "bytes": 28794
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim02b_d.jpg",
+   "sha256": "52f1e1d10e6ff76cef9438e4859745cb317dcbfd1cdfdbcbe8a71d6d0c270be2",
+   "bytes": 30784
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim06_local.jpg",
+   "sha256": "d4a036b104a48f48afc7e06dd4b7f07f5a280167586e5049c884e900268f5d66",
+   "bytes": 28711
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim06_s.jpg",
+   "sha256": "cd5257c87cd53a31ddbfadafa908d21e606ec465b480f23506c54fba303217b3",
+   "bytes": 26725
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim06b_add.jpg",
+   "sha256": "e5c6f0fce1de48a8b1a1d988d402e9c595533528db063c93dfb22e6874589199",
+   "bytes": 26085
+  },
+  {
+   "ruta": "packages/philipk/pk01_trim06b_d.jpg",
+   "sha256": "345b1f52ee440a8580c2f049a43b35fdb8e821c9ddf3c81e85d493f1001c953d",
+   "bytes": 27967
+  },
+  {
+   "ruta": "packages/rorschach/128_tar_metflr01.jpg",
+   "sha256": "09af7e872c7ea7424c12a5c1cd95c9d9827a943425809d244c9eda37b360cd47",
+   "bytes": 6492
+  },
+  {
+   "ruta": "packages/rorschach/1r_floor02.jpg",
+   "sha256": "abb9dfa2234c8f4db1c394fc3d5e89443bb7ed308d1b8d1de772d738cd323f0b",
+   "bytes": 8445
+  },
+  {
+   "ruta": "packages/rorschach/256_iv_floor01.jpg",
+   "sha256": "3891cd034503d7c8dac693ab23a39942eea355eb0fe4cc5dea4dcee0de32912f",
+   "bytes": 26437
+  },
+  {
+   "ruta": "packages/rorschach/2_256_red_thin02.jpg",
+   "sha256": "1285f684605975925cab446e847f2f629eb299eb726f2d2115edd03aece974c2",
+   "bytes": 3413
+  },
+  {
+   "ruta": "packages/rorschach/5_blood01.jpg",
+   "sha256": "57b054717d72d94fac39250c0158e8b087f416b2692659e87c95a3dfdb7d46bd",
+   "bytes": 9273
+  },
+  {
+   "ruta": "packages/rorschach/j128_metpan01.jpg",
+   "sha256": "b185a739d5256cae64fce2d8d4bd4a06f00be06450eb8961c1fb68ba2524ae4f",
+   "bytes": 3921
+  },
+  {
+   "ruta": "packages/rorschach/package.cfg",
+   "sha256": "e9cce4fd834b79ea04d594d351f966b8a31b15f56a650f60cd3188b980c6b614",
+   "bytes": 3079
   },
   {
    "ruta": "packages/skyboxes/zm/noche_bk.jpg",
@@ -3078,9 +4523,259 @@
    "bytes": 4265
   },
   {
+   "ruta": "packages/subverse/package.cfg",
+   "sha256": "27ab42fb301b0da5046805b25d3ee8895498c2104ae78d6bc40cc98af19a10ce",
+   "bytes": 632
+  },
+  {
+   "ruta": "packages/tech1soc/032-01c.jpg",
+   "sha256": "44e726926776908be8a90cb8e5700065aee0c128634a97a4f61f5faf9a19cbd9",
+   "bytes": 8325
+  },
+  {
+   "ruta": "packages/tech1soc/032-03d.jpg",
+   "sha256": "51cc4b67d7af3a8eadd1b77bc19b4647f75644f0106c48d46e7115c6d9cfdc30",
+   "bytes": 8530
+  },
+  {
+   "ruta": "packages/tech1soc/032-14b.jpg",
+   "sha256": "678600379a9862e39f9c3dc57548bc9a125b40bed11adaa7beda8fc4e9d853ca",
+   "bytes": 8330
+  },
+  {
+   "ruta": "packages/tech1soc/032-15a.jpg",
+   "sha256": "d6be36f175ddcac29cb063b5d959a93b3336e8e809748b2f5f847fee732b90c6",
+   "bytes": 7444
+  },
+  {
+   "ruta": "packages/tech1soc/032-15b.jpg",
+   "sha256": "bd6c4da272546be05cfcfef25b346bbc4901d8aee9c27a0c6edc3bab790f6cd7",
+   "bytes": 7977
+  },
+  {
+   "ruta": "packages/tech1soc/032lig11rb.jpg",
+   "sha256": "566fc2c4e7edc2586e1f6d8fd34147ad58778c277b18397aa13e62f85f758dda",
+   "bytes": 9203
+  },
+  {
+   "ruta": "packages/tech1soc/032lig12bb.jpg",
+   "sha256": "5157ccb00569b9e4a469947f7e083924d578a72fa571d8e79096a5cce2c22ffa",
+   "bytes": 9279
+  },
+  {
+   "ruta": "packages/tech1soc/032lig12bb_glow.jpg",
+   "sha256": "26efa129529288e2dcfdb66ee06158424a12de1fb43eb9307c8caf0d8edc967b",
+   "bytes": 8134
+  },
+  {
+   "ruta": "packages/tech1soc/032lig12ya.jpg",
+   "sha256": "d279e083a6f595df2fea5e42fe23fd9ff7d5d2ca4717f304f52316a82d526230",
+   "bytes": 9508
+  },
+  {
+   "ruta": "packages/tech1soc/064-11b.jpg",
+   "sha256": "8b41d2ae129e649770914a7f1b75f9babacace8e52097d957d332de1730272dc",
+   "bytes": 15525
+  },
+  {
+   "ruta": "packages/tech1soc/064-12a.jpg",
+   "sha256": "7043354dcf1c05d75440f6933a41e04a7fa3cad45d3b7b02d428d42ede684317",
+   "bytes": 14913
+  },
+  {
+   "ruta": "packages/tech1soc/064-13b.jpg",
+   "sha256": "cd864e5cfb9ca4d350dec4061d3d1ad55edb7c94c921b4deec8ff7c9d46b7d76",
+   "bytes": 15315
+  },
+  {
+   "ruta": "packages/tech1soc/064-15b.jpg",
+   "sha256": "c61b7911700155ea12d5dd0c8abf213190fbf2fba98ca9261c2ba96efd67b519",
+   "bytes": 15992
+  },
+  {
+   "ruta": "packages/tech1soc/064-20a.jpg",
+   "sha256": "eabef0517c85c6357eb9ba7d073c7aa84b5bb314f162c37e893be3564a0b9a94",
+   "bytes": 15344
+  },
+  {
+   "ruta": "packages/tech1soc/064-20b.jpg",
+   "sha256": "8a31a96e08e19b54216f7a48b13182e76b7291d809da830e4e11ca9d8d791e98",
+   "bytes": 16837
+  },
+  {
+   "ruta": "packages/tech1soc/128-05b.jpg",
+   "sha256": "1464eb703263151607c47cb983618d94fc189152a556fac6ce5ec52e185e87ae",
+   "bytes": 31270
+  },
+  {
+   "ruta": "packages/tech1soc/128-05c.jpg",
+   "sha256": "3b1f7d05e1f09c78570e52d744c7153771756fd408a3ed5687bf3655d1875a8f",
+   "bytes": 31363
+  },
+  {
+   "ruta": "packages/tech1soc/blank01a.jpg",
+   "sha256": "9a318f9fda01ad4d744570271fe4cae86cd6da3a2d984ad1b3804adbc2a8ed94",
+   "bytes": 15301
+  },
+  {
+   "ruta": "packages/tech1soc/blank01c.jpg",
+   "sha256": "a3a5f6140421564329ca0dcd8b1d1713e5d5b4502923ffab9183aa82e8cf627b",
+   "bytes": 17397
+  },
+  {
+   "ruta": "packages/tech1soc/blank02a.jpg",
+   "sha256": "e124674a14c05b0ec066249838b9d5b01fc440807e1c94f33143257e05964755",
+   "bytes": 15391
+  },
+  {
+   "ruta": "packages/tech1soc/blank02b.jpg",
+   "sha256": "4ac8530bc802ab892ff7b8d3fcf028ff80fea86634492063562e0d958823ee4d",
+   "bytes": 15663
+  },
+  {
+   "ruta": "packages/tech1soc/blank03a.jpg",
+   "sha256": "62b70419b3ca78609bf36dd9e3ecbff06a81b3b7bce7d94fe70e1b3a1e670bfb",
+   "bytes": 17680
+  },
+  {
+   "ruta": "packages/tech1soc/block10b.jpg",
+   "sha256": "76c02f820ca75abd61329274e149d88860d61caaaa93dcad4700f5004ae72e52",
+   "bytes": 57393
+  },
+  {
+   "ruta": "packages/tech1soc/block19b.jpg",
+   "sha256": "f655b688861935efa43240a2cbba8ae08b350d6d79d103b11397cefa9f67e601",
+   "bytes": 62983
+  },
+  {
+   "ruta": "packages/tech1soc/grate_brown1.jpg",
+   "sha256": "8c1be817e9d509550f237e6ecdbd2d72344b8970394d7d60f4223ec056dd9a5f",
+   "bytes": 60963
+  },
+  {
+   "ruta": "packages/tech1soc/grate_brown3.jpg",
+   "sha256": "01c0f7b9d534e9fbd314109dea86e5fc6be9637b4db20fa48efd20c4a76ebb5e",
+   "bytes": 59313
+  },
+  {
+   "ruta": "packages/tech1soc/grill_wall01b.jpg",
+   "sha256": "e88abaa9b4be41a218cc2e91e28d3c94e3686214b438597167bed87b5fb36a91",
+   "bytes": 57346
+  },
+  {
+   "ruta": "packages/tech1soc/half_grill_wall03b.jpg",
+   "sha256": "95e63161a908a3f8799890c3e5a6cd8bea04d609b62c0fc1c9a3af41e209e214",
+   "bytes": 57075
+  },
+  {
+   "ruta": "packages/tech1soc/matbrown_lgt2.jpg",
+   "sha256": "1e25661cbaaccb313ffab14f4e8324c7d1033f25ab5a17dfd47144a9ad1a6cc6",
+   "bytes": 40408
+  },
+  {
+   "ruta": "packages/tech1soc/met_wall01a.jpg",
+   "sha256": "6a66ae615adcf6df2c0b6444ea9a7635b85508fa5bb72aac226a3d782e93345d",
+   "bytes": 57681
+  },
+  {
+   "ruta": "packages/tech1soc/met_wall01c.jpg",
+   "sha256": "3a6ab334bd2fae706a7f762271057b8c437a822d2f8a4059dfc563525c84b53e",
+   "bytes": 64029
+  },
+  {
+   "ruta": "packages/tech1soc/mix_wall03a.jpg",
+   "sha256": "66132a6f87796959afdec14b307c905cd4105fb38b776e7b8b2a41cf35dd0468",
+   "bytes": 8855
+  },
+  {
+   "ruta": "packages/tech1soc/mix_wall03ab.jpg",
+   "sha256": "52c9cf442dbe7a9cb32a1504d66c8c2c2c3366bef8144cfc86edfca375d2e589",
+   "bytes": 8932
+  },
+  {
+   "ruta": "packages/tech1soc/o128-02a.jpg",
+   "sha256": "85829a09fba87e35bd61323e3e7e3b9c949a6319eecebbef0b608802392147fa",
+   "bytes": 14855
+  },
+  {
+   "ruta": "packages/tech1soc/package.cfg",
+   "sha256": "7ee248f814df5e41b1b1f0c273b94563f211c7074a9b6587fb897b968e89001d",
+   "bytes": 2861
+  },
+  {
+   "ruta": "packages/tech1soc/panel20c.jpg",
+   "sha256": "8577a73e546fe78c0c914d82581125a9b7183205b7d6ce2ac19fabf078f2067d",
+   "bytes": 17702
+  },
+  {
+   "ruta": "packages/tech1soc/panel40c.jpg",
+   "sha256": "a8a42f51e85fea8a7e4ca9750435cd3fb7088a9a8c23ba24b4a766c9af037034",
+   "bytes": 17479
+  },
+  {
+   "ruta": "packages/tech1soc/s064-02a.jpg",
+   "sha256": "2feba524d5a79164ab1f87e9d2d427835e52452345e4dd94e89d1c81178c05cc",
+   "bytes": 7384
+  },
+  {
+   "ruta": "packages/tech1soc/s128-01c.jpg",
+   "sha256": "f05d72a8c7fea088826b61eaac84b047bb683a01e5eacb40dccd0188768cf7a1",
+   "bytes": 14719
+  },
+  {
+   "ruta": "packages/tech1soc/s128-02a.jpg",
+   "sha256": "db73af9f6b1b7f6d81fa35931958fb62ac4e42f73102f83d898d78ce381a1e20",
+   "bytes": 15435
+  },
+  {
+   "ruta": "packages/tech1soc/s128-02b.jpg",
+   "sha256": "a7dc7097becfb33d83ee20190ea909b9f4cf6c38e510597b628d2f53d9cd3ebe",
+   "bytes": 15579
+  },
+  {
+   "ruta": "packages/tech1soc/s128-03b.jpg",
+   "sha256": "fc2e88e245c4dacd1082de61bb0daabaf4ee67ac847a3815042f6f414c45c7ec",
+   "bytes": 17293
+  },
+  {
+   "ruta": "packages/tech1soc/s256-01d.jpg",
+   "sha256": "e81be959fcd4622c892cefba22d510f1731aca201d2cade3a47b07a2e3e3b596",
+   "bytes": 58509
+  },
+  {
+   "ruta": "packages/tech1soc/s256-02a.jpg",
+   "sha256": "530668602a680fc636bdcd9800b563401544648829b7aa325b05165d5324f30b",
+   "bytes": 50975
+  },
+  {
+   "ruta": "packages/tech1soc/s256-02b.jpg",
+   "sha256": "8da4bf186e3df695fa94af90d63d1e8c1dc185e435eb74cfbad9e3e004f56317",
+   "bytes": 55602
+  },
+  {
+   "ruta": "packages/tech1soc/sqrlig02wb.jpg",
+   "sha256": "8a7c7252bd6611986f1cfd2c7dc5df859fd623291c0f773aaf8519b788f07ec1",
+   "bytes": 17439
+  },
+  {
+   "ruta": "packages/tech1soc/sqrlig03bc.jpg",
+   "sha256": "e1cfed547a0e7e0e0c2719348b0b63494a7fe52be8747bf81e2ca69aa04932fe",
+   "bytes": 16483
+  },
+  {
+   "ruta": "packages/tech1soc/zdet_trim2a.jpg",
+   "sha256": "17cfaf3248a22c7187ca745ce6adaa850af842b26696349c63965991c0e89bc4",
+   "bytes": 15322
+  },
+  {
    "ruta": "packages/textures/default.png",
    "sha256": "96fa9e9216abdfb32a8ff1f8f3b1893bd9781b3a0bdfe6bded1f0183161aceea",
    "bytes": 9258
+  },
+  {
+   "ruta": "packages/textures/grass_aard.png",
+   "sha256": "28cefb4316201dd295372f699c8dda2e5cdb164e2519d035ebcf81056afa3b64",
+   "bytes": 40687
   },
   {
    "ruta": "packages/textures/nieb/box1.jpg",
@@ -3418,6 +5113,21 @@
    "bytes": 108324
   },
   {
+   "ruta": "packages/than_ind/floor05.jpg",
+   "sha256": "af8db7770ac08e0901fc198aeea4ce630124da588c195a5b3048fa52795f5233",
+   "bytes": 7557
+  },
+  {
+   "ruta": "packages/than_ind/floor06.jpg",
+   "sha256": "3c475e28fa4026151f6ca1a1a59cd9536e87c61cca499546f13682b89fcd29c7",
+   "bytes": 4928
+  },
+  {
+   "ruta": "packages/than_ind/package.cfg",
+   "sha256": "83f712a4570ad02279823b8f3a4f19bcbdbcf968f603ee029911b92d4cc2fb8d",
+   "bytes": 305
+  },
+  {
    "ruta": "packages/zm/combate.ogg",
    "sha256": "fc6dde433d189887d12e7ba3498670342b61961461366ff9ca8f9da5fcbe97c4",
    "bytes": 1909457
@@ -3433,47 +5143,5 @@
    "bytes": 2579884
   }
  ],
- "borrar": [
-  "packages/textures/pp/ash.jpg",
-  "packages/textures/pp/bricks3.jpg",
-  "packages/textures/pp/dirt1.jpg",
-  "packages/textures/pp/dirt2.jpg",
-  "packages/textures/pp/dirt3.jpg",
-  "packages/textures/pp/dirt4.jpg",
-  "packages/textures/pp/grass2.jpg",
-  "packages/textures/pp/grass3.jpg",
-  "packages/textures/pp/grass4.jpg",
-  "packages/textures/pp/insulation.jpg",
-  "packages/textures/pp/metal4.jpg",
-  "packages/textures/pp/metal5.jpg",
-  "packages/textures/pp/planks2.jpg",
-  "packages/textures/pp/planks4.jpg",
-  "packages/textures/pp/planks5.jpg",
-  "packages/textures/pp/public_sector_floor2.jpg",
-  "packages/textures/pp/public_sector_wall1.jpg",
-  "packages/textures/pp/public_sector_wall2.jpg",
-  "packages/textures/pp/rocks2.jpg",
-  "packages/textures/pp/rocks3.jpg",
-  "packages/textures/pp/rocks4.jpg",
-  "packages/textures/pp/rug1.jpg",
-  "packages/textures/pp/rug3.jpg",
-  "packages/textures/pp/rug4.jpg",
-  "packages/textures/pp/rust1.jpg",
-  "packages/textures/pp/rust2.jpg",
-  "packages/textures/pp/rust4.jpg",
-  "packages/textures/pp/rust5.jpg",
-  "packages/textures/pp/stone2.jpg",
-  "packages/textures/pp/stone3.jpg",
-  "packages/textures/pp/stone4.jpg",
-  "packages/textures/pp/stone5.jpg",
-  "packages/textures/pp/symbol.jpg",
-  "packages/textures/pp/tarp.jpg",
-  "packages/textures/pp/tiles3.jpg",
-  "packages/textures/pp/tree.jpg",
-  "packages/textures/pp/vent.jpg",
-  "packages/textures/pp/wood1.jpg",
-  "packages/textures/pp/wood3.jpg",
-  "packages/textures/pp/wood4.jpg",
-  "packages/textures/pp/wood5.jpg"
- ]
+ "borrar": []
 }
